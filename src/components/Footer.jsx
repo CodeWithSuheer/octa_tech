@@ -16,31 +16,14 @@ const Footer = () => {
         <>
             {!user ? (
                 <footer className="bg-black">
-                    <div className="container px-6 py-12 mx-auto">
+                    <div className="container px-5 sm:px-10 pt-10 pb-24 mx-auto">
 
                         {/* DETAILS */}
-                        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-y-10 lg:grid-cols-5">
 
                             <div className="sm:col-span-2">
                                 <h1 className="max-w-lg text-3xl font-semibold tracking-wider text-white">Logo</h1>
-                                <p className='mt-5 text-sm w-[100%] sm:w-[70%] text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem iste consectetur deserunt asperiores</p>
-                                <div className="flex mx-auto mt-6">
-                                    <a href='#' target='_blank'>
-                                        <FaTwitter size={30} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
-                                    </a>
-                                    <a href='#' target='_blank'>
-                                        <BsInstagram size={30} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
-                                    </a>
-                                    <a href='#' target='_blank'>
-                                        <FaLinkedin size={30} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
-                                    </a>
-                                    <a href='#' target='_blank'>
-                                        <FaTiktok size={30} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
-                                    </a>
-                                    <a href='https://www.youtube.com/@octatechsolution' target='_blank'>
-                                        <IoLogoYoutube size={30} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
-                                    </a>
-                                </div>
+                                <p className='mt-5 text-sm w-[100%] sm:w-[70%] text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti velit provident fugiat harum cum et quisquam quo nostrum odit nobis illo ipsam, sed, accusamus libero nisi voluptate cupiditate molestias. Odis nulla</p>
                             </div>
 
                             <div className='mt-4 sm:mt-8'>
@@ -85,18 +68,28 @@ const Footer = () => {
                                     </a>
                                 </div>
                             </div>
+
+                            <div className='mt-4 sm:mt-4'>
+                                <div className="flex flex-wrap flex-row lg:flex-col gap-2 sm:gap-5 mx-auto mt-6">
+                                    <a href='#' target='_blank'>
+                                        <FaTwitter size={24} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
+                                    </a>
+                                    <a href='#' target='_blank'>
+                                        <BsInstagram size={24} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
+                                    </a>
+                                    <a href='#' target='_blank'>
+                                        <FaLinkedin size={24} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
+                                    </a>
+                                    <a href='#' target='_blank'>
+                                        <FaTiktok size={24} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
+                                    </a>
+                                    <a href='https://www.youtube.com/@octatechsolution' target='_blank'>
+                                        <IoLogoYoutube size={24} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
 
-                        {/* BOTTOM LINE */}
-                        <div className="flex items-center justify-between">
-                            <Link to="/">
-                                <img
-                                    alt=""
-                                    className="w-auto"
-                                    src="https://s3-alpha-sig.figma.com/img/3351/138f/26dbbbb99337fc149829958c7022d63f?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jJaiSEq-5q-c4Kp3MFfUeQeiYdHMx2OC4UEXRxU-IqyTUjUrEmV1C5M-brWjJhMVbKl9xj-iHOsRO4vXDpCzvN5lBNnAp9Ogpyc4hR1Q6UyDkt5FqczsCnL60A5UsXvfmGgpgutzE31SrtwlrxmgPVC-CwMhg4nye8H-ewExbj28VbIArTO2krjVVpETsYasKRtMT2ULwfav5xvRILNVfpZMNAnsybO~A4GSs0R5B9~rBWj3QMFFFEBAFIYlLqb04Bo18gioSVNgptGcJ2pac6FQdGGKq6CHR3TTt6agEq5SgSTPTuGgebeX64dSF6sRdaIpGiHjMMIzyoMPuS5XpA__"
-                                />
-                            </Link>
-                        </div>
                     </div>
                 </footer>
             ) : null}

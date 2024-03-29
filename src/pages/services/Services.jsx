@@ -13,7 +13,7 @@ const Services = () => {
 
     return (
         <>
-            <section className='relative pt-3 lg:pt-20 lg:pb-12'>
+            <section className='relative pt-3 lg:pt-20 lg:pb-12 bg-gray-50'>
                 {/* GRADIENT */}
                 <div className="absolute inset-x-0 bottom-0 z-0 transform-gpu overflow-hidden blur-3xl">
                     <svg
@@ -35,12 +35,13 @@ const Services = () => {
                                 y2="474.645"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#5248f0" />
-                                <stop offset={1} stopColor="#de4383" />
+                                <stop stopColor="#5c55d9" />
+                                <stop offset={1} stopColor="#e8c8d5" />
                             </linearGradient>
                         </defs>
                     </svg>
                 </div>
+
 
                 <div className="max-w-6xl px-4 z-50 sm:px-6 pt-24 pb-2 lg:pt-0 lg:pb-0 mx-auto">
                     <div className="items-center lg:flex lg:min-h-[60vh]">
@@ -67,7 +68,7 @@ const Services = () => {
             </section>
 
             {/* ----------- HERO SECTION -----------  */}
-            <section className='bg-blue-700 flex justify-center items-center'>
+            <section className='bg-blue-700 relative flex justify-center items-center'>
                 <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
             </section>
 

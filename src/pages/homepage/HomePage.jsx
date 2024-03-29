@@ -10,6 +10,7 @@ import Stats from './Stats';
 
 const HomePage = () => {
 
+
     return (
         <>
             {/* ----------- HERO SECTION -----------  */}
@@ -24,9 +25,9 @@ const HomePage = () => {
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-10">
 
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                    <a href="javascript:void(Tawk_API.toggle())" className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500" >
                                         Get Started <FaLocationArrow />
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
+import { FaPhoneAlt } from "react-icons/fa";
 import './Header.css'
 
 const Header = () => {
@@ -63,19 +64,14 @@ const Header = () => {
 
                         {/* -------------- MENU FOR LARGE VIEW -------------- */}
                         <div className="hidden lg:flex lg:items-center" ref={dropdownRef}>
-                            <Link to="/services" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Services</Link>
-                            <Link to="/services" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Industries</Link>
-                            <Link to="/blog" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Blog</Link>
-                            <Link to="/about" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link>
-                            <Link to="/contact" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Contact Us</Link>
-
-                            {/* <span className='hidden w-px h-8 bg-gray-300 md:block'></span>
-
-                            {user ? (
-                                <button onClick={handleLogout} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Logout</button>
-                            ) : (
-                                <Link to="/login" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Login</Link>
-                            )} */}
+                            <Link to="/services" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Services</Link>
+                            <Link to="/services" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Industries</Link>
+                            <Link to="/blog" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Blog</Link>
+                            <Link to="/about" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link>
+                            <Link to="/contact" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Contact Us</Link>
+                            <a href="tel:+1-281-607-5120" className="poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md flex items-center gap-2 font-medium text-gray-700 cursor-pointer">
+                                <FaPhoneAlt className="text-blue-600" /> <span>+1 (281) 607-5120</span>
+                            </a>
                         </div>
                     </div>
 
@@ -87,6 +83,9 @@ const Header = () => {
                             <Link onClick={handleLinkClick} to="/services" className="poppin px-0 py-3 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Projects</Link>
                             <Link onClick={handleLinkClick} to="/about" className="poppin px-0 py-3 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link>
                             <Link onClick={handleLinkClick} to="/contact" className="poppin px-0 py-3 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Contact Us</Link>
+                            <a href="tel:+1-281-607-5120" className="poppin px-0 pt-2 pb-0.5 mx-6 text-md flex items-center gap-2 font-medium text-gray-700 cursor-pointer">
+                                <FaPhoneAlt className="text-blue-600" /> <span>+1 (281) 607-5120</span>
+                            </a>
                         </div>
                     </div>
                 </div>

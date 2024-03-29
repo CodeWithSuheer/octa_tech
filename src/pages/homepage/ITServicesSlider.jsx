@@ -82,7 +82,7 @@ const ITServicesSlider = () => {
             <section className='py-10 '>
                 <div className="max-w-5xl mx-auto">
 
-                    <div className="flex justify-between items-center px-5 sm:px-0 flex-col sm:flex-row gap-7 sm:gap-5">
+                    <div className="flex justify-between items-center px-5 sm:px-8 flex-col sm:flex-row gap-7 sm:gap-5">
 
                         <div className="slider_text">
                             <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">IT Services</h3>

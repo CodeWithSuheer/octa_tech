@@ -4,17 +4,15 @@ import { Link, useLocation } from "react-router-dom";
 const Stats = () => {
     const location = useLocation();
 
-
     return (
         <>
             <section className='py-8 px-3 lg:px-14 xl:px-0 lg:min-h-[80vh] lg:pb-32'>
 
-                {location.pathname !== "/" ? (
-                    <span className="relative flex justify-center mx-20">
-                        <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"></div>
-                    </span>
-                ) : null}
-
+                {/* {location.pathname !== "/" ? ( */}
+                <span className="relative flex justify-center mx-20">
+                    <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"></div>
+                </span>
+                {/* ) : null} */}
 
                 {/* GRADIENT EFFECT */}
                 <div className="relative mx-auto max-w-2xl py-3 lg:py-16">
@@ -45,7 +43,6 @@ const Stats = () => {
                         </svg>
                     </div>
                 </div>
-
 
                 <div className="max-w-5xl mx-auto px-2 sm:px-0">
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 lg:gap-8">

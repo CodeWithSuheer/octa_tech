@@ -13,7 +13,7 @@ const Article = () => {
                     </div>
                     {/* BODY */}
                     <div className="article_body mt-10">
-                        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
+                        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5 xl:gap-8">
                             {/* FIRST CARD */}
                             <div className="card bg-white px-2 py-3 box_shadow rounded-2xl">
                                 <img className='h-48 mx-auto w-full object-cover rounded-xl' src="https://s3-alpha-sig.figma.com/img/2e2e/4f1f/cebc2ca8a79f82fa1a5ff81bccdbc0d9?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pnJQgtZNq~Xas8QgYXel8dI8mmd28ii31UWN4BU7LlGlhKxjqPNaiZ6UlPswRuZwE3kF54p6EDDN9YWmOmwk9cqEA1y4Ov89ASw-1-HZxXl1Qy6sxfEibyLHc99TVfCNE97GsQTLxKqF2Y-VBWxxmaiKR1RAfOEgnfQxd4veJ-XlDRZY7pKlw8YQE217wY-BHkMbdHb-CAJOcj95j545tW~zJHqSu7gVESXC7ttsnr-zn-IL1LaUSu3Lr2ElXXdAJAx2rch1XBYisVtr6bTVfMwYHQOe9YXht100jq8tryj1wo0ERwpPnNXBPS14jhbIFZo9MYcwpccnN1oLEiJX5Q__" alt="" />

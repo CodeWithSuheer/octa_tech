@@ -13,7 +13,7 @@ const WebsiteDevelopment = () => {
 
     return (
         <>
-            <section className='relative pt-3 lg:pt-20 lg:pb-12'>
+            <section className='relative pt-3 lg:pt-20 lg:pb-12 bg-gray-50'>
                 {/* GRADIENT */}
                 <div className="absolute inset-x-0 bottom-0 z-0 transform-gpu overflow-hidden blur-3xl">
                     <svg
@@ -35,8 +35,8 @@ const WebsiteDevelopment = () => {
                                 y2="474.645"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#5248f0" />
-                                <stop offset={1} stopColor="#de4383" />
+                                <stop stopColor="#5c55d9" />
+                                <stop offset={1} stopColor="#e8c8d5" />
                             </linearGradient>
                         </defs>
                     </svg>
@@ -138,7 +138,7 @@ const WebsiteDevelopment = () => {
                                 </div>
                                 <h2 className="mt-3 text-xl font-semibold tracking-wide">Need Help?</h2>
                                 <p className='mt-2 text-xl font-medium tracking-wide'>Call Here</p>
-                                <p className='mt-2 text-md font-medium tracking-wide'>+112 443 3478</p>
+                                <a href="tel:+1-281-607-5120" className='mt-2 text-md font-medium tracking-wide'>+1 (281) 607-5120</a>
 
                                 {/* <button className="mt-2 max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                                     Get Started <FaLocationArrow />

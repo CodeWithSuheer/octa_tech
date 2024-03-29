@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
                     <div className="flex justify-center lg:justify-end items-center lg:max-w-lg lg:w-full md:w-1/2 w-full mb-6 md:mb-0">
                         <img
                             alt="hero"
-                            className="object-contain h-full w-full xl:h-full xl:w-full"
+                            className="object-contain h-full w-full xl:h-full xl:w-full sm:px-10"
                             src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2210.png?v=1711134978"
                         />
                     </div>
@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
                     <div className="lg:flex-grow md:w-1/2 lg:pl-10 md:pl-3 flex flex-col md:items-start md:text-left">
                         <div className="lg:max-w-xl pt-10">
                             <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">Why Choose Us</h3>
-                            <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-4xl">More Than 24+ Years Experience We Provide IT Services</h2>
+                            <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-3xl  xl:text-4xl">More Than 24+ Years Experience We Provide IT Services</h2>
                             <h2 className="text-sm font-normal text-black">It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point. It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point.</h2>
 
 

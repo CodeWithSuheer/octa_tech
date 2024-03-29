@@ -25,7 +25,7 @@ import BackupAndRecovery from "./pages/services/backupAndRecovery/BackupAndRecov
 import PathManagement from "./pages/services/Path/PathManagement";
 import Vendor from "./pages/services/Vendor/Vendor";
 import ITConsulting from "./pages/services/ITConsulting/ITConsulting";
-import WebsiteDevelopment from "./pages/services/webDevelopment/WebsiteDevelopment";
+import WebsiteDevelopment from "./pages/services/WebDevelopment/WebsiteDevelopment";
 
 {/* ---------- LAZY ROUTES ---------- */ }
 const LazyAbout = lazy(() => import("./pages/about/About"));
