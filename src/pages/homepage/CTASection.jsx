@@ -3,7 +3,7 @@ import React from 'react'
 const CTASection = () => {
     return (
         <>
-            <section className='flex justify-center items-center px-5 bg-white py-16 sm:py-24'>
+            <section className='flex justify-center items-center px-5 sm:px-10 bg-white py-16 sm:py-24'>
                 <div className="max-w-5xl mx-auto">
                     <div className="relative box_shadow bg-white py-6 sm:py-10 px-5 sm:px-6 rounded-xl grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
 

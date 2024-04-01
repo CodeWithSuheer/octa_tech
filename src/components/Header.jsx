@@ -45,7 +45,7 @@ const Header = () => {
                         <div className="flex items-center justify-between">
                             {/* -------------- BRAND LOGO -------------- */}
                             <Link onClick={handleLinkClick} to="/" className='flex items-center gap-2'>
-                                {/* <img className="w-auto h-6 sm:h-7" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/profile-pic_6.png?v=1710185888" alt="" /> */}
+                                <img className="w-auto h-6 sm:h-10" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-01_at_10.11.53_PM.jpg?v=1712006235" alt="" />
                                 <h2 className='text-2xl font-semibold tracking-wide'>Octa Tech</h2>
                             </Link>
 

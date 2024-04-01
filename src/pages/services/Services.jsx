@@ -43,13 +43,13 @@ const Services = () => {
                 </div>
 
 
-                <div className="max-w-6xl px-4 z-50 sm:px-6 pt-14 pb-10 lg:pt-0 lg:pb-0 mx-auto">
+                <div className="max-w-6xl px-4 z-50 sm:px-6 lg:px-10 xl:px-0 pt-14 pb-10 sm:pt-20 lg:pt-0 lg:pb-0 mx-auto">
                     <div className="items-center lg:flex lg:min-h-[60vh]">
 
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">All Services</h2>
-                                <h2 className="mt-1.5 text-sm sm:text-lg font-normal text-black md:w-[80%] lg:w-[100%]">
+                                <h2 className="mt-1.5 text-sm lg:text-md xl:text-lg font-normal text-black md:w-[80%] lg:w-[95%]">
                                     Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
                                 </h2>
 

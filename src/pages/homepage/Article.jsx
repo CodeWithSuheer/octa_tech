@@ -3,7 +3,7 @@ import React from 'react'
 const Article = () => {
     return (
         <>
-            <section className="py-20 px-5 sm:px-5">
+            <section className="py-20 px-5 sm:px-10">
                 <div className="max-w-6xl mx-auto">
                     {/* HEADER */}
                     <div className="header text-center">

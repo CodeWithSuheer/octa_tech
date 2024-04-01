@@ -14,7 +14,7 @@ const HomePage = () => {
         <>
             {/* ----------- HERO SECTION -----------  */}
             <section className='bg-gray-100'>
-                <div className="max-w-6xl px-4 sm:px-16 lg:px-6 pt-24 pb-20 lg:pt-7 lg:pb-0 mx-auto">
+                <div className="max-w-6xl px-4 sm:px-16 lg:px-14 xl:px-0 pt-24 pb-0 lg:pt-7 lg:pb-0 mx-auto">
 
                     <div className="items-center lg:flex lg:min-h-screen">
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
@@ -32,7 +32,7 @@ const HomePage = () => {
                             </div>
                         </div>
 
-                        <div className="user_select flex items-center justify-center w-full mt-16 lg:mt-10 lg:w-1/2">
+                        <div className="user_select flex items-center justify-center w-full sm:max-w-md lg:max-w-full mx-auto mt-16 lg:mt-10 lg:w-1/2">
                             <img className="w-full h-full object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Layer_4.png?v=1711140172" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const HomePage = () => {
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px-4 sm:px-6 py-10 lg:py-24 md:flex-row flex-col">
 
-                    <div className="flex justify-center lg:justify-end items-center lg:max-w-lg lg:w-full md:w-1/2 w-full mb-6 md:mb-0">
+                    <div className="flex justify-center lg:justify-end items-center px-0 sm:px-6 lg:px-10 xl:px-0 lg:max-w-lg lg:w-full md:w-1/2 w-full mb-6 md:mb-0">
                         <img
                             alt="hero"
                             className="object-contain h-[100%] w-[100%] xl:h-[90%] xl:w-[90%]"
