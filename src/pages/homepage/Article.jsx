@@ -11,6 +11,7 @@ const Article = () => {
                         <h2 className="mt-2 baloo text-2xl font-semibold capitalize text-black lg:text-4xl">Read Our Latest Blog</h2>
                         <h2 className="mt-1 text-sm font-normal text-black mx-auto w-[90%] lg:w-[40%]">We are leading technology solutions providing company all over the world doing over 40 years lorem ipsum dolor sit amet.</h2>
                     </div>
+
                     {/* BODY */}
                     <div className="article_body mt-10">
                         <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5 xl:gap-8">

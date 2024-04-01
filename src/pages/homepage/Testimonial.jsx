@@ -27,6 +27,7 @@ const Testimonial = () => {
         <>
             <section className='py-5 px-0'>
                 <div className='max-w-full mx-auto px-2 sm:px-0'>
+                    {/* HEADER */}
                     <div className='header text-center'>
                         <h3 className="text-md uppercase tracking-wider font-semibold text-blue-600 lg:text-md">
                             Testimonials
@@ -41,6 +42,8 @@ const Testimonial = () => {
                     </div>
                 </div>
 
+
+                {/* BODY */}
                 <Marquee
                     direction='left'
                     // gradient

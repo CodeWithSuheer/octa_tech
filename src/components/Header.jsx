@@ -65,7 +65,7 @@ const Header = () => {
                         {/* -------------- MENU FOR LARGE VIEW -------------- */}
                         <div className="hidden lg:flex lg:items-center" ref={dropdownRef}>
                             <Link to="/services" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Services</Link>
-                            <Link to="/services" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Industries</Link>
+                            <Link to="/industries" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Industries</Link>
                             <Link to="/blog" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Blog</Link>
                             <Link to="/about" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link>
                             <Link to="/contact" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Contact Us</Link>
@@ -78,12 +78,12 @@ const Header = () => {
                     {/* -------------- MENU FOR MOBILE VIEW -------------- */}
                     <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'} absolute inset-x-0 w-full mt-2 px-6 py-4 transition-all duration-300 ease-in-out bg-white lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center`}>
                         <div className="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
-                            <Link onClick={handleLinkClick} to="/services" className="poppin px-0 py-3 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Home</Link>
-                            <Link onClick={handleLinkClick} to="/services" className="poppin px-0 py-3 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Services</Link>
-                            <Link onClick={handleLinkClick} to="/services" className="poppin px-0 py-3 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Projects</Link>
-                            <Link onClick={handleLinkClick} to="/about" className="poppin px-0 py-3 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link>
-                            <Link onClick={handleLinkClick} to="/contact" className="poppin px-0 py-3 mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Contact Us</Link>
-                            <a href="tel:+1-281-607-5120" className="poppin px-0 pt-2 pb-0.5 mx-6 text-md flex items-center gap-2 font-medium text-gray-700 cursor-pointer">
+                            <Link to="/services" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Services</Link>
+                            <Link to="/industries" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Industries</Link>
+                            <Link to="/blog" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Blog</Link>
+                            <Link to="/about" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link>
+                            <Link to="/contact" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Contact Us</Link>
+                            <a href="tel:+1-281-607-5120" className="poppin px-0 py-3 mx-4 xl:mx-6 text-md flex items-center gap-2 font-medium text-gray-700 cursor-pointer">
                                 <FaPhoneAlt className="text-blue-600" /> <span>+1 (281) 607-5120</span>
                             </a>
                         </div>

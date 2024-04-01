@@ -1,12 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import product from './SliderData';
 import { TiMediaPlayReverse } from "react-icons/ti";
 import { TiMediaPlay } from "react-icons/ti";
-import { FaArrowRight } from "react-icons/fa";
-import { FaShieldAlt } from "react-icons/fa";
 
 
 const ITServicesSlider = () => {
@@ -44,7 +42,7 @@ const ITServicesSlider = () => {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToScroll: 1,
                     initialSlide: 2
                 }
             },
@@ -58,28 +56,9 @@ const ITServicesSlider = () => {
         ]
     };
 
-    // useEffect(() => {
-    //     const handleResize = () => {
-    //         if (window.innerWidth >= 1200) {
-    //             setSlidesToShow(3); // Full Desktop view
-    //         } else if (window.innerWidth >= 1024) {
-    //             setSlidesToShow(3); // Desktop view
-    //         } else if (window.innerWidth >= 768) {
-    //             setSlidesToShow(2); // Tablet view
-    //         } else {
-    //             setSlidesToShow(1); // Mobile view
-    //         }
-    //     };
-    //     handleResize();
-    //     window.addEventListener("resize", handleResize);
-    //     return () => {
-    //         window.removeEventListener("resize", handleResize);
-    //     };
-    // }, []);
-
     return (
         <>
-            <section className='py-10 '>
+            <section className='py-10 px-4 xl:px-0'>
                 <div className="max-w-5xl mx-auto">
 
                     <div className="flex justify-between items-center px-5 sm:px-8 flex-col sm:flex-row gap-7 sm:gap-5">
@@ -105,7 +84,8 @@ const ITServicesSlider = () => {
                         <Slider ref={sliderRef} {...settings}>
                             {product.map((data, index) => (
                                 <div key={index} className="box">
-                                    <div className="box_shadow text-start cursor-pointer h-[19rem] my-5 mx-2 sm:mx-5 px-5 py-7 max-w-full sm:max-w-[18.8rem] text-gray-900 overflow-hidden rounded-lg transition focus:outline-none">
+                                    <div className="box_shadow text-start cursor-pointer h-[19rem] my-5 mx-2 sm:mx-auto  px-5 py-7 max-w-full sm:max-w-[18.8rem] text-gray-900 overflow-hidden rounded-lg transition focus:outline-none">
+
                                         <div className="img_sec relative mb-5">
                                             <img src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Vector_1.png?v=1711052670" alt="helo" />
                                         </div>

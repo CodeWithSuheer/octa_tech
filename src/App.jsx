@@ -13,6 +13,7 @@ import Dashboard from "./admin/Dashboard";
 import ContactQueries from "./admin/ContactQueries";
 import QueryDisplay from "./admin/QueryDisplay";
 import Contact from "./pages/contact/Contact";
+import Industries from "./pages/Industries/Industries";
 import NotFound from "./components/NotFound";
 import './App.css'
 
@@ -26,10 +27,11 @@ import PathManagement from "./pages/services/Path/PathManagement";
 import Vendor from "./pages/services/Vendor/Vendor";
 import ITConsulting from "./pages/services/ITConsulting/ITConsulting";
 import WebsiteDevelopment from "./pages/services/WebDevelopment/WebsiteDevelopment";
+import Loader from "./components/Loader";
 
 {/* ---------- LAZY ROUTES ---------- */ }
-const LazyAbout = lazy(() => import("./pages/about/About"));
-const LazyBlog = lazy(() => import("./pages/blog/Blog"));
+const LazyAbout = React.lazy(() => import("./pages/about/About"));
+const LazyBlog = React.lazy(() => import("./pages/blog/Blog"));
 
 
 function App() {
@@ -41,7 +43,7 @@ function App() {
   };
 
   const onLoad = () => {
-    console.log('onLoad works!');
+    // console.log('onLoad works!');
   };
 
   useEffect(() => {
@@ -71,10 +73,11 @@ function App() {
         <Routes>
           <Route path="*" element={<NotFound />} />
           <Route path="/" element={<HomePage />} />
+          <Route path="/industries" element={<Industries />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<Suspense fallback={<div>Loading...</div>}><LazyAbout /></Suspense>} />
-          <Route path="/blog" element={<Suspense fallback={<div>Loading...</div>}><LazyBlog /></Suspense>} />
+          <Route path="/about" element={<Suspense fallback={<Loader />}><LazyAbout /></Suspense>} />
+          <Route path="/blog" element={<Suspense fallback={<Loader />}><LazyBlog /></Suspense>} />
 
           {/* ---------- SERVICES ROUTES ---------- */}
           <Route path="/website-development" element={<WebsiteDevelopment />} />

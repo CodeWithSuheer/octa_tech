@@ -80,9 +80,6 @@ const Footer = () => {
                                     <a href='#' target='_blank'>
                                         <FaLinkedin size={24} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
                                     </a>
-                                    <a href='#' target='_blank'>
-                                        <FaTiktok size={24} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
-                                    </a>
                                     <a href='https://www.youtube.com/@octatechsolution' target='_blank'>
                                         <IoLogoYoutube size={24} className='mr-5 cursor-pointer text-white hover:text-gray-200' />
                                     </a>

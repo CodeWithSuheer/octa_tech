@@ -1,18 +1,11 @@
 import React from 'react'
-import data from "./ServicesData";
-import { Link } from 'react-router-dom';
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
-import './Services.css'
+import data from "./IndustriesData";
 
-const Services = () => {
-
-    const handleScroll = () => {
-        window.scrollTo(0, 0)
-    }
-
+const Industries = () => {
     return (
         <>
+            {/* ----------- HEADER -----------  */}
             <section className='relative pt-3 lg:pt-20 lg:pb-12 bg-gray-50'>
                 {/* GRADIENT */}
                 <div className="absolute inset-x-0 bottom-0 z-0 transform-gpu overflow-hidden blur-3xl">
@@ -48,7 +41,7 @@ const Services = () => {
 
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
-                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">All Services</h2>
+                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">Industries</h2>
                                 <h2 className="mt-1.5 text-sm sm:text-lg font-normal text-black md:w-[80%] lg:w-[100%]">
                                     Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
                                 </h2>
@@ -62,24 +55,25 @@ const Services = () => {
                         </div>
 
                         <div className="user_select flex items-center justify-center w-full mt-14 lg:mt-10 lg:w-1/2">
-                            <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1144.png?v=1711652757" alt="Catalogue-pana.svg" />
+                            <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1144_3.png?v=1711998172" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
                 </div>
 
             </section>
 
-            {/* ----------- HERO SECTION -----------  */}
+            {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 relative flex justify-center items-center'>
                 <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
             </section>
 
-            {/* ----------- ALL SERVICES -----------  */}
+
+            {/* ----------- INDUSTRIES -----------  */}
             <section className='my-16'>
                 <div className="max-w-5xl mx-auto px-5 sm:px-10 xl:px-0">
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 lg:gap-8">
                         {data.map((data, index) => (
-                            <Link to={data.url} onClick={handleScroll} key={index} className="cacrd_up_hover group overflow-hidden rounded-lg shadow transition hover:shadow-lg my-1">
+                            <div key={index} className="cacrd_up_hover group overflow-hidden rounded-lg shadow transition hover:shadow-lg my-1">
                                 <img
                                     alt=""
                                     src={data.img}
@@ -87,18 +81,10 @@ const Services = () => {
                                 />
 
                                 {/* CARD - DATA */}
-                                <div className="relative bg-white group-hover:bg-blue-600 group-hover:text-white p-4 sm:px-4 sm:py-6 text-center flex justify-center items-center flex-col">
-                                    <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
-                                        <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
-                                    </div>
-                                    <h2 className="mt-3 text-xl font-semibold tracking-wide">{data.service}</h2>
-                                    <p className='text-sm my-1.5 w-[95%] md:w-[90%]'>{data.desc}</p>
-                                    <button className="mt-1 flex justify-center items-center group-hover:underline group-hover:underline-offset-4 text-sm font-semibold">
-                                        <span>Read More</span>
-                                        <MdOutlineKeyboardArrowRight size={22} className='mt-1' />
-                                    </button>
+                                <div className="relative bg-white p-4 sm:px-4 sm:py-6 text-center flex justify-center items-center flex-col">
+                                    <h2 className="text-xl font-semibold tracking-wide">{data.name}</h2>
                                 </div>
-                            </Link>
+                            </div>
                         ))}
                     </div>
                 </div>
@@ -107,4 +93,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Industries

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ChooseServices from '../remoteMonitoring/ChooseServices'
 import Stats from '../../homepage/Stats'
 import { FaLocationArrow } from "react-icons/fa";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -8,7 +7,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const WebsiteDevelopment = () => {
 
     const handleScroll = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" })
+        window.scrollTo(0, 0)
     }
 
     return (
@@ -42,7 +41,7 @@ const WebsiteDevelopment = () => {
                     </svg>
                 </div>
 
-                <div className="max-w-6xl px-4 z-50 sm:px-6 pt-24 pb-2 lg:pt-0 lg:pb-0 mx-auto">
+                <div className="max-w-6xl px-4 z-50 sm:px-6 pt-14 pb-10 lg:pt-0 lg:pb-0 mx-auto">
                     <div className="items-center lg:flex lg:min-h-[60vh]">
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
@@ -73,23 +72,23 @@ const WebsiteDevelopment = () => {
 
             {/* ----------- MAIN HEADING SECION -----------  */}
             <section className='flex justify-center px-4 sm:px-2 items-center pt-14 pb-7'>
-                <div class="max-w-5xl overflow-hidden bg-white rounded-xl shadow-lg dark:bg-gray-800">
-                    <img class="object-cover w-full h-64" src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="Article" />
+                <div className="group max-w-5xl overflow-hidden bg-white rounded-xl shadow-lg dark:bg-gray-800">
+                    <img className="object-cover w-full h-64" src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="Article" />
 
-                    <div class="relative px-6 pb-8 pt-4 flex justify-start">
+                    <div className="relative px-6 pb-8 pt-4 flex justify-start">
                         <div className="absolute -top-10 img w-[20rem]">
                             <img className='h-16 w-16 sm:h-20 sm:w-20' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2236.png?v=1711398214" alt="" />
                         </div>
                         <div className="ml-2 sm:ml-24 text_data">
                             <div>
-                                <h3 class="mt-2 sm:mt-0 block text-3xl sm:text-4xl font-semibold text-black">Website Development</h3>
-                                <p class="mt-2.5 text-sm text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consequuntur unde quidem? Officiis fugit similique asperiores non sunt magnam minus voluptatibus accusamus natus dolores? Enim et quos cum exercitationem expedita cumque dolorem id dolorum ad ut fuga fugiat molestias ab, repellat a? Optio tenetur vel dolor nulla consectetur facere porro!</p>
+                                <h3 className="mt-2 sm:mt-0 block text-3xl sm:text-4xl font-semibold text-black">Website Development</h3>
+                                <p className="mt-2.5 text-sm text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consequuntur unde quidem? Officiis fugit similique asperiores non sunt magnam minus voluptatibus accusamus natus dolores? Enim et quos cum exercitationem expedita cumque dolorem id dolorum ad ut fuga fugiat molestias ab, repellat a? Optio tenetur vel dolor nulla consectetur facere porro!</p>
                             </div>
 
-                            <div class="mt-4">
-                                <Link to="/remote-monitoring" onClick={() => window.scroll(0, 0)} className="mt-1 flex items-center hover:underline hover:underline-offset-4 text-lg font-semibold">
+                            <div className="mt-4">
+                                <Link to="/remote-monitoring" onClick={() => window.scroll(0, 0)} className="mt-1 flex items-center group-hover:underline group-hover:underline-offset-4 text-md font-semibold">
                                     <span>Read More</span>
-                                    <img className="pt-1 ml-1 h-6 w-5" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Vector_2.png?v=1711393867" alt="" />
+                                    <MdOutlineKeyboardArrowRight size={22} className='mt-1' />
                                 </Link>
                             </div>
                         </div>
@@ -101,10 +100,10 @@ const WebsiteDevelopment = () => {
             <section className='pt-5 pb-10 px-5 sm:px-0'>
                 <div className="max-w-5xl mx-auto grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
                     {/* --------- LEFT SIDE ---------  */}
-                    <div class="bg-white lg:col-span-2">
+                    <div className="bg-white lg:col-span-2">
 
                         <div className="upper_img ">
-                            <img className='rounded-lg h-52 object-fill' src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="" />
+                            <img className='rounded-lg h-52 object-cover' src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="" />
                         </div>
 
                         <div className="text mt-5">
@@ -117,18 +116,18 @@ const WebsiteDevelopment = () => {
                         </div>
 
                         <div className="lower_img mt-5">
-                            <img className='rounded-lg h-52 object-fill' src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="" />
+                            <img className='rounded-lg h-52 object-cover' src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="" />
                         </div>
                     </div>
 
                     {/* --------- RIGHT SIDE ---------  */}
-                    <div class="rounded-lg">
+                    <div className="rounded-lg">
                         {/* CALL HERE BOX  */}
-                        <div className="group overflow-hidden border border-gray-300 rounded-lg shadow-lg transition hover:shadow-xl">
+                        <div className="group overflow-hidden border border-gray-300 rounded-xl shadow-lg transition hover:shadow-xl">
                             <img
                                 alt=""
                                 src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1141.png?v=1711644337"
-                                className=" w-full object-cover"
+                                className=" w-full h-52 object-cover"
                             />
 
                             {/* CARD - DATA */}

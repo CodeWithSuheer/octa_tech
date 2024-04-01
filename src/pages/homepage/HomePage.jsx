@@ -10,12 +10,12 @@ import Stats from './Stats';
 
 const HomePage = () => {
 
-
     return (
         <>
             {/* ----------- HERO SECTION -----------  */}
-            <section className='bg-[#ebecf5]'>
-                <div className="max-w-6xl px-4 sm:px-6 pt-24 pb-20 lg:py-7 mx-auto">
+            <section className='bg-gray-100'>
+                <div className="max-w-6xl px-4 sm:px-16 lg:px-6 pt-24 pb-20 lg:pt-7 lg:pb-0 mx-auto">
+
                     <div className="items-center lg:flex lg:min-h-screen">
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
@@ -25,9 +25,9 @@ const HomePage = () => {
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-10">
 
-                                    <a href="javascript:void(Tawk_API.toggle())" className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500" >
-                                        Get Started <FaLocationArrow />
-                                    </a>
+                                    <button onClick={() => { Tawk_API.toggle(); }} className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                        Let's Talk <FaLocationArrow />
+                                    </button>
                                 </div>
                             </div>
                         </div>

@@ -13,7 +13,7 @@ const data = [
     },
     {
         img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1037_2.png?v=1711394119",
-        service: 'Desk Support',
+        service: 'Remote Helpdesk Support',
         desc: 'It is a long established fact that a reader will be distracte',
         url: "/desk-support",
     },
@@ -37,7 +37,7 @@ const data = [
     },
     {
         img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1037_5.png?v=1711394285",
-        service: 'Path Management',
+        service: 'Patch Management',
         desc: 'It is a long established fact that a reader will be distracte',
         url: "/path-management",
     },
