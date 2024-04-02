@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef, Suspense, lazy } from "react";
+import { Toaster } from 'react-hot-toast';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import AnimCursor from "./pages/cursor/AnimCursor";
-import { Toaster } from 'react-hot-toast';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/homepage/HomePage";
@@ -28,6 +28,8 @@ import Vendor from "./pages/services/Vendor/Vendor";
 import ITConsulting from "./pages/services/ITConsulting/ITConsulting";
 import WebsiteDevelopment from "./pages/services/WebDevelopment/WebsiteDevelopment";
 import Loader from "./components/Loader";
+import TermAndCondition from "./components/TermAndCondition";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 {/* ---------- LAZY ROUTES ---------- */ }
 const LazyAbout = React.lazy(() => import("./pages/about/About"));
@@ -76,6 +78,8 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/termandcondtion" element={<TermAndCondition />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/about" element={<Suspense fallback={<Loader />}><LazyAbout /></Suspense>} />
           <Route path="/blog" element={<Suspense fallback={<Loader />}><LazyBlog /></Suspense>} />
 

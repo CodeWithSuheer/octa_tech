@@ -33,7 +33,7 @@ const Contact = () => {
 
     return (
         <>
-            <section className="bg-[#ebecf5]">
+            <section className="bg-gray-100">
                 <div className="max-w-full px-3 sm:px-6 py-16 mx-auto">
 
                     {/* <h2 className='text-2xl sm:text-3xl tracking-wider underline underline-offset-8 font-bold pt-14 pb-8 text-gray-900 text-center'>CONTACT US</h2> */}

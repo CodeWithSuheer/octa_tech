@@ -87,7 +87,7 @@ const HomePage = () => {
                             </div>
 
                             <div className="hero_section_buttons flex items-start xs:items-center flex-col-reverse sm:flex-row gap-5 lg:gap-10 mt-10">
-                                <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Get Started <FaLocationArrow />
+                                <button onClick={() => { Tawk_API.toggle(); }} className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Get Started <FaLocationArrow />
                                 </button>
 
                                 <div className="person_profile flex justify-start items-center gap-2">

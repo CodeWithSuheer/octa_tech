@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaLocationArrow } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const WhyChooseUs = () => {
     return (
@@ -46,8 +47,8 @@ const WhyChooseUs = () => {
                             </div>
 
                             <div className="hero_section_buttons flex items-start xs:items-center flex-col-reverse sm:flex-row gap-5 lg:gap-10 mt-10">
-                                <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Learn More <FaLocationArrow />
-                                </button>
+                                <Link to='/contact' onClick={() => window.scroll(0, 0)} className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Contact Us <FaLocationArrow />
+                                </Link>
                             </div>
                         </div>
                     </div>
