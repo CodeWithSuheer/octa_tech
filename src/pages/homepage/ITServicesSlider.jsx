@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import product from './SliderData';
 import { TiMediaPlayReverse } from "react-icons/ti";
 import { TiMediaPlay } from "react-icons/ti";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 
 const ITServicesSlider = () => {
@@ -61,7 +62,7 @@ const ITServicesSlider = () => {
             <section className='py-10 px-4 xl:px-0'>
                 <div className="max-w-5xl mx-auto">
 
-                    <div className="flex justify-between items-center px-5 sm:px-8 flex-col sm:flex-row gap-7 sm:gap-5">
+                    <div className="flex justify-between items-center px-1 sm:px-8 flex-col sm:flex-row gap-7 sm:gap-5">
 
                         <div className="slider_text">
                             <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">IT Services</h3>
@@ -80,7 +81,7 @@ const ITServicesSlider = () => {
                     </div>
 
 
-                    <div className="mt-4 text-center mx-3 px-3 sm:px-0">
+                    <div className="mt-4 text-center mx-3 px-0 sm:px-0">
                         <Slider ref={sliderRef} {...settings}>
                             {product.map((data, index) => (
                                 <div key={index} className="box">
@@ -91,9 +92,8 @@ const ITServicesSlider = () => {
                                         </div>
                                         <h2 className="baloo text-2xl">{data.service}</h2>
                                         <p>{data.desc}</p>
-                                        <button className="mt-3 flex justify-start items-center text-lg font-semibold">
-                                            <span>Read More</span>
-                                            <img className="pt-1 h-7" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Frame_2114_1.png?v=1711053281" alt="" />
+                                        <button className="mt-3 flex justify-start items-center text-md font-semibold">
+                                            Read More  <MdOutlineKeyboardArrowRight size={22} className='mt-1.5' />
                                         </button>
                                     </div>
                                 </div>

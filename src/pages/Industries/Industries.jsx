@@ -41,8 +41,8 @@ const Industries = () => {
 
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
-                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">Industries</h2>
-                                <h2 className="mt-1.5 text-sm lg:text-md xl:text-lg font-normal text-black md:w-[80%] lg:w-[95%]">
+                                <h2 className="mt-3 w-[100%] xl:w-[90%] text-4xl leading-5 font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Industries</h2>
+                                <h2 className="mt-4 pt-2 text-sm sm:text-[1.08rem] font-normal leading-6 text-black md:w-[80%] lg:w-[90%]">
                                     Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
                                 </h2>
 

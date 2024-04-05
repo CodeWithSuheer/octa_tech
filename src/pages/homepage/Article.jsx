@@ -1,6 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Article = () => {
+
+    const handleToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    }
+
+
     return (
         <>
             <section className="py-20 px-5 sm:px-10">
@@ -21,7 +31,7 @@ const Article = () => {
                                 <div className="card_details px-2 py-2.5">
                                     <h3 className='mt-1.5 text-lg text-gray-800 font-semibold tracking-wide'>3D Animation</h3>
                                     <p className='mt-1.5 text-sm w-full'>This is the text in the Card which will show some data of blog</p>
-                                    <button className='mt-1.5 text-sm text-blue-500 font-semibold tracking-wide hover:underline hover:underline-offset-4'>View More</button>
+                                    <Link to='/blog' onClick={handleToTop} className='mt-1.5 text-sm text-blue-500 font-semibold tracking-wide hover:underline hover:underline-offset-4'>View More</Link>
                                 </div>
                             </div>
                             {/* SECOND CARD */}
@@ -30,7 +40,7 @@ const Article = () => {
                                 <div className="card_details px-2 py-2.5">
                                     <h3 className='mt-1.5 text-lg text-gray-800 font-semibold tracking-wide'>3D Animation</h3>
                                     <p className='mt-1.5 text-sm w-full'>This is the text in the Card which will show some data of blog</p>
-                                    <button className='mt-1.5 text-sm text-blue-500 font-semibold tracking-wide hover:underline hover:underline-offset-4'>View More</button>
+                                    <Link to='/blog' onClick={handleToTop} className='mt-1.5 text-sm text-blue-500 font-semibold tracking-wide hover:underline hover:underline-offset-4'>View More</Link>
                                 </div>
                             </div>
                             {/* THIRD CARD */}
@@ -39,7 +49,7 @@ const Article = () => {
                                 <div className="card_details px-2 py-2.5">
                                     <h3 className='mt-1.5 text-lg text-gray-800 font-semibold tracking-wide'>3D Animation</h3>
                                     <p className='mt-1.5 text-sm w-full'>This is the text in the Card which will show some data of blog</p>
-                                    <button className='mt-1.5 text-sm text-blue-500 font-semibold tracking-wide hover:underline hover:underline-offset-4'>View More</button>
+                                    <Link to='/blog' onClick={handleToTop} className='mt-1.5 text-sm text-blue-500 font-semibold tracking-wide hover:underline hover:underline-offset-4'>View More</Link>
                                 </div>
                             </div>
                             {/* FORTH CARD */}
@@ -48,7 +58,7 @@ const Article = () => {
                                 <div className="card_details px-2 py-2.5">
                                     <h3 className='mt-1.5 text-lg text-gray-800 font-semibold tracking-wide'>3D Animation</h3>
                                     <p className='mt-1.5 text-sm w-full'>This is the text in the Card which will show some data of blog</p>
-                                    <button className='mt-1.5 text-sm text-blue-500 font-semibold tracking-wide hover:underline hover:underline-offset-4'>View More</button>
+                                    <Link to='/blog' onClick={handleToTop} className='mt-1.5 text-sm text-blue-500 font-semibold tracking-wide hover:underline hover:underline-offset-4'>View More</Link>
                                 </div>
                             </div>
 

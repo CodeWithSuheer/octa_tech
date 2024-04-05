@@ -20,8 +20,8 @@ const HomePage = () => {
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
                                 <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">We are leading technology solutions providing</h3>
-                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">We Make The Best IT Solutions</h2>
-                                <h2 className="mt-1.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[100%]">We are leading technology solutions providing company all over the world doing over 40 years. Lorem ipsum dolor sit, amet consectetur adipisicing eli</h2>
+                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Octa Tech: Elevating Your Digital Presence</h2>
+                                <h2 className="mt-1.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[100%]">Frustrated with tech problems slowing you down? At Octa Tech, we're your one-stop shop for expert technical support, available 24/7. We offer a wide range of services to keep your devices, software, and systems running smoothly, so you can focus on what matters most</h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-10">
 
@@ -59,8 +59,8 @@ const HomePage = () => {
                     <div className="lg:flex-grow md:w-1/2 lg:pl-10 md:pl-3 flex flex-col md:items-start md:text-left">
                         <div className="lg:max-w-xl pt-10">
                             <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">About Us</h3>
-                            <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-4xl">We Are Increasing Business Succcess With Technology</h2>
-                            <h2 className="text-sm font-normal text-black">We are leading technology solutions providing company all over the world doing over 40 years. Lorem ipsum dolor sit, amet consectetur adipisicing eli</h2>
+                            <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-4xl">Get To Know Octa Tech</h2>
+                            <h2 className="text-sm font-normal text-black">Octa Tech is a leading provider of comprehensive technical support services. We're passionate about empowering individuals and businesses with the tools and knowledge they need to thrive in today's digital landscape. Our team of highly skilled technicians is dedicated to delivering exceptional customer service, ensuring your questions are answered promptly and your problems are resolved efficiently. We believe in building long-term relationships with our clients, and becoming a trusted partner in your technological journey.</h2>
 
 
                             <div className="mission_bar grid grid-cols-1 gap-6 lg:grid-cols-1 xl:grid-cols-2 lg:gap-8 my-7 lg:my-5">
@@ -129,4 +129,4 @@ const HomePage = () => {
     )
 }
 
-export default HomePage
+export default HomePage;

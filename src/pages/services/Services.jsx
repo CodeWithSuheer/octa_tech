@@ -1,19 +1,24 @@
 import React from 'react'
 import data from "./ServicesData";
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
 import './Services.css'
 
 const Services = () => {
+    const navigate = useNavigate();
 
-    const handleScroll = () => {
+
+    // HANDLE NAVIGATE
+    const handleNavigate = (url) => {
+        navigate(`/${url}`)
         window.scrollTo(0, 0)
     }
 
+
     return (
         <>
-            <section className='relative pt-3 lg:pt-20 lg:pb-12 bg-gray-50'>
+            <section className='relative pt-5 lg:pt-20 lg:pb-12 bg-gray-50'>
                 {/* GRADIENT */}
                 <div className="absolute inset-x-0 bottom-0 z-0 transform-gpu overflow-hidden blur-3xl">
                     <svg
@@ -48,13 +53,13 @@ const Services = () => {
 
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
-                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">All Services</h2>
-                                <h2 className="mt-1.5 text-sm lg:text-md xl:text-lg font-normal text-black md:w-[80%] lg:w-[95%]">
+                                <h2 className="mt-3 w-[100%] xl:w-[90%] text-4xl leading-5 font-semibold capitalize text-black lg:text-5xl xl:text-5xl">All Services</h2>
+                                <h2 className="mt-4 pt-2 text-sm sm:text-[1.08rem] font-normal leading-6 text-black md:w-[80%] lg:w-[90%]">
                                     Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                    <button onClick={() => { Tawk_API.toggle(); }} className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                                         Let's Talk <FaLocationArrow />
                                     </button>
                                 </div>
@@ -79,7 +84,7 @@ const Services = () => {
                 <div className="max-w-5xl mx-auto px-5 sm:px-10 xl:px-0">
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 lg:gap-8">
                         {data.map((data, index) => (
-                            <Link to={data.url} onClick={handleScroll} key={index} className="cacrd_up_hover group overflow-hidden rounded-lg shadow transition hover:shadow-lg my-1">
+                            <div key={index} onClick={() => handleNavigate(data.url)} className="card_up_hover group cursor-pointer overflow-hidden rounded-lg shadow transition hover:shadow-lg my-1">
                                 <img
                                     alt=""
                                     src={data.img}
@@ -98,124 +103,124 @@ const Services = () => {
                                         <MdOutlineKeyboardArrowRight size={22} className='mt-1' />
                                     </button>
                                 </div>
-                            </Link>
+                            </div>
                         ))}
                     </div>
                 </div>
             </section >
 
             {/* ----------- FEATURES -----------  */}
-            <section class="bg-white pt-10 pb-6">
-                <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
-                    <div class="container mx-auto px-0 md:px-6 bg-white">
+            <section className="bg-white pt-10 pb-6">
+                <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+                    <div className="container mx-auto px-0 md:px-6 bg-white">
 
-                        <div class="mb-16 text-center">
-                            <h4 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Features</h4>
-                            <p class="mt-2 text-4xl lg:text-5xl font-bold tracking-tight text-gray-900">How we change the game
+                        <div className="mb-16 text-center">
+                            <h4 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Features</h4>
+                            <p className="mt-2 text-4xl lg:text-5xl font-bold tracking-tight text-gray-900">How we change the game
 
                             </p>
                         </div>
 
 
-                        <div class="flex flex-wrap my-12">
+                        <div className="flex flex-wrap my-12">
 
 
-                            <div class="w-full border-b md:w-1/2 md:border-r lg:w-1/3 px-4 py-5 sm:px-8 sm:py-8">
-                                <div class="flex items-center mb-6">
+                            <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 px-4 py-5 sm:px-8 sm:py-8">
+                                <div className="flex items-center mb-6">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                        fill="currentColor" class="h-6 w-6 text-indigo-500">
+                                        fill="currentColor" className="h-6 w-6 text-indigo-500">
                                         <path
                                             d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                         </path>
                                     </svg>
-                                    <div class="ml-4 text-xl">Increase sales</div>
+                                    <div className="ml-4 text-xl">Increase sales</div>
                                 </div>
-                                <p class="leading-loose text-gray-500">Consectetur pariatur irure exercitation sit amet id
+                                <p className="leading-loose text-gray-500">Consectetur pariatur irure exercitation sit amet id
                                     consectetur consecteturmagna et Lorem labore qui velit.
                                 </p>
                             </div>
 
 
 
-                            <div class="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r px-4 py-5 sm:px-8 sm:py-8">
-                                <div class="flex items-center mb-6">
+                            <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r px-4 py-5 sm:px-8 sm:py-8">
+                                <div className="flex items-center mb-6">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                        fill="currentColor" class="h-6 w-6 text-indigo-500">
+                                        fill="currentColor" className="h-6 w-6 text-indigo-500">
                                         <path
                                             d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                         </path>
                                     </svg>
-                                    <div class="ml-4 text-xl">Enterprise-ready</div>
+                                    <div className="ml-4 text-xl">Enterprise-ready</div>
                                 </div>
-                                <p class="leading-loose text-gray-500">Labore duis pariatur est exercitation laboris cupidatat amet
+                                <p className="leading-loose text-gray-500">Labore duis pariatur est exercitation laboris cupidatat amet
                                     cillum. Amet nisi ullamco.
                                 </p>
                             </div>
 
 
 
-                            <div class="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 px-4 py-5 sm:px-8 sm:py-8">
-                                <div class="flex items-center mb-6">
+                            <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 px-4 py-5 sm:px-8 sm:py-8">
+                                <div className="flex items-center mb-6">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                        fill="currentColor" class="h-6 w-6 text-indigo-500">
+                                        fill="currentColor" className="h-6 w-6 text-indigo-500">
                                         <path
                                             d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                         </path>
                                     </svg>
-                                    <div class="ml-4 text-xl">Unlimited growth</div>
+                                    <div className="ml-4 text-xl">Unlimited growth</div>
                                 </div>
-                                <p class="leading-loose text-gray-500">Elit deserunt nisi esse duis cupidatat proident sit minim
+                                <p className="leading-loose text-gray-500">Elit deserunt nisi esse duis cupidatat proident sit minim
                                     mollit officia pariatur incididunt in tempor.
                                 </p>
                             </div>
 
 
 
-                            <div class="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 px-4 py-5 sm:px-8 sm:py-8">
-                                <div class="flex items-center mb-6">
+                            <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 px-4 py-5 sm:px-8 sm:py-8">
+                                <div className="flex items-center mb-6">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                        fill="currentColor" class="h-6 w-6 text-indigo-500">
+                                        fill="currentColor" className="h-6 w-6 text-indigo-500">
                                         <path
                                             d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                         </path>
                                     </svg>
-                                    <div class="ml-4 text-xl">Recommended by experts</div>
+                                    <div className="ml-4 text-xl">Recommended by experts</div>
                                 </div>
-                                <p class="leading-loose text-gray-500">Velit sit tempor pariatur quis pariatur incididunt culpa
+                                <p className="leading-loose text-gray-500">Velit sit tempor pariatur quis pariatur incididunt culpa
                                     dolor voluptate officia incididunt velit dolore.
                                 </p>
                             </div>
 
 
 
-                            <div class="w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 px-4 py-5 sm:px-8 sm:py-8">
-                                <div class="flex items-center mb-6">
+                            <div className="w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 px-4 py-5 sm:px-8 sm:py-8">
+                                <div className="flex items-center mb-6">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                        fill="currentColor" class="h-6 w-6 text-indigo-500">
+                                        fill="currentColor" className="h-6 w-6 text-indigo-500">
                                         <path
                                             d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                         </path>
                                     </svg>
-                                    <div class="ml-4 text-xl">Modern platform</div>
+                                    <div className="ml-4 text-xl">Modern platform</div>
                                 </div>
-                                <p class="leading-loose text-gray-500">Laboris elit consectetur sint nisi eu mollit proident sit
+                                <p className="leading-loose text-gray-500">Laboris elit consectetur sint nisi eu mollit proident sit
                                     magna velit adipisicing consequat amet reprehenderit.
                                 </p>
                             </div>
 
 
 
-                            <div class="w-full md:w-1/2 lg:w-1/3 px-4 py-5 sm:px-8 sm:py-8">
-                                <div class="flex items-center mb-6">
+                            <div className="w-full md:w-1/2 lg:w-1/3 px-4 py-5 sm:px-8 sm:py-8">
+                                <div className="flex items-center mb-6">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20"
-                                        fill="currentColor" class="h-6 w-6 text-indigo-500">
+                                        fill="currentColor" className="h-6 w-6 text-indigo-500">
                                         <path
                                             d="M16 3C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13c0-1.398-.188-2.793-.688-4.094L26.688 13.5c.2.8.313 1.602.313 2.5 0 6.102-4.898 11-11 11S5 22.102 5 16 9.898 5 16 5c3 0 5.695 1.195 7.594 3.094L25 6.688C22.7 4.386 19.5 3 16 3zm11.281 4.281L16 18.563l-4.281-4.282-1.438 1.438 5 5 .719.687.719-.687 12-12z">
                                         </path>
                                     </svg>
-                                    <div class="ml-4 text-xl">Integrations</div>
+                                    <div className="ml-4 text-xl">Integrations</div>
                                 </div>
-                                <p class="leading-loose text-gray-500">Nostrud excepteur incididunt proident sit nulla ipsum sunt
+                                <p className="leading-loose text-gray-500">Nostrud excepteur incididunt proident sit nulla ipsum sunt
                                     nostrud est esse adipisicing irure officia consectetur.
                                 </p>
                             </div>

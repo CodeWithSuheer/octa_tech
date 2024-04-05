@@ -1,15 +1,16 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import { FaTwitter } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
+import { FaFacebookF } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
     const { user } = useSelector((state) => state.auth);
 
+    // HANDLESCROLL
     const handleScroll = () => {
         window.scrollTo({ top: 0, behavior: "smooth" })
     }
@@ -25,7 +26,7 @@ const Footer = () => {
                             <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-y-10 lg:grid-cols-6">
 
                                 <div className="sm:col-span-2">
-                                    <h1 className="max-w-lg text-3xl font-semibold tracking-wider text-gray-900">Octa Tech</h1>
+                                    <h1 onClick={handleScroll} className="max-w-lg text-3xl cursor-pointer font-semibold tracking-wider text-gray-900">Octa Tech</h1>
                                     <p className='mt-5 text-sm w-[100%] sm:w-[70%] text-gray-900'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti velit provident fugiat harum cum et quisquam quo nostrum odit nobis illo ipsam, sed, accusamus libero nisi voluptate cupiditate molestias. Odis nulla</p>
                                 </div>
 
@@ -60,25 +61,25 @@ const Footer = () => {
                                         <Link to="/about" onClick={handleScroll} className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
                                             About Us
                                         </Link>
+                                        <Link to="/contact" onClick={handleScroll} className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
+                                            Contact Us
+                                        </Link>
                                         <Link to="/privacy-policy" onClick={handleScroll} className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
                                             Privacy policy
-                                        </Link>
-                                        <Link to="/termandcondtion" onClick={handleScroll} className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
-                                            Term & Condition
                                         </Link>
                                     </div>
                                 </div>
 
                                 <div className='mt-4 sm:mt-4'>
                                     <div className="flex flex-wrap flex-row lg:flex-col gap-2 sm:gap-5 mx-auto mt-6">
-                                        <a href='#' target='_blank'>
-                                            <FaTwitter size={24} className='mr-5 cursor-pointer text-[#1C9CEA]' />
+                                        <a href='https://www.linkedin.com/company/octa-tech-solutionn' target='_blank'>
+                                            <FaLinkedin size={24} className='mr-5 cursor-pointer text-[#0073AF]' />
                                         </a>
                                         <a href='#' target='_blank'>
                                             <BsInstagram size={24} className='mr-5 cursor-pointer text-[#E83274]' />
                                         </a>
-                                        <a href='#' target='_blank'>
-                                            <FaLinkedin size={24} className='mr-5 cursor-pointer text-[#0073AF]' />
+                                        <a href='https://www.facebook.com/people/Octa-Tech-Solution/61557413701455/' target='_blank'>
+                                            <FaFacebookF size={24} className='mr-5 cursor-pointer text-[#1C9CEA]' />
                                         </a>
                                         <a href='https://www.youtube.com/@octatechsolution' target='_blank'>
                                             <IoLogoYoutube size={24} className='mr-5 cursor-pointer text-[#FF0000]' />

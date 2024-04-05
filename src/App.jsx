@@ -13,7 +13,6 @@ import Dashboard from "./admin/Dashboard";
 import ContactQueries from "./admin/ContactQueries";
 import QueryDisplay from "./admin/QueryDisplay";
 import Contact from "./pages/contact/Contact";
-import Industries from "./pages/Industries/Industries";
 import NotFound from "./components/NotFound";
 import './App.css'
 
@@ -31,7 +30,11 @@ import Loader from "./components/Loader";
 import TermAndCondition from "./components/TermAndCondition";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 
+
+
 {/* ---------- LAZY ROUTES ---------- */ }
+const LazyServiceDetails = React.lazy(() => import("./pages/services/ServiceDetails"));
+const LazyIndustries = React.lazy(() => import("./pages/Industries/Industries"));
 const LazyAbout = React.lazy(() => import("./pages/about/About"));
 const LazyBlog = React.lazy(() => import("./pages/blog/Blog"));
 
@@ -75,11 +78,15 @@ function App() {
         <Routes>
           <Route path="*" element={<NotFound />} />
           <Route path="/" element={<HomePage />} />
-          <Route path="/industries" element={<Industries />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/termandcondtion" element={<TermAndCondition />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
+
+          {/* ---------- LAZY ROUTES ---------- */}
+          <Route path="/service-info/:id" element={<Suspense fallback={<Loader />}><LazyServiceDetails /></Suspense>} />
+          <Route path="/industries" element={<Suspense fallback={<Loader />}><LazyIndustries /></Suspense>} />
           <Route path="/about" element={<Suspense fallback={<Loader />}><LazyAbout /></Suspense>} />
           <Route path="/blog" element={<Suspense fallback={<Loader />}><LazyBlog /></Suspense>} />
 
@@ -93,7 +100,6 @@ function App() {
           <Route path="/path-management" element={<PathManagement />} />
           <Route path="/vendor" element={<Vendor />} />
           <Route path="/IT-consulting" element={<ITConsulting />} />
-
 
           {/* ---------- AUTH ROUTES ---------- */}
           <Route path="/login" element={<Login />} />

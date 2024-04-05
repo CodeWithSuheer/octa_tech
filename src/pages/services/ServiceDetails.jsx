@@ -1,10 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Stats from '../../homepage/Stats'
+import { Link, useParams } from 'react-router-dom';
 import { FaLocationArrow } from "react-icons/fa";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import data from "./ServicesData";
 
-const WebsiteDevelopment = () => {
+const ServiceDetails = () => {
+    const { id } = useParams();
+    const serviceId = parseInt(id, 10);
+    const serviceData = data.find((item) => item?.id === serviceId);
+
 
     const handleScroll = () => {
         window.scrollTo(0, 0)
@@ -41,28 +45,31 @@ const WebsiteDevelopment = () => {
                     </svg>
                 </div>
 
-                <div className="max-w-6xl px-4 z-50 sm:px-6 pt-14 pb-10 lg:pt-0 lg:pb-0 mx-auto">
+
+                <div className="max-w-6xl px-4 z-50 sm:px-6 lg:px-10 xl:px-0 pt-14 pb-10 sm:pt-20 lg:pt-0 lg:pb-0 mx-auto">
                     <div className="items-center lg:flex lg:min-h-[60vh]">
+
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
-                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">Web Development</h2>
-                                <h2 className="mt-1.5 text-sm sm:text-lg font-normal text-black md:w-[80%] lg:w-[100%]">
+                                <h2 className="mt-3 w-[100%] xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">{serviceData?.service}</h2>
+                                <h2 className="mt-4 pt-2 text-sm sm:text-[1.08rem] font-normal leading-6 text-black md:w-[80%] lg:w-[90%]">
                                     Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                    <button onClick={() => { Tawk_API.toggle(); }} className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                                         Let's Talk <FaLocationArrow />
                                     </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="user_select flex items-center justify-center w-full mt-16 lg:mt-10 lg:w-1/2">
+                        <div className="user_select flex items-center justify-center w-full mt-14 lg:mt-10 lg:w-1/2">
                             <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1144_1.png?v=1711653316" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
                 </div>
+
             </section>
 
             {/* ----------- BOLD TEXT -----------  */}
@@ -267,11 +274,8 @@ const WebsiteDevelopment = () => {
 
                 </div>
             </section>
-
-            {/* ----------- COMPANY STATS -----------  */}
-            <Stats />
         </>
     )
 }
 
-export default WebsiteDevelopment;
+export default ServiceDetails;
