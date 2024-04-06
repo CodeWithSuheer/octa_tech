@@ -21,7 +21,7 @@ const HomePage = () => {
                             <div className="lg:max-w-xl">
                                 <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">We are leading technology solutions providing</h3>
                                 <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Octa Tech: Elevating Your Digital Presence</h2>
-                                <h2 className="mt-1.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[100%]">Frustrated with tech problems slowing you down? At Octa Tech, we're your one-stop shop for expert technical support, available 24/7. We offer a wide range of services to keep your devices, software, and systems running smoothly, so you can focus on what matters most</h2>
+                                <h2 className="mt-1.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[100%]">Are tech problems slowing you down? We're your one-stop shop for expert technical support, available 24/7. Get access to a wide range of services to keep your devices, software, and systems running smoothly so you can focus on what matters most.</h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-10">
 

@@ -29,6 +29,9 @@ import WebsiteDevelopment from "./pages/services/WebDevelopment/WebsiteDevelopme
 import Loader from "./components/Loader";
 import TermAndCondition from "./components/TermAndCondition";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import CloudSolution from "./pages/services/cloudSolution/CloudSolution";
+import ITSM from "./pages/services/ITSM/ITSM";
+import DigitalMarketing from "./pages/services/digitalMarketing/DigitalMarketing";
 
 
 
@@ -100,6 +103,9 @@ function App() {
           <Route path="/path-management" element={<PathManagement />} />
           <Route path="/vendor" element={<Vendor />} />
           <Route path="/IT-consulting" element={<ITConsulting />} />
+          <Route path="/cloud-solution" element={<CloudSolution />} />
+          <Route path="/itsm" element={<ITSM />} />
+          <Route path="/digital-marketing" element={<DigitalMarketing />} />
 
           {/* ---------- AUTH ROUTES ---------- */}
           <Route path="/login" element={<Login />} />

@@ -1,5 +1,6 @@
 import React from 'react'
 import data from "./ServicesData";
+import infrastructureData from "./InfrastructureData";
 import { useNavigate } from 'react-router-dom';
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa";
@@ -81,8 +82,8 @@ const Services = () => {
 
             {/* ----------- ALL SERVICES -----------  */}
             <section className='my-16'>
-                <div className="max-w-5xl mx-auto px-5 sm:px-10 xl:px-0">
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 lg:gap-8">
+                <div className="max-w-5xl mx-auto px-5 sm:px-10 lg:px-0">
+                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 place-items-center lg:gap-8">
                         {data.map((data, index) => (
                             <div key={index} onClick={() => handleNavigate(data.url)} className="card_up_hover group cursor-pointer overflow-hidden rounded-lg shadow transition hover:shadow-lg my-1">
                                 <img
@@ -109,8 +110,45 @@ const Services = () => {
                 </div>
             </section >
 
+
+
+            <section className='my-16'>
+                <div className="max-w-5xl mx-auto px-5 sm:px-10 lg:px-0">
+                    <h2 className='mb-10 text-black font-semibold text-4xl text-center'>Infrastructure Management</h2>
+
+
+                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 place-items-center lg:gap-8">
+                        {infrastructureData.map((data, index) => (
+                            <div key={index} onClick={() => handleNavigate(data.url)} className="card_up_hover group cursor-pointer overflow-hidden rounded-lg shadow transition hover:shadow-lg my-1">
+                                <img
+                                    alt=""
+                                    src={data.img}
+                                    className="h-56 w-full object-cover"
+                                />
+
+                                {/* CARD - DATA */}
+                                <div className="relative bg-white group-hover:bg-blue-600 group-hover:text-white p-4 sm:px-4 sm:py-6 text-center flex justify-center items-center flex-col">
+                                    <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
+                                        <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
+                                    </div>
+                                    <h2 className="mt-3 text-xl font-semibold tracking-wide">{data.service}</h2>
+                                    <p className='text-sm my-1.5 w-[95%] md:w-[90%]'>{data.desc}</p>
+                                    <button className="mt-1 flex justify-center items-center group-hover:underline group-hover:underline-offset-4 text-sm font-semibold">
+                                        <span>Read More</span>
+                                        <MdOutlineKeyboardArrowRight size={22} className='mt-1' />
+                                    </button>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+
+
+
             {/* ----------- FEATURES -----------  */}
-            <section className="bg-white pt-10 pb-6">
+            {/* <section className="bg-white pt-10 pb-6">
                 <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
                     <div className="container mx-auto px-0 md:px-6 bg-white">
 
@@ -230,7 +268,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }
