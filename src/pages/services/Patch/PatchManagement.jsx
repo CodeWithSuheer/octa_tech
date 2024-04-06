@@ -3,7 +3,7 @@ import Stats from '../../homepage/Stats';
 import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
 
-const DeskSupport = () => {
+const PatchManagement = () => {
 
     return (
         <>
@@ -40,7 +40,7 @@ const DeskSupport = () => {
                     <div className="items-center lg:flex lg:min-h-[60vh]">
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
-                                <h2 className="mt-3 w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">Desk Support</h2>
+                                <h2 className="mt-3 w-[100%]  xl:w-[100%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Patch Management</h2>
                                 <h2 className="mt-4 text-md font-normal text-black md:w-[80%] lg:w-[96%]">
                                     Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
                                 </h2>
@@ -68,8 +68,10 @@ const DeskSupport = () => {
             {/* ----------- DETAILS -----------  */}
             <section className='my-16'>
                 <div className="px-5 sm:px-10 lg:px-0">
-                    <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-center'>Branches of help desk support</h2>
-                    <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-center'>These branches of help desk support play a crucial role in providing timely assistance, resolving user issues, and ensuring smooth operation of IT services within organizations.</p>
+                    <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-center'>The branches of patch management include</h2>
+                    <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-center'>
+                        By effectively managing these branches of patch management, organizations can enhance their cybersecurity posture, reduce the risk of security breaches, and maintain the integrity and availability of their IT systems and data.
+                    </p>
 
 
                     <div className="mt-20 max-w-7xl mx-auto flex justify-center items-center gap-8 flex-wrap">
@@ -79,8 +81,9 @@ const DeskSupport = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Technical Support</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Technical support involves assisting users with technical issues related to hardware, software, or network problems. Help desk technicians troubleshoot and resolve technical issues to ensure smooth operation of IT systems.</p>
+                            <h2 className='mt-3 text-2xl font-semibold'>Patch Identification</h2>
+                            <p className='mt-2 text-sm sm:text-md'>Patch identification involves monitoring software vendors, security advisories, and patch repositories to identify vulnerabilities and available patches for operating systems, applications, and devices. This step is crucial in staying informed about potential security threats and necessary updates.
+                            </p>
                         </div>
 
                         {/* CARD 2 */}
@@ -88,8 +91,8 @@ const DeskSupport = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Customer Support</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Customer support focuses on addressing customer inquiries, providing product information, handling complaints, and offering assistance with product usage. Help desk personnel in customer support aim to ensure customer satisfaction and retention.
+                            <h2 className='mt-3 text-2xl font-semibold'>Patch Testing</h2>
+                            <p className='mt-2 text-sm sm:text-md'>Patch testing is the process of evaluating patches in a controlled environment to ensure they do not cause conflicts with existing software, applications, or systems. Testing patches helps prevent disruptions to operations and ensures that the patches are compatible with the organization's IT environment.
                             </p>
                         </div>
 
@@ -98,8 +101,9 @@ const DeskSupport = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>IT Support</h2>
-                            <p className='mt-2 text-sm sm:text-md'>IT support involves providing assistance with IT-related tasks such as setting up new devices, troubleshooting software problems, configuring network settings, and resolving connectivity issues. Help desk technicians in IT support ensure that users can effectively utilize IT resources.
+                            <h2 className='mt-3 text-2xl font-semibold'>Patch Deployment</h2>
+                            <p className='mt-2 text-sm sm:text-md'>
+                                Patch deployment involves the systematic rollout of patches to endpoints, servers, and network devices within an organization. It includes scheduling patch installations, prioritizing critical patches based on severity levels, and automating patch deployment processes to streamline updates across the IT infrastructure.
                             </p>
                         </div>
 
@@ -108,8 +112,8 @@ const DeskSupport = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Remote Support</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Remote support allows help desk technicians to assist users remotely by accessing their devices over the internet. This branch enables quick problem resolution without the need for physical presence, enhancing efficiency and reducing downtime.
+                            <h2 className='mt-3 text-2xl font-semibold'>Patch Compliance</h2>
+                            <p className='mt-2 text-sm sm:text-md'>Patch compliance focuses on verifying that all systems and devices within the organization have received and applied the necessary patches in a timely manner. Monitoring patch compliance helps ensure that security vulnerabilities are addressed promptly and reduces the risk of exploitation by cyber threats.
                             </p>
                         </div>
 
@@ -118,8 +122,9 @@ const DeskSupport = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Training and Knowledge Base</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Help desk support also includes providing training to users on using IT systems effectively. Creating and maintaining a knowledge base with FAQs, troubleshooting guides, and self-help resources help users resolve common issues independently.
+                            <h2 className='mt-3 text-2xl font-semibold'>Patch Reporting and Monitoring</h2>
+                            <p className='mt-2 text-sm sm:text-md'>Patch reporting and monitoring involve generating reports on patch status, compliance levels, and vulnerabilities across the IT environment. Continuous monitoring of patch management activities helps track progress, identify gaps in patch coverage, and facilitate decision-making for future patching strategies.
+
                             </p>
                         </div>
 
@@ -139,4 +144,5 @@ const DeskSupport = () => {
     )
 }
 
-export default DeskSupport;
+export default PatchManagement;
+

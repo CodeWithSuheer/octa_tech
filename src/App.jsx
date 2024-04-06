@@ -22,7 +22,7 @@ import DeskSupport from "./pages/services/deskSupport/DeskSupport";
 import Infrastructure from "./pages/services/infrastructure/Infrastructure";
 import Security from "./pages/services/security/Security";
 import BackupAndRecovery from "./pages/services/backupAndRecovery/BackupAndRecovery";
-import PathManagement from "./pages/services/Path/PathManagement";
+import PatchManagement from "./pages/services/Patch/PatchManagement";
 import Vendor from "./pages/services/Vendor/Vendor";
 import ITConsulting from "./pages/services/ITConsulting/ITConsulting";
 import WebsiteDevelopment from "./pages/services/WebDevelopment/WebsiteDevelopment";
@@ -100,7 +100,7 @@ function App() {
           <Route path="/infrastructure" element={<Infrastructure />} />
           <Route path="/security" element={<Security />} />
           <Route path="/backup-and-recovery" element={<BackupAndRecovery />} />
-          <Route path="/path-management" element={<PathManagement />} />
+          <Route path="/patch-management" element={<PatchManagement />} />
           <Route path="/vendor" element={<Vendor />} />
           <Route path="/IT-consulting" element={<ITConsulting />} />
           <Route path="/cloud-solution" element={<CloudSolution />} />

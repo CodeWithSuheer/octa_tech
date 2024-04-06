@@ -11,7 +11,7 @@ const infrastructureData = [
         img: "https://s3-alpha-sig.figma.com/img/79ca/e484/ad003cffc6f67b6ad5123947d18cc2b8?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X-7MUS1WJtxbDluruzvhoStQC5zOABWHu4QobkFiqHHGGmpWoi5K0lxiV01M2Z1yXzXqC1ZReYReDUEvPy4Tad2A9jLWGwH618RNI5wf30H4~2koOfj2nReQGemow6CB1OwlUBe2vc1C4Org1Sa2n5T~SD4U0kYDN4~cpvdGyfWNJ2BnqGnYM9OJCne5wjO07hntG7oHvJFO~ibSujYZQ5LYb706pfQi3BoKVwhyhU0-4L8xzRJ7lq0j4y74cKxkhbX7DAEp8z1mQTbZhmWHODQwnEgIs9ewDwGR7DD2RXTTN38kNCUOm2FFWAalZiym-b5BWyRbQvvshbZ6s7SPPw__",
         service: 'Patch Management',
         desc: 'It is a long established fact that a reader will be distracte',
-        url: "path-management",
+        url: "patch-management",
     },
     {
         id: 3,

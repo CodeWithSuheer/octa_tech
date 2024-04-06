@@ -25,7 +25,6 @@ const Header = () => {
         };
     }, []);
 
-
     // TOGGLE MENU
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -39,7 +38,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className={`bg-white py-4 transition-all fixed top-0 left-0 right-0 z-60`}>
+            <nav className={`bg-white py-4 transition-all fixed shadow-md top-0 left-0 right-0 z-60`}>
                 <div className="container px-6 mx-auto">
                     <div className="lg:flex lg:items-center lg:justify-between">
                         <div className="flex items-center justify-between">
