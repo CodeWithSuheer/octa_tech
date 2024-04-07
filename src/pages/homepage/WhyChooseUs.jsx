@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLocationArrow } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import Button from '../../components/Button';
 
 const WhyChooseUs = () => {
     return (
@@ -27,30 +28,29 @@ const WhyChooseUs = () => {
 
                             <div className="mission_bar grid grid-cols-1 gap-6 lg:grid-cols-1 xl:grid-cols-2 lg:gap-2 my-7 lg:my-5">
 
-                                <div className="sec_1 flex items-center gap-2">
-                                    <div className="icon p-4 rounded-full">
-                                        <img className='h-full w-[11rem]' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2211.png?v=1711136644" alt="" />
+                                <div className="sec_1 flex items-center">
+                                    <div className="icon w-20 rounded-full">
+                                        <img className='max-w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2211.png?v=1711136644" alt="" />
                                     </div>
-                                    <div className="data">
+                                    <div className="data ml-2">
                                         <h3 className='baloo text-xl text-black font-semibold'>Business Grow</h3>
-                                        <h3 className='text-sm'>It is a long establish fact that a reader will be lorem ipsum</h3>
+                                        <h3 className='text-sm'>Empowering Growth Through Strategic Solutions</h3>
                                     </div>
                                 </div>
 
-                                <div className="sec_1 flex items-center gap-2">
-                                    <div className="icon p-4 rounded-full">
-                                        <img className='h-full w-[11rem]' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2211_1.png?v=17111366441" alt="" />
+                                <div className="sec_1 flex items-center">
+                                    <div className="icon w-20 rounded-full">
+                                        <img className='max-w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2211_1.png?v=17111366441" alt="" />
                                     </div>
-                                    <div className="data">
+                                    <div className="data ml-2">
                                         <h3 className='baloo text-xl text-black font-semibold'>Quality Products</h3>
-                                        <h3 className='text-sm'>It is a long establish fact that a reader will be lorem ipsum</h3>
+                                        <h3 className='text-sm'>Exceptional products crafted for you</h3>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="hero_section_buttons flex items-start xs:items-center flex-col-reverse sm:flex-row gap-5 lg:gap-10 mt-10">
-                                <Link to='/contact' onClick={() => window.scroll(0, 0)} className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Contact Us <FaLocationArrow />
-                                </Link>
+                                <Button text="Contact Us" />
                             </div>
                         </div>
                     </div>

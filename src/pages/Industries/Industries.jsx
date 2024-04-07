@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLocationArrow } from "react-icons/fa";
 import data from "./IndustriesData";
+import Button from '../../components/Button';
 
 const Industries = () => {
     return (
@@ -47,9 +48,7 @@ const Industries = () => {
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                                        Let's Talk <FaLocationArrow />
-                                    </button>
+                                    <Button text="Let's Talk" />
                                 </div>
                             </div>
                         </div>
@@ -80,8 +79,8 @@ const Industries = () => {
                                 />
 
                                 {/* CARD - DATA */}
-                                <div className="relative bg-white p-4 sm:px-4 sm:py-6 text-center flex justify-center items-center flex-col">
-                                    <h2 className="text-xl font-semibold tracking-wide">{data.name}</h2>
+                                <div className="relative bg-white p-4 sm:px-4 sm:py-4 text-center flex justify-center items-center flex-col">
+                                    <h2 className="text-lg font-semibold tracking-wide">{data.name}</h2>
                                 </div>
                             </div>
                         ))}
@@ -92,4 +91,4 @@ const Industries = () => {
     )
 }
 
-export default Industries
+export default Industries;

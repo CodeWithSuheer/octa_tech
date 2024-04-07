@@ -75,7 +75,7 @@ const Footer = () => {
                                         <a href='https://www.linkedin.com/company/octa-tech-solutionn' target='_blank'>
                                             <FaLinkedin size={24} className='mr-5 cursor-pointer text-[#0073AF]' />
                                         </a>
-                                        <a href='#' target='_blank'>
+                                        <a href='https://www.instagram.com/octatechsolutions' target='_blank'>
                                             <BsInstagram size={24} className='mr-5 cursor-pointer text-[#E83274]' />
                                         </a>
                                         <a href='https://www.facebook.com/people/Octa-Tech-Solution/61557413701455/' target='_blank'>

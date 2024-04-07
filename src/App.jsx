@@ -27,7 +27,6 @@ import Vendor from "./pages/services/Vendor/Vendor";
 import ITConsulting from "./pages/services/ITConsulting/ITConsulting";
 import WebsiteDevelopment from "./pages/services/WebDevelopment/WebsiteDevelopment";
 import Loader from "./components/Loader";
-import TermAndCondition from "./components/TermAndCondition";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import CloudSolution from "./pages/services/cloudSolution/CloudSolution";
 import ITSM from "./pages/services/ITSM/ITSM";
@@ -83,7 +82,6 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/termandcondtion" element={<TermAndCondition />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
 

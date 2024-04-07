@@ -6,6 +6,7 @@ import product from './SliderData';
 import { TiMediaPlayReverse } from "react-icons/ti";
 import { TiMediaPlay } from "react-icons/ti";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const ITServicesSlider = () => {
@@ -59,7 +60,7 @@ const ITServicesSlider = () => {
 
     return (
         <>
-            <section className='py-10 px-4 xl:px-0'>
+            <section className='py-8 px-4 xl:px-0'>
                 <div className="max-w-5xl mx-auto">
 
                     <div className="flex justify-between items-center px-1 sm:px-8 flex-col sm:flex-row gap-7 sm:gap-5">
@@ -85,16 +86,19 @@ const ITServicesSlider = () => {
                         <Slider ref={sliderRef} {...settings}>
                             {product.map((data, index) => (
                                 <div key={index} className="box">
-                                    <div className="box_shadow text-start cursor-pointer my-5 mx-2 sm:mx-auto px-5 py-7 max-w-full sm:max-w-[18.8rem] text-gray-900 overflow-hidden rounded-lg transition focus:outline-none">
+                                    <div className="box_shadow h-full text-start cursor-pointer my-5 mx-2 sm:mx-auto px-5 py-7 max-w-full sm:max-w-[18.8rem] text-gray-900 overflow-hidden rounded-lg transition focus:outline-none">
 
                                         <div className="img_sec relative mb-5">
                                             <img src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Vector_1.png?v=1711052670" alt="helo" />
+                                            <div className="absolute top-9 left-10">
+                                                {data.icon}
+                                            </div>
                                         </div>
                                         <h2 className="baloo text-2xl">{data.service}</h2>
                                         <p>{data.desc}</p>
-                                        <button className="mt-3 flex justify-start items-center text-md font-semibold">
+                                        <Link to='/services' onClick={() => window.scroll(0, 0)} className="mt-3 flex justify-start items-center text-md font-semibold">
                                             Read More  <MdOutlineKeyboardArrowRight size={22} className='mt-1.5' />
-                                        </button>
+                                        </Link>
                                     </div>
                                 </div>
                             ))}

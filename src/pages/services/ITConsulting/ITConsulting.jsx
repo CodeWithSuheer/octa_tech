@@ -42,7 +42,7 @@ const ITConsulting = () => {
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">IT Consulting</h2>
                                 <h2 className="mt-4 text-md font-normal text-black md:w-[80%] lg:w-[96%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
+                                    Don't let IT woes disrupt your workflow. Our friendly and knowledgeable help desk team provides prompt support, getting you back on track quickly and efficiently.
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
@@ -68,9 +68,9 @@ const ITConsulting = () => {
             {/* ----------- DETAILS -----------  */}
             <section className='my-16'>
                 <div className="px-5 sm:px-10 lg:px-0">
-                    <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-center'>The branches of IT strategy and consulting include</h2>
+                    <h2 className='baloo mb-3 text-black font-semibold w-full sm:max-w-5xl mx-auto text-4xl sm:text-4xl xl:text-4xl text-center'>Charting Your Course - Branches of IT Strategy & Consulting</h2>
                     <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-center'>
-                        By leveraging these branches of IT strategy and consulting, organizations can optimize their IT investments, drive innovation, enhance operational efficiency, and align technology initiatives with business objectives to achieve sustainable growth and competitive advantage in the digital landscape.
+                        Optimizing your IT infrastructure for success requires a strategic roadmap. Let Octa Tech be your trusted partner in navigating the ever-evolving digital landscape. Here, we offer a comprehensive approach to IT strategy and consulting, encompassing these crucial branches:
                     </p>
 
 

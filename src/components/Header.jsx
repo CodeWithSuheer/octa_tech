@@ -43,8 +43,8 @@ const Header = () => {
                     <div className="lg:flex lg:items-center lg:justify-between">
                         <div className="flex items-center justify-between">
                             {/* -------------- BRAND LOGO -------------- */}
-                            <Link onClick={handleLinkClick} to="/" className='flex items-center gap-2'>
-                                <img className="w-auto h-6 sm:h-10" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-01_at_10.11.53_PM.jpg?v=1712006235" alt="" />
+                            <Link onClick={handleLinkClick} to="/" className='flex items-center gap-1'>
+                                <img className="w-auto h-6 sm:h-10" src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712517217/latestImages/OctaTechLogo_gawo7a.png" alt="" />
                                 <h2 className='text-2xl font-semibold tracking-wide'>Octa Tech</h2>
                             </Link>
 
@@ -66,7 +66,7 @@ const Header = () => {
                             <Link to="/services" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Services</Link>
                             <Link to="/industries" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Industries</Link>
                             <Link to="/blog" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Blog</Link>
-                            <Link to="/about" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link>
+                            {/* <Link to="/about" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link> */}
                             <Link to="/contact" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Contact Us</Link>
                             <a href="tel:+1-281-607-5120" className="poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md flex items-center gap-2 font-medium text-gray-700 cursor-pointer">
                                 <FaPhoneAlt className="text-blue-600" /> <span>+1 (281) 607-5120</span>
@@ -80,7 +80,7 @@ const Header = () => {
                             <Link to="/services" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Services</Link>
                             <Link to="/industries" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Industries</Link>
                             <Link to="/blog" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Blog</Link>
-                            <Link to="/about" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link>
+                            {/* <Link to="/about" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link> */}
                             <Link to="/contact" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">Contact Us</Link>
                             <a href="tel:+1-281-607-5120" className="poppin px-0 py-3 mx-4 xl:mx-6 text-md flex items-center gap-2 font-medium text-gray-700 cursor-pointer">
                                 <FaPhoneAlt className="text-blue-600" /> <span>+1 (281) 607-5120</span>
