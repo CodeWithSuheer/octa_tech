@@ -19,13 +19,15 @@ const WhyChooseUs = () => {
                     <div className="lg:flex-grow md:w-1/2 lg:pl-10 md:pl-3 flex flex-col md:items-start md:text-left">
                         <div className="lg:max-w-xl pt-10">
                             <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">Why Choose Us</h3>
-                            <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-3xl  xl:text-4xl">More Than 24+ Years Experience We Provide IT Services</h2>
-                            <h2 className="text-sm font-normal text-black">It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point. It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point.</h2>
+                            <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-3xl  xl:text-4xl">Why Octa Tech Seems A Perfect Match?</h2>
+                            <h2 className="text-sm font-normal text-black">
+                                Tech shouldn't be a headache. We believe in making technology simple, reliable, and empowering. Here's why Octa Tech is your perfect partner:
+                            </h2>
 
 
-                            <div className="mission_bar grid grid-cols-1 gap-6 lg:grid-cols-1 xl:grid-cols-2 lg:gap-5 my-7 lg:my-5">
+                            <div className="mission_bar grid grid-cols-1 gap-6 lg:grid-cols-1 xl:grid-cols-2 lg:gap-2 my-7 lg:my-5">
 
-                                <div className="sec_1 flex items-center gap-4">
+                                <div className="sec_1 flex items-center gap-2">
                                     <div className="icon p-4 rounded-full">
                                         <img className='h-full w-[11rem]' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2211.png?v=1711136644" alt="" />
                                     </div>
@@ -35,7 +37,7 @@ const WhyChooseUs = () => {
                                     </div>
                                 </div>
 
-                                <div className="sec_1 flex items-center gap-4">
+                                <div className="sec_1 flex items-center gap-2">
                                     <div className="icon p-4 rounded-full">
                                         <img className='h-full w-[11rem]' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2211_1.png?v=17111366441" alt="" />
                                     </div>

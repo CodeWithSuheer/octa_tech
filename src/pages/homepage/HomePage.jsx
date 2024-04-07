@@ -20,8 +20,10 @@ const HomePage = () => {
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
                                 <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">We are leading technology solutions providing</h3>
-                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Octa Tech: Elevating Your Digital Presence</h2>
-                                <h2 className="mt-1.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[100%]">Are tech problems slowing you down? We're your one-stop shop for expert technical support, available 24/7. Get access to a wide range of services to keep your devices, software, and systems running smoothly so you can focus on what matters most.</h2>
+                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Octa Tech - 24/7 Support for a Seamless Digital World.</h2>
+                                <h2 className="mt-1.5 text-md sm:text-md font-normal text-black md:w-[80%] lg:w-[90%]">
+                                    Are tech problems slowing you down? We're your one-stop shop for expert technical support, available 24/7.
+                                </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-10">
 
@@ -46,7 +48,7 @@ const HomePage = () => {
 
             {/* ----------- ABOUT SECTION -----------  */}
             <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex px-4 sm:px-6 py-10 lg:py-24 md:flex-row flex-col">
+                <div className="max-w-7xl mx-auto flex px-4 sm:px-6 py-10 lg:py-24 md:flex-row flex-col">
 
                     <div className="flex justify-center lg:justify-end items-center px-0 sm:px-6 lg:px-10 xl:px-0 lg:max-w-lg lg:w-full md:w-1/2 w-full mb-6 md:mb-0">
                         <img
@@ -60,28 +62,28 @@ const HomePage = () => {
                         <div className="lg:max-w-xl pt-10">
                             <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">About Us</h3>
                             <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-4xl">Get To Know Octa Tech</h2>
-                            <h2 className="text-sm font-normal text-black">Octa Tech is a leading provider of comprehensive technical support services. We're passionate about empowering individuals and businesses with the tools and knowledge they need to thrive in today's digital landscape. Our team of highly skilled technicians is dedicated to delivering exceptional customer service, ensuring your questions are answered promptly and your problems are resolved efficiently. We believe in building long-term relationships with our clients, and becoming a trusted partner in your technological journey.</h2>
+                            <h2 className="text-sm font-normal text-black">Octa Tech is a leading provider of comprehensive technical support services. We're passionate about empowering individuals and businesses with the tools and knowledge they need to thrive in today's digital landscape.</h2>
 
 
                             <div className="mission_bar grid grid-cols-1 gap-6 lg:grid-cols-1 xl:grid-cols-2 lg:gap-8 my-7 lg:my-5">
 
                                 <div className="sec_1 flex items-center gap-4">
-                                    <div className="icon bg-blue-600 p-4 rounded-full">
-                                        <img src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/icon-park-solid_circular-connection.png?v=1711047761" alt="" />
+                                    <div className="icon bg-blue-600 p-2 rounded-full">
+                                        <img className='w-20' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/icon-park-solid_circular-connection.png?v=1711047761" alt="" />
                                     </div>
                                     <div className="data">
-                                        <h3 className='baloo text-xl text-black font-semibold'>Problem Solving</h3>
-                                        <h3 className='text-sm'>It is a long establish fact that a reader will be lorem ipsum</h3>
+                                        <h3 className='baloo text-xl text-black font-semibold'>Skilled Team</h3>
+                                        <h3 className='text-sm'>Our team of highly skilled technicians is dedicated to delivering exceptional customer service.</h3>
                                     </div>
                                 </div>
 
                                 <div className="sec_1 flex items-center gap-4">
-                                    <div className="icon bg-blue-600 p-4 rounded-full">
-                                        <img className='h-full w-full' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/octicon_goal-16.png?v=1711047761" alt="" />
+                                    <div className="icon bg-blue-600 p-2 rounded-full">
+                                        <img className='w-20' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/octicon_goal-16.png?v=1711047761" alt="" />
                                     </div>
                                     <div className="data">
-                                        <h3 className='baloo text-xl text-black font-semibold'>Mission & Vision</h3>
-                                        <h3 className='text-sm'>It is a long establish fact that a reader will be lorem ipsum</h3>
+                                        <h3 className='baloo text-xl text-black font-semibold'>Transparency</h3>
+                                        <h3 className='text-sm'>We believe in building long-term relationships with our clients and becoming a trusted partner in your technological journey.</h3>
                                     </div>
                                 </div>
                             </div>

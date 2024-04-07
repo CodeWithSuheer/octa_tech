@@ -85,7 +85,7 @@ const ITServicesSlider = () => {
                         <Slider ref={sliderRef} {...settings}>
                             {product.map((data, index) => (
                                 <div key={index} className="box">
-                                    <div className="box_shadow text-start cursor-pointer h-[19rem] my-5 mx-2 sm:mx-auto  px-5 py-7 max-w-full sm:max-w-[18.8rem] text-gray-900 overflow-hidden rounded-lg transition focus:outline-none">
+                                    <div className="box_shadow text-start cursor-pointer my-5 mx-2 sm:mx-auto px-5 py-7 max-w-full sm:max-w-[18.8rem] text-gray-900 overflow-hidden rounded-lg transition focus:outline-none">
 
                                         <div className="img_sec relative mb-5">
                                             <img src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Vector_1.png?v=1711052670" alt="helo" />

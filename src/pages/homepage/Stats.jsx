@@ -47,21 +47,21 @@ const Stats = () => {
 
                         <div className="h-32 pl-3 pr-2.5 rounded-lg bg-blue-600 text-white flex justify-center items-center gap-3">
                             <div className="number">
-                                <h2 className='baloo text-4xl font-semibold tracking-wider'>12K</h2>
+                                <h2 className='baloo text-4xl font-semibold tracking-wider'>24/7</h2>
                             </div>
                             <div className="data">
-                                <h3 className='text-md font-semibold tracking-wider'>Happy Clients</h3>
-                                <p className='text-xs mt-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dicta.</p>
+                                <h3 className='text-md font-semibold tracking-wider'>Peace of Mind</h3>
+                                <p className='text-xs mt-1'>We're available around the clock to tackle your tech issues so you don't have to wait</p>
                             </div>
                         </div>
 
                         <div className="h-32 pl-3 pr-2.5 rounded-lg bg-white text-black border-blue-500 border-2 flex justify-center items-center gap-3">
                             <div className="number">
-                                <h2 className='baloo text-4xl font-semibold tracking-wider'>60+</h2>
+                                <h2 className='baloo text-4xl font-semibold tracking-wider'>20+</h2>
                             </div>
                             <div className="data">
-                                <h3 className='text-md font-semibold tracking-wider'>Finished Project</h3>
-                                <p className='text-xs mt-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dicta.</p>
+                                <h3 className='text-md font-semibold tracking-wider'>Expert Solutions</h3>
+                                <p className='text-xs mt-1'>We prioritize your needs and provide personalized support and clear communication.</p>
                             </div>
                         </div>
 
@@ -76,21 +76,21 @@ const Stats = () => {
 
                         <div className="h-32 pl-3 pr-2.5 rounded-lg bg-white text-black border-blue-500 border-2 flex justify-center items-center gap-3">
                             <div className="number">
-                                <h2 className='baloo text-4xl font-semibold tracking-wider'>28+</h2>
+                                <h2 className='baloo text-4xl font-semibold tracking-wider'>100%</h2>
                             </div>
                             <div className="data">
-                                <h3 className='text-md font-semibold tracking-wider'>Skilled Experts</h3>
-                                <p className='text-xs mt-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dicta.</p>
+                                <h3 className='text-md font-semibold tracking-wider'>Focus on You</h3>
+                                <p className='text-xs mt-1'>We prioritize your needs and provide personalized support and clear communication.</p>
                             </div>
                         </div>
 
                         <div className="h-32 pl-3 pr-2.5 rounded-lg bg-white text-black border-blue-500 border-2 flex justify-center items-center gap-3">
                             <div className="number">
-                                <h2 className='baloo text-4xl font-semibold tracking-wider'>100%</h2>
+                                <h2 className='baloo text-4xl font-semibold tracking-wider'>20+</h2>
                             </div>
                             <div className="data">
-                                <h3 className='text-md font-semibold tracking-wider'>Satisfaction</h3>
-                                <p className='text-xs mt-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dicta.</p>
+                                <h3 className='text-md font-semibold tracking-wider'>Empowering Success</h3>
+                                <p className='text-xs mt-1'>We go beyond fixing problems. We help you leverage technology for maximum impact.</p>
                             </div>
                         </div>
                     </div>

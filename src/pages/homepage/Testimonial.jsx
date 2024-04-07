@@ -1,24 +1,25 @@
 import React from 'react';
+import { FaUserAlt } from "react-icons/fa";
 import Marquee from 'react-fast-marquee';
 
 const data = [
     {
         review:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus, quisquam, quae, quod, quis, quibusdam, quia, quisquam, quisquam, quisquam',
-        name: 'Recusandae',
-        role: 'Dev Team',
+            "I was drowning in database issues, but Octa Tech's consultants were lifesavers! They not only optimized my system but also showed me how to extract valuable insights. Now my data is working for me.",
+        name: 'Sarah M',
+        role: 'Business Owner',
     },
     {
         review:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus, quisquam, quae, quod, quis, quibusdam, quia, quisquam, quisquam, quisquam',
-        name: 'Recusandae',
-        role: 'Dev Team',
+            "My dream app became a reality thanks to Octa Tech's developers. They listened to my vision and built a user-friendly app that's exceeding expectations. Highly recommend!",
+        name: 'David L.',
+        role: 'Entrepreneur',
     },
     {
         review:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus, quisquam, quae, quod, quis, quibusdam, quia, quisquam, quisquam, quisquam',
-        name: 'Recusandae',
-        role: 'Dev Team',
+            "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
+        name: 'Lisa K.',
+        role: 'Marketing Director',
     },
 ];
 
@@ -51,17 +52,14 @@ const Testimonial = () => {
                     className='testimonial_marquee mt-14'>
                     {data.map((data, i) => (
                         <article className='group mx-10' key={i}>
-                            <div className='box bg-white shadow-2xl max-w-[23rem] p-6 text-gray-700 rounded-xl'>
+                            <div className='box bg-white text-sm shadow-2xl max-w-[23rem] p-6 text-gray-700 rounded-xl'>
                                 {data.review}
                             </div>
 
                             <div className='p-4 flex justify-start items-center gap-3'>
-                                <img
-                                    className='object-cover w-10 h-10 rounded-full'
-                                    src='https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100'
-                                    alt=''
-                                />
-
+                                <div className="img p-3 rounded-full bg-blue-200">
+                                    <FaUserAlt size={20} />
+                                </div>
                                 <div className='profile'>
                                     <h3 className='text-lg font-medium text-gray-900'>{data.name}</h3>
                                     <p className='mt-0 line-clamp-3 text-sm/relaxed text-gray-500'>

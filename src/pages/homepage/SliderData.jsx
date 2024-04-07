@@ -1,30 +1,19 @@
 const data = [
     {
         id: 1,
-        service: 'Database Security',
-        desc: 'It is a long establish fact that a reader will be lorem ipsum',
+        service: 'Database Consultancy',
+        desc: 'Unlock hidden value from your data with our expert database optimization.',
     },
     {
         id: 2,
-        service: 'IT Consultancy',
-        desc: 'It is a long establish fact that a reader will be lorem ipsum',
+        service: 'App Development',
+        desc: 'Got an app idea? Let us turn it into reality with our custom app solutions',
     },
     {
         id: 3,
-        service: 'App Development',
-        desc: 'It is a long establish fact that a reader will be lorem ipsum',
+        service: 'IT Consultancy',
+        desc: 'We simplify IT so you can focus on what matters most. Say goodbye to tech ',
     },
-    {
-        id: 4,
-        service: 'Database Security',
-        desc: 'It is a long establish fact that a reader will be lorem ipsum',
-    },
-    {
-        id: 5,
-        service: 'App Development',
-        desc: 'It is a long establish fact that a reader will be lorem ipsum',
-    },
-
 ]
 
 export default data;
