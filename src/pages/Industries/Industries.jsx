@@ -44,7 +44,7 @@ const Industries = () => {
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%] xl:w-[90%] text-4xl leading-5 font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Industries</h2>
                                 <h2 className="mt-4 pt-2 text-sm sm:text-[1.08rem] font-normal leading-6 text-black md:w-[80%] lg:w-[90%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
+                                    With a focus on industries like healthcare and finance, our solutions are industry-specific.
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
@@ -53,7 +53,7 @@ const Industries = () => {
                             </div>
                         </div>
 
-                        <div className="user_select flex items-center justify-center w-full mt-14 lg:mt-10 lg:w-1/2">
+                        <div className="user_select flex items-center justify-center px-0 sm:px-10 lg:px-0 w-full mt-14 lg:mt-10 lg:w-1/2">
                             <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1144_3.png?v=1711998172" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
@@ -62,7 +62,9 @@ const Industries = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 relative flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                    We serve a wide range of industries, including healthcare, finance, and more
+                </h2>
             </section>
 
 

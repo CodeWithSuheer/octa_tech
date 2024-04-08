@@ -53,9 +53,9 @@ const Services = () => {
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%] xl:w-[90%] text-4xl leading-5 font-semibold capitalize text-black lg:text-5xl xl:text-5xl">All Services</h2>
-                                <h2 className="mt-4 pt-2 text-sm sm:text-[1.08rem] font-normal leading-6 text-black md:w-[80%] lg:w-[90%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
-                                </h2>
+                                <p className="mt-4 pt-2 text-sm sm:text-[1.08rem] font-normal leading-6 text-black md:w-[80%] lg:w-[90%]">
+                                    Explore our diverse services designed to simplify your tech experience. From software solutions to IT support, we're here for you.
+                                </p>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
                                     <Button text=" Let's Talk" />
@@ -73,7 +73,9 @@ const Services = () => {
 
             {/* ----------- HERO SECTION -----------  */}
             <section className='bg-blue-700 relative flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                    Optimize your tech journey with us. Software, support, and more.
+                </h2>
             </section>
 
             {/* ----------- ALL SERVICES -----------  */}

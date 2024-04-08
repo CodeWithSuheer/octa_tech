@@ -2,6 +2,8 @@ import React from 'react'
 import Stats from '../../homepage/Stats';
 import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
+import Button from "../../../components/Button";
+
 
 const ITSM = () => {
 
@@ -42,19 +44,17 @@ const ITSM = () => {
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%]  xl:w-[100%] text-4xl font-semibold capitalize lg:text-4xl xl:text-4xl">Best IT service management (ITSM) software and tools in 2024</h2>
                                 <h2 className="mt-4 text-md font-normal text-black md:w-[80%] lg:w-[96%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
+                                    Streamline your IT infrastructure for seamless operations.
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                                        Let's Talk <FaLocationArrow />
-                                    </button>
+                                    <Button text="Let's Talk" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="user_select flex items-center justify-center px-0 sm:px-10 xl:px-0 w-full mt-16 lg:mt-10 lg:w-1/2">
-                            <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1037_9.png?v=1711653491" alt="Catalogue-pana.svg" />
+                            <img className="w-full h-full rounded-xl object-contain" src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712529026/Rectangle_1037y_oxch8m.png" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,9 @@ const ITSM = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                    Innovative IT solutions for a dynamic world - Octa Tech leads the way
+                </h2>
             </section>
 
             {/* ----------- DETAILS -----------  */}

@@ -1,7 +1,8 @@
 import React from 'react'
 import Stats from '../../homepage/Stats';
-import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
+import Button from "../../../components/Button";
+
 
 const Infrastructure = () => {
 
@@ -42,19 +43,17 @@ const Infrastructure = () => {
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">Infrastructure</h2>
                                 <h2 className="mt-4 text-md font-normal text-black md:w-[80%] lg:w-[96%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
+                                    A strong IT infrastructure is crucial for success. Octa Tech manages your infrastructure proactively, ensuring optimal performance and scalability. At Octa Tech, we take a proactive approach to managing your infrastructure.
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                                        Let's Talk <FaLocationArrow />
-                                    </button>
+                                    <Button text="Let's Talk" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="user_select flex items-center justify-center px-0 sm:px-10 xl:px-0 w-full mt-16 lg:mt-10 lg:w-1/2">
-                            <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1037_9.png?v=1711653491" alt="Catalogue-pana.svg" />
+                            <img className="w-full h-full rounded-xl object-contain" src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712528710/Rectangle_1037gg_w0qlpg.png" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +61,9 @@ const Infrastructure = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                    Innovative IT solutions for a dynamic world - Octa Tech leads the way
+                </h2>
             </section>
 
             {/* ----------- DETAILS -----------  */}
@@ -80,7 +81,8 @@ const Infrastructure = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Network Infrastructure Management</h2>
-                            <p className='mt-2 text-sm sm:text-md'>This branch focuses on overseeing and maintaining an organization's network infrastructure, including routers, switches, firewalls, and network connections. It involves monitoring network performance, security, and scalability.</p>
+                            <p className='mt-2 text-sm sm:text-md'>Our network infrastructure management services provide constant oversight and maintenance of your network's core components, including routers, switches, firewalls, and connections. We meticulously monitor network performance, security posture, and scalability, guaranteeing a reliable and efficient foundation for your IT ecosystem.
+                            </p>
                         </div>
 
                         {/* CARD 2 */}
@@ -89,7 +91,7 @@ const Infrastructure = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Server Infrastructure Management</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Server infrastructure management involves managing physical and virtual servers within an organization. It includes tasks such as server provisioning, configuration, monitoring, maintenance, and ensuring high availability and reliability.
+                            <p className='mt-2 text-sm sm:text-md'>Our server infrastructure management ensures the smooth operation of both physical and virtual servers within your organization. From provisioning and configuration to ongoing monitoring and maintenance, we optimize your server environment for peak performance and seamless user experience.
                             </p>
                         </div>
 
@@ -99,8 +101,7 @@ const Infrastructure = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Storage Infrastructure Management</h2>
-                            <p className='mt-2 text-sm sm:text-md'>This branch deals with managing storage systems and devices to ensure data availability, integrity, and security. It includes tasks like storage provisioning, data backup, disaster recovery planning, and performance optimization.
-
+                            <p className='mt-2 text-sm sm:text-md'>Protecting Your Critical Assets. The security and accessibility of your data are paramount. Our storage infrastructure management safeguards your data through efficient storage provisioning, robust data backup practices, and performance optimization strategies.
                             </p>
                         </div>
 
@@ -110,9 +111,7 @@ const Infrastructure = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Cloud Infrastructure Management</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Cloud infrastructure management involves managing cloud-based resources, services, and applications. It includes tasks such as cloud resource provisioning, monitoring, cost optimization, and ensuring compliance with cloud provider policies.
-
-
+                            <p className='mt-2 text-sm sm:text-md'>Leveraging the cloud? Our cloud infrastructure management services ensure efficient utilization of your cloud resources, services, and applications. We handle cloud resource provisioning, cost optimization strategies, and maintaining compliance with your cloud provider's policies for a seamless cloud experience.
                             </p>
                         </div>
 
@@ -122,7 +121,8 @@ const Infrastructure = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Security Infrastructure Management</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Security infrastructure management focuses on maintaining the security of an organization's IT infrastructure. It includes tasks like implementing security policies, monitoring for security threats, conducting security audits, and ensuring compliance with regulations.
+                            <p className='mt-2 text-sm sm:text-md'>Security is woven into the fabric of everything we do. Our security infrastructure management services focus on maintaining the integrity of your entire IT infrastructure. We ensure security with policies, monitoring, audits, and regulations for a protected IT environment.
+
                             </p>
                         </div>
 

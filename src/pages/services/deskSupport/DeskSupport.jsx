@@ -2,6 +2,8 @@ import React from 'react'
 import Stats from '../../homepage/Stats';
 import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
+import Button from "../../../components/Button";
+
 
 const DeskSupport = () => {
 
@@ -42,19 +44,17 @@ const DeskSupport = () => {
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">Desk Support</h2>
                                 <h2 className="mt-4 text-md font-normal text-black md:w-[80%] lg:w-[96%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
+                                    Don't let IT woes disrupt your workflow. Our friendly and knowledgeable help desk team provides prompt support, getting you back on track quickly and efficiently.
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                                        Let's Talk <FaLocationArrow />
-                                    </button>
+                                    <Button text="Let's Talk" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="user_select flex items-center justify-center px-0 sm:px-10 xl:px-0 w-full mt-16 lg:mt-10 lg:w-1/2">
-                            <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1037_9.png?v=1711653491" alt="Catalogue-pana.svg" />
+                            <img className="w-full h-full rounded-xl object-contain" src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712528678/Rectangle_1037-3_pqe0us.png" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,9 @@ const DeskSupport = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                    Innovative IT solutions for a dynamic world - Octa Tech leads the way
+                </h2>
             </section>
 
             {/* ----------- DETAILS -----------  */}
@@ -80,7 +82,8 @@ const DeskSupport = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Technical Support</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Technical support involves assisting users with technical issues related to hardware, software, or network problems. Help desk technicians troubleshoot and resolve technical issues to ensure smooth operation of IT systems.</p>
+                            <p className='mt-2 text-sm sm:text-md'>Technical support services involve supporting users with technical concerns related to hardware, software, or network difficulties. Our help desk technicians troubleshoot and resolve technical issues to ensure the efficient operation of IT systems.
+                            </p>
                         </div>
 
                         {/* CARD 2 */}
@@ -89,7 +92,7 @@ const DeskSupport = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Customer Support</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Customer support focuses on addressing customer inquiries, providing product information, handling complaints, and offering assistance with product usage. Help desk personnel in customer support aim to ensure customer satisfaction and retention.
+                            <p className='mt-2 text-sm sm:text-md'>Our customer support department places a strong emphasis on addressing customer inquiries in a timely manner, providing detailed product information, resolving complaints effectively, and offering guidance with product usage. We are dedicated to ensuring customer satisfaction.
                             </p>
                         </div>
 
@@ -99,7 +102,7 @@ const DeskSupport = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>IT Support</h2>
-                            <p className='mt-2 text-sm sm:text-md'>IT support involves providing assistance with IT-related tasks such as setting up new devices, troubleshooting software problems, configuring network settings, and resolving connectivity issues. Help desk technicians in IT support ensure that users can effectively utilize IT resources.
+                            <p className='mt-2 text-sm sm:text-md'>Imagine never having to sweat over IT hiccups again. At Octa Tech, our IT support team is your one-stop shop for all things tech-related. From setting up new devices to troubleshooting software woes, configuring networks, and resolving connectivity issues, we've got you covered.
                             </p>
                         </div>
 
@@ -109,7 +112,7 @@ const DeskSupport = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Remote Support</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Remote support allows help desk technicians to assist users remotely by accessing their devices over the internet. This branch enables quick problem resolution without the need for physical presence, enhancing efficiency and reducing downtime.
+                            <p className='mt-2 text-sm sm:text-md'>Forget the wait for an on-site technician! Octa Tech's remote support empowers our help desk heroes to assist you instantly. This innovative branch allows us to access your devices securely, and troubleshoot issues swiftly remotely. The result? Enhanced efficiency, minimized downtime, and a faster return to business.
                             </p>
                         </div>
 
@@ -119,7 +122,8 @@ const DeskSupport = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Training and Knowledge Base</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Help desk support also includes providing training to users on using IT systems effectively. Creating and maintaining a knowledge base with FAQs, troubleshooting guides, and self-help resources help users resolve common issues independently.
+                            <p className='mt-2 text-sm sm:text-md'>Octa Tech's help desk support goes beyond just resolving immediate issues. We offer a holistic approach designed to empower your users and optimize your IT environment. Octa Tech's help desk support goes beyond just resolving immediate issues. In short, we don't just fix problems; we prevent them!
+
                             </p>
                         </div>
 
@@ -133,8 +137,6 @@ const DeskSupport = () => {
 
             {/* ----------- CONTENT SECION -----------  */}
             <Testimonial />
-
-
         </>
     )
 }

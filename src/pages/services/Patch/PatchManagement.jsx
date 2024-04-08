@@ -2,6 +2,8 @@ import React from 'react'
 import Stats from '../../homepage/Stats';
 import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
+import Button from "../../../components/Button";
+
 
 const PatchManagement = () => {
 
@@ -42,19 +44,17 @@ const PatchManagement = () => {
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%]  xl:w-[100%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Patch Management</h2>
                                 <h2 className="mt-4 text-md font-normal text-black md:w-[80%] lg:w-[96%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
+                                    Looking for automated patch management? Stay ahead of security vulnerabilities with automated patch management. Octa Tech takes the burden off your shoulders, keeping your systems up-to-date and secure.
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                                        Let's Talk <FaLocationArrow />
-                                    </button>
+                                    <Button text="Let's Talk" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="user_select flex items-center justify-center px-0 sm:px-10 xl:px-0 w-full mt-16 lg:mt-10 lg:w-1/2">
-                            <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1037_9.png?v=1711653491" alt="Catalogue-pana.svg" />
+                            <img className="w-full h-full rounded-xl object-contain" src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712528688/Rectangle_1037-5_apokfo.png" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,9 @@ const PatchManagement = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                    Innovative IT solutions for a dynamic world - Octa Tech leads the way
+                </h2>
             </section>
 
             {/* ----------- DETAILS -----------  */}
@@ -70,7 +72,7 @@ const PatchManagement = () => {
                 <div className="px-5 sm:px-10 lg:px-0">
                     <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-center'>The branches of patch management include</h2>
                     <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-center'>
-                        By effectively managing these branches of patch management, organizations can enhance their cybersecurity posture, reduce the risk of security breaches, and maintain the integrity and availability of their IT systems and data.
+                        Partner with Octa Tech to fortify your defenses against cyber threats. Our patch management services ensure your systems remain up-to-date and secure, empowering you to focus on your core business objectives with peace of mind.
                     </p>
 
 
@@ -82,7 +84,7 @@ const PatchManagement = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Patch Identification</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Patch identification involves monitoring software vendors, security advisories, and patch repositories to identify vulnerabilities and available patches for operating systems, applications, and devices. This step is crucial in staying informed about potential security threats and necessary updates.
+                            <p className='mt-2 text-sm sm:text-md'>Our team meticulously monitors software vendors, security advisories, and patch repositories to pinpoint vulnerabilities and identify the corresponding patches. This proactive approach ensures you stay informed about potential threats and have the necessary updates readily available.
                             </p>
                         </div>
 
@@ -92,7 +94,8 @@ const PatchManagement = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Patch Testing</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Patch testing is the process of evaluating patches in a controlled environment to ensure they do not cause conflicts with existing software, applications, or systems. Testing patches helps prevent disruptions to operations and ensures that the patches are compatible with the organization's IT environment.
+                            <p className='mt-2 text-sm sm:text-md'>Not all patches are created equal. Our rigorous patch testing process evaluates patches within a controlled environment to guarantee they function seamlessly with your existing software, applications, & systems. It minimizes the risk of disruptions and ensures patch compatibility for optimal IT stability.
+
                             </p>
                         </div>
 
@@ -103,7 +106,7 @@ const PatchManagement = () => {
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Patch Deployment</h2>
                             <p className='mt-2 text-sm sm:text-md'>
-                                Patch deployment involves the systematic rollout of patches to endpoints, servers, and network devices within an organization. It includes scheduling patch installations, prioritizing critical patches based on severity levels, and automating patch deployment processes to streamline updates across the IT infrastructure.
+                                Efficient patch deployment is paramount. We employ systematic rollouts to deliver patches to endpoints, servers, and network devices across your organization. We prioritize critical patches based on severity levels and leverage automation to streamline updates for your entire IT infrastructure.
                             </p>
                         </div>
 
@@ -113,7 +116,7 @@ const PatchManagement = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Patch Compliance</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Patch compliance focuses on verifying that all systems and devices within the organization have received and applied the necessary patches in a timely manner. Monitoring patch compliance helps ensure that security vulnerabilities are addressed promptly and reduces the risk of exploitation by cyber threats.
+                            <p className='mt-2 text-sm sm:text-md'>Patch application is just one step. Our patch compliance measures verify that all systems and devices have received and implemented the necessary updates in a timely manner. This ongoing monitoring ensures your security vulnerabilities are addressed promptly, minimizing the window of exploitation for cyber threats.
                             </p>
                         </div>
 
@@ -123,8 +126,7 @@ const PatchManagement = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Patch Reporting and Monitoring</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Patch reporting and monitoring involve generating reports on patch status, compliance levels, and vulnerabilities across the IT environment. Continuous monitoring of patch management activities helps track progress, identify gaps in patch coverage, and facilitate decision-making for future patching strategies.
-
+                            <p className='mt-2 text-sm sm:text-md'>Transparency is key. We generate comprehensive reports detailing patch status, compliance levels, and any lingering vulnerabilities across your IT environment. This continuous monitoring provides valuable insights and helps us track progress and refine your patching strategy for maximum effectiveness.
                             </p>
                         </div>
 

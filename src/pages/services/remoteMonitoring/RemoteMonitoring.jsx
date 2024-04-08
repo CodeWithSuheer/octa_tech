@@ -1,7 +1,8 @@
 import React from 'react'
 import Stats from '../../homepage/Stats';
-import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
+import Button from "../../../components/Button";
+
 
 const RemoteMonitoring = () => {
 
@@ -42,19 +43,17 @@ const RemoteMonitoring = () => {
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%]  xl:w-[100%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Remote Monitoring</h2>
                                 <h2 className="mt-4 text-md font-normal text-black md:w-[80%] lg:w-[96%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
+                                    Enjoy peace of mind with our proactive remote monitoring services. We identify potential issues before they escalate, ensuring the smooth operation of your IT systems.
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                                        Let's Talk <FaLocationArrow />
-                                    </button>
+                                    <Button text="Let's Talk" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="user_select flex items-center justify-center px-0 sm:px-10 xl:px-0 w-full mt-16 lg:mt-10 lg:w-1/2">
-                            <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1037_9.png?v=1711653491" alt="Catalogue-pana.svg" />
+                            <img className="w-full h-full rounded-xl object-contain" src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712528670/Rectangle_1037-1_igttm2.png" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +61,9 @@ const RemoteMonitoring = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                    Innovative IT solutions for a dynamic world - Octa Tech leads the way
+                </h2>
             </section>
 
             {/* ----------- DETAILS -----------  */}
@@ -82,7 +83,7 @@ const RemoteMonitoring = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Network Monitoring</h2>
-                            <p className='mt-2 text-sm sm:text-md'>This branch involves monitoring the network infrastructure remotely. It includes tracking network performance, availability, and security, as well as identifying and resolving network issues.
+                            <p className='mt-2 text-sm sm:text-md'>Our network monitoring services keep a watchful eye on your infrastructure remotely. We track performance, availability, and security, proactively identifying and resolving issues before they disrupt your workflow.
                             </p>
                         </div>
 
@@ -92,7 +93,7 @@ const RemoteMonitoring = () => {
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Server Monitoring</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Server monitoring focuses on tracking the performance and health of servers remotely. It involves monitoring server resources such as CPU usage, memory, disk space, and services running on the server.
+                            <p className='mt-2 text-sm sm:text-md'>Never worry about server downtime again. Our server monitoring solution meticulously tracks crucial resources like CPU usage, memory, and disk space remotely, ensuring your servers operate at peak efficiency.
                             </p>
                         </div>
 
@@ -103,7 +104,7 @@ const RemoteMonitoring = () => {
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Security Monitoring</h2>
                             <p className='mt-2 text-sm sm:text-md'>
-                                Security monitoring involves remotely monitoring systems and networks for security threats, vulnerabilities, and unauthorized access attempts. It includes activities like intrusion detection, log monitoring, and security incident response.
+                                Monitoring our application diligently oversees application performance and availability remotely. Through the monitoring of response times, errors, and user interactions, we assure the smooth operation of your applications.
                             </p>
                         </div>
 
@@ -114,7 +115,7 @@ const RemoteMonitoring = () => {
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Application Monitoring</h2>
                             <p className='mt-2 text-sm sm:text-md'>
-                                This branch involves monitoring the performance and availability of applications remotely. It includes tracking application response times, errors, and user interactions to ensure optimal application performance.
+                                Looking for professional security monitoring services to protect your systems and networks from potential threats? Our team is here to help, using cutting-edge intrusion detection, log monitoring, and incident response protocols to safeguard your data around the clock.
                             </p>
                         </div>
 
@@ -125,7 +126,8 @@ const RemoteMonitoring = () => {
                             </div>
                             <h2 className='mt-3 text-2xl font-semibold'>Cloud Monitoring</h2>
                             <p className='mt-2 text-sm sm:text-md'>
-                                Cloud monitoring involves monitoring cloud-based services, applications, and infrastructure remotely. It includes tracking cloud resource utilization, performance, and costs to optimize cloud operations.
+                                Managing cloud resources remotely is effortless with our cloud monitoring solutions. We track cloud resource utilization, performance, and costs, ensuring you optimize your cloud environment and avoid unnecessary expenses.
+
                             </p>
                         </div>
 

@@ -2,6 +2,8 @@ import React from 'react'
 import Stats from '../../homepage/Stats';
 import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
+import Button from "../../../components/Button";
+
 
 const WebsiteDevelopment = () => {
 
@@ -42,19 +44,17 @@ const WebsiteDevelopment = () => {
                             <div className="lg:max-w-xl">
                                 <h2 className="mt-3 w-[100%]  xl:w-[100%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Website Development</h2>
                                 <h2 className="mt-4 text-md font-normal text-black md:w-[80%] lg:w-[96%]">
-                                    Whether customers connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX
+                                    Tap into the power of the web with our custom web development services. We specialize in crafting modern, scalable, and adaptable web applications that align seamlessly with your individual business requirements.
                                 </h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                                    <button className="max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                                        Let's Talk <FaLocationArrow />
-                                    </button>
+                                    <Button text="Let's Talk" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="user_select flex items-center justify-center px-0 sm:px-10 xl:px-0 w-full mt-16 lg:mt-10 lg:w-1/2">
-                            <img className="w-full h-full rounded-xl object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1037_9.png?v=1711653491" alt="Catalogue-pana.svg" />
+                            <img className="w-full h-full rounded-xl object-contain" src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712528674/Rectangle_1037-2_ncxrzx.png" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,9 @@ const WebsiteDevelopment = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                    Innovative IT solutions for a dynamic world - Octa Tech leads the way
+                </h2>
             </section>
 
             {/* ----------- DETAILS -----------  */}
@@ -70,7 +72,7 @@ const WebsiteDevelopment = () => {
                 <div className="px-5 sm:px-10 lg:px-0">
                     <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-start sm:text-center'>Our Website Developers Expertise</h2>
                     <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-start sm:text-center'>
-                        Our full-fledged MERN Stack developers offer business-driven IT solutions to accelerate your business growth and gains. Utilizing top trends (MongoDB,‌ ‌Express.js,‌ ‌React,‌ ‌and‌ ‌Node.js‌) of MERN Stack development, our programmers develop a versatile, safe, performance-oriented interactive web solutions, whether‌ ‌you‌ are looking for some ‌ERP,‌ ‌CMS‌ ‌development‌ ‌or‌ ‌want‌ ‌a‌ ‌custom‌ ‌web‌ ‌app‌ developed ‌using‌ ‌MERN‌ ‌Stack,‌ ‌our‌ engineers ‌can‌ ‌do‌ it ‌for‌ ‌you as per your business needs and requirements.
+                        Tap into the power of the web with our custom web development services. We specialize in crafting modern, scalable, and adaptable web applications that align seamlessly with your individual business requirements. At Octa Tech, we deliver a comprehensive suite of web development services designed to empower your business and captivate your audience. We leverage a wide range of technologies and frameworks to craft the perfect solution for you, ensuring:
                     </p>
 
 
@@ -81,8 +83,9 @@ const WebsiteDevelopment = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Dedicated Team</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Hire devoted MERN Stack developers who master in building versatile and interactive web applications by leveraging the power of MERN Stack.
+                            <h2 className='mt-3 text-2xl font-semibold'>Enterprise Solutions</h2>
+                            <p className='mt-2 text-sm sm:text-md'>
+                                Octa Tech tackles complex challenges with innovative enterprise-grade solutions. Our team crafts robust and feature-rich applications tailored to your specific needs and organization scalability. We leverage cutting-edge technologies and a team of passionate experts to deliver exceptional results.
                             </p>
                         </div>
 
@@ -91,8 +94,9 @@ const WebsiteDevelopment = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>CMS Development</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Our top-notch developers build interactive, user-friendly, accessible and interesting CMS for all sorts of businesses such as micro or macro enterprises.
+                            <h2 className='mt-3 text-2xl font-semibold'>E-Commerce Development</h2>
+                            <p className='mt-2 text-sm sm:text-md'>Turn your e-commerce vision into a thriving online store. We create user-friendly and high-performing e-commerce applications with features that streamline the shopping experience, maximize sales, and seamlessly integrate with your existing systems. Get the best ecommerce web development services now.
+
                             </p>
                         </div>
 
@@ -101,9 +105,9 @@ const WebsiteDevelopment = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Enterprise Solutions</h2>
+                            <h2 className='mt-3 text-2xl font-semibold'>Seamless Integration & Migration</h2>
                             <p className='mt-2 text-sm sm:text-md'>
-                                Our Mern Stack experts bring the best enterprise solutions depending upon your business needs. Cost-effective, adaptable, upward compatible and time effective MERN solutions.
+                                If you have existing business systems in place, we can integrate your e-commerce application to ensure smooth data flow and operational efficiency. Modernize your existing systems with our effortless integration and migration services. Book your trusted web design and development services today.
                             </p>
                         </div>
 
@@ -112,8 +116,9 @@ const WebsiteDevelopment = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Integration</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Migration and integration made easy, our experienced MERN stack developers have years of experience and insight on MERN stack based platforms.
+                            <h2 className='mt-3 text-2xl font-semibold'>Mobile Backend & APIs</h2>
+                            <p className='mt-2 text-sm sm:text-md'>
+                                Build a robust foundation for your mobile apps. Our skilled developers craft powerful backend solutions and APIs that ensure efficient data management, seamless communication, and a smooth user experience across all platforms.
                             </p>
                         </div>
 
@@ -122,9 +127,8 @@ const WebsiteDevelopment = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>eCommerce Development</h2>
-                            <p className='mt-2 text-sm sm:text-md'>Our developers can make your ideas become reality. With current trends of MERN eCommerce technologies, we build apps according to your business necessities.
-
+                            <h2 className='mt-3 text-2xl font-semibold'>Content Management System (CMS)</h2>
+                            <p className='mt-2 text-sm sm:text-md'>Empower your team to manage your web content effortlessly. Octa Tech implements user-friendly CMS solutions tailored to your specific needs, giving you complete control over your website's content and ensuring a fresh and engaging online presence.
                             </p>
                         </div>
 
@@ -133,8 +137,9 @@ const WebsiteDevelopment = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Migration</h2>
-                            <p className='mt-2 text-sm sm:text-md'>MERN is an adaptable and feasible option for all your business needs, our experts master in incorporating and migrating successfully.
+                            <h2 className='mt-3 text-2xl font-semibold'>Custom Web Development</h2>
+                            <p className='mt-2 text-sm sm:text-md'>
+                                Don't settle for a cookie-cutter website. We design and develop custom websites & applications. Our custom web development services perfectly align with your unique vision and business objectives. Our focus is on modern design, seamless user experience, and solutions that scale with your growth.
                             </p>
                         </div>
 
@@ -146,24 +151,24 @@ const WebsiteDevelopment = () => {
             {/* ----------- WHY CHOOSE US -----------  */}
             <section className='my-10 sm:my-16'>
                 <div className="px-5 sm:px-10 lg:px-0">
-                    <h2 className='baloo mb-3 text-black font-semibold text-3xl sm:text-4xl xl:text-5xl text-start sm:text-center'>Why Choose MERN Stack For Building Web Apps?</h2>
+                    <h2 className='baloo mb-3 text-black font-semibold mx-auto w-[70%] text-3xl sm:text-4xl xl:text-4xl text-start sm:text-center'>
+                        Why Choose Us As Your Trusted Partner for Web Design & Development Services
+                    </h2>
                     <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-start sm:text-center'>
-                        MERN is a blend of top programming languages named MongoDB, Express, React and Node that are utilized to foster premium web applications. It is an incredible innovation Stack to work with and furnish organizations with various advantages. Following are some MERN stack advantages
+                        Having a strong online presence is no longer optional. It's the cornerstone of effective marketing, customer engagement, and business growth. But with so many web development firms out there, how do you choose the right one? Here's why Octa Tech stands out as your ideal partner:
+
                     </p>
 
                     <div className="max-w-4xl mx-auto mt-14 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
                         {/* CONTENT */}
                         <div className="px-4 xl:px-10">
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> More Adaptable</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Exceptionally Versatile</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Smooth Work Process</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Competent</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Broad set-up of tools</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Open Source</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Great Community</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Intuituve Web Application</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Solid Execution</p>
-                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Self-sufficient</p>
+                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Seasoned web developers</p>
+                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Exceptional Creativity</p>
+                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Secure web solutions</p>
+                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Commitment</p>
+                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Data drive strategic approach</p>
+                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Feature-rich web applications</p>
+                            <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Long-Term Partnership</p>
                         </div>
 
                         {/* IMAGE  */}
