@@ -8,9 +8,9 @@ const Stats = () => {
         <>
             <section className='py-8 px-3 sm:px-10 lg:px-14 xl:px-0 lg:min-h-[80vh] lg:pb-32'>
 
-                <span className="relative flex justify-center mx-20">
+                {/* <span className="relative flex justify-center mx-20">
                     <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"></div>
-                </span>
+                </span> */}
 
                 {/* GRADIENT EFFECT */}
                 <div className="relative mx-auto max-w-2xl py-3 sm:py-20 lg:py-16">

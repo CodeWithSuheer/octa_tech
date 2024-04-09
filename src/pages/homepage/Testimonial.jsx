@@ -4,25 +4,40 @@ import Marquee from 'react-fast-marquee';
 
 const data = [
     {
-        review:
-            "I was drowning in database issues, but Octa Tech's consultants were lifesavers! They not only optimized my system but also showed me how to extract valuable insights. Now my data is working for me.",
-        name: 'Sarah M',
+        review: "I was drowning in database issues, but Octa Tech's consultants were lifesavers! They not only optimized my system but also showed me how to extract valuable insights. Now my data is working for me.",
+        name: 'A & Z Homes LLC',
         role: 'Business Owner',
-        url: 'https://res.cloudinary.com/dezi0bct4/image/upload/v1712524309/FinalImages/Ellipse_11-3_tswnjc.png'
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.53.45_PM.jpg?v=1712657821'
     },
     {
-        review:
-            "My dream app became a reality thanks to Octa Tech's developers. They listened to my vision and built a user-friendly app that's exceeding expectations. Highly recommend!",
-        name: 'David L.',
-        role: 'Entrepreneur',
-        url: 'https://res.cloudinary.com/dezi0bct4/image/upload/v1712524300/FinalImages/Ellipse_11-1_lqcqc5.png'
+        review: "My dream app became a reality thanks to Octa Tech's developers. They listened to my vision and built a user-friendly app that's exceeding expectations. Highly recommend!",
+        name: 'Comso lab',
+        role: 'Business Owner',
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_3.00.12_PM.jpg?v=1712657822'
     },
     {
-        review:
-            "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
-        name: 'Lisa K.',
+        review: "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
+        name: 'SRT',
         role: 'Marketing Director',
-        url: 'https://res.cloudinary.com/dezi0bct4/image/upload/v1712524307/FinalImages/Ellipse_11-2_mxf7l0.png'
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.55.12_PM.jpg?v=1712657822'
+    },
+    {
+        review: "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
+        name: 'Ammedia',
+        role: 'Marketing Director',
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.59.19_PM.jpg?v=1712657823'
+    },
+    {
+        review: "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
+        name: 'Emran Akthar',
+        role: 'Ceo Ammar Forte',
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_3.00.20_PM.jpg?v=1712657823'
+    },
+    {
+        review: "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
+        name: 'HR Mortage',
+        role: 'Marketing Director',
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.53.27_PM.jpg?v=1712657825'
     },
 ];
 
@@ -61,7 +76,7 @@ const Testimonial = () => {
 
                             <div className='p-4 flex justify-start items-center gap-3'>
                                 <div className="img w-10">
-                                    <img src={data.url} alt="" />
+                                    <img className='rounded-full w-full' src={data.url} alt="" />
                                 </div>
 
                                 <div className='profile'>

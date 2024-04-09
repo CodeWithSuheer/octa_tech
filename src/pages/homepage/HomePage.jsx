@@ -1,38 +1,77 @@
-import React, { useEffect } from 'react'
-import { FaLocationArrow } from "react-icons/fa";
-import ITServicesSlider from './ITServicesSlider';
-import CTASection from './CTASection';
-import Testimonial from './Testimonial';
+import { useEffect, useState } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import Stats from './Stats';
 import Article from './Article';
 import WorkWith from './WorkWith';
+import CTASection from './CTASection';
+import Testimonial from './Testimonial';
 import WhyChooseUs from './WhyChooseUs';
-import Stats from './Stats';
 import Button from '../../components/Button';
+import ITServicesSlider from './ITServicesSlider';
+import './Home.css'
+import { Link } from 'react-router-dom';
+
 
 const HomePage = () => {
+    const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsLargeScreen(window.innerWidth >= 1024);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
 
     return (
         <>
             {/* ----------- HERO SECTION -----------  */}
-            <section className='bg-gray-100'>
+            <section className={isLargeScreen ? 'background_img' : 'bg-[#F1F5FD]'}>
                 <div className="max-w-6xl px-4 sm:px-16 lg:px-14 xl:px-0 pt-24 pb-0 lg:pt-7 lg:pb-0 mx-auto">
-
                     <div className="items-center lg:flex lg:min-h-screen">
+
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
                                 <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">We are leading technology solutions providing</h3>
-                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl sm:text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-5xl">Octa Tech - 24/7 Support for a Seamless Digital World.</h2>
-                                <h2 className="mt-1.5 text-md sm:text-md font-normal text-black md:w-[80%] lg:w-[90%]">
+                                <h2 className="Commissioner mt-3 w-[100%]  xl:w-[90%] text-2xl sm:text-4xl font-medium capitalize text-black lg:text-4xl xl:text-5xl">Octa Tech Solutions- 24/7 Support for a Seamless Digital World.</h2>
+                                <h2 className="Commissioner mt-2.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[90%]">
                                     Are tech problems slowing you down? We're your one-stop shop for expert technical support, available 24/7.
                                 </h2>
 
-                                <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-10">
+                                <div className="hero_section_buttons flex items-start xs:items-center sm:flex-row gap-4 sm:gap-6 mt-6 mb-10 sm:mb-0 lg:mt-7">
+
+                                    {/* <button className="cta flex items-center">
+                                        <span>About Us</span>
+                                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </button> */}
+
+
+
                                     <Button text="Let's Talk" />
+
+                                    {/* <Link to="about_section"
+                                        spy={true}
+                                        smooth={true}
+                                        duration={900}
+                                        type="button"
+                                        className="hero_button focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer">
+                                        <span>
+                                            About Us
+                                        </span>
+                                    </Link > */}
+
+
                                 </div>
                             </div>
                         </div>
 
-                        <div className="user_select flex items-center justify-center w-full sm:max-w-md lg:max-w-full mx-auto mt-16 lg:mt-10 lg:w-1/2">
+                        <div className="lg:hidden flex items-center justify-center w-full sm:max-w-md lg:max-w-full mx-auto pb-0 mb-0 mt-16 lg:mt-10 lg:w-1/2">
                             <img className="w-full h-full object-contain" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Layer_4.png?v=1711140172" alt="Catalogue-pana.svg" />
                         </div>
                     </div>
@@ -45,8 +84,8 @@ const HomePage = () => {
             </section>
 
             {/* ----------- ABOUT SECTION -----------  */}
-            <section className="text-gray-600 body-font">
-                <div className="max-w-7xl mx-auto flex px-4 sm:px-6 py-10 lg:py-16 md:flex-row flex-col">
+            <section id='about_section' className="text-gray-600 body-font">
+                <div className="max-w-7xl mx-auto flex px-4 sm:px-6 py-10 lg:pt-16 lg:py-10 md:flex-row flex-col">
 
                     <div className="flex justify-center lg:justify-end items-center px-0 sm:px-6 lg:px-10 xl:px-0 lg:max-w-lg lg:w-full md:w-1/2 w-full mb-6 md:mb-0">
                         <img
@@ -65,39 +104,31 @@ const HomePage = () => {
 
                             <div className="mission_bar grid grid-cols-1 gap-6 lg:grid-cols-1 xl:grid-cols-2 lg:gap-8 my-7 lg:my-5">
 
-                                <div className="sec_1 flex items-center gap-4">
+                                <div className="sec_1 flex items-center gap-4" >
                                     <div className="icon bg-blue-600 p-3 rounded-full">
                                         <img className='w-14' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/icon-park-solid_circular-connection.png?v=1711047761" alt="" />
                                     </div>
                                     <div className="data">
-                                        <h3 className='baloo text-xl text-black font-semibold'>Skilled Team</h3>
+                                        <h3 className='baloo text-lg text-black font-semibold'>Skilled Team</h3>
                                         <h3 className='text-sm text-black'>Our dedicated team ensures exceptional service.</h3>
                                     </div>
                                 </div>
 
-                                <div className="sec_1 flex items-center gap-4">
+                                <div className="sec_1 flex items-center gap-4" >
                                     <div className="icon bg-blue-600 p-2 rounded-full">
                                         <img className='w-20' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/octicon_goal-16.png?v=1711047761" alt="" />
                                     </div>
                                     <div className="data">
-                                        <h3 className='baloo text-xl text-black font-semibold'>Transparency</h3>
+                                        <h3 className='baloo text-lg text-black font-semibold'>Transparency</h3>
                                         <h3 className='text-sm text-black'>We're committed to being your trusted tech partner for the long haul.</h3>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="hero_section_buttons flex items-start xs:items-center flex-col-reverse sm:flex-row gap-5 lg:gap-10 mt-10">
-                                <Button text="Contact Us" />
-
-                                {/* <div className="person_profile flex justify-start items-center gap-2">
-                                    <div className="img">
-                                        <img className="object-cover w-12 h-12 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="" />
-                                    </div>
-                                    <div className="person_details">
-                                        <h3 className='baloo text-md text-black font-normal'>Michel Poul</h3>
-                                        <p className='text-xs'>Ceo Founder</p>
-                                    </div>
-                                </div> */}
+                            <div className="hero_section_buttons flex items-start xs:items-center flex-col-reverse sm:flex-row gap-5 lg:gap-10 mt-8">
+                                <Link onClick={() => { Tawk_API.toggle(); }} className="ml-0 sm:ml-2 hero_about_btn text-center cursor-pointer">
+                                    Contact Us
+                                </Link>
                             </div>
                         </div>
                     </div>

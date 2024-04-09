@@ -60,7 +60,7 @@ const ITServicesSlider = () => {
 
     return (
         <>
-            <section className='py-8 px-4 xl:px-0'>
+            <section className='pt-12 pb-8 px-4 xl:px-0 slider_back'>
                 <div className="max-w-5xl mx-auto">
 
                     <div className="flex justify-between items-center px-1 sm:px-8 flex-col sm:flex-row gap-7 sm:gap-5">
@@ -68,43 +68,52 @@ const ITServicesSlider = () => {
                         <div className="slider_text">
                             <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">IT Services</h3>
                             <h2 className="baloo my-2 lg:my-2.5 text-2xl font-semibold w-[100%] xl:w-[60%] capitalize text-black lg:text-4xl">We Solve IT Problems With Technology</h2>
-                            <h2 className="text-sm font-normal text-black w-[100%] md:w-[70%] xl:w-[70%]">We are leading technology solutions providing company all over the world doing over 40 years.</h2>
+                            <h2 className="text-sm font-normal text-black w-[100%] md:w-[70%] xl:w-[70%]">We are leading technology solutions providing company all over the world.</h2>
                         </div>
                         <div className="slider_button flex flex-row">
-                            <button onClick={previous} className="mx-1.5 inline-block rounded-full border bg-blue-600 text-white p-2.5 focus:outline-none">
+                            <button onClick={previous} className="mx-1.5 inline-block rounded-full border bg-[#3485fd] text-white p-2.5 focus:outline-none">
                                 <TiMediaPlayReverse size={19} />
                             </button>
 
-                            <button onClick={next} className="mx-1.5 inline-block rounded-full border bg-blue-600 text-white p-2.5 focus:outline-none">
+                            <button onClick={next} className="mx-1.5 inline-block rounded-full border bg-[#3485fd] text-white p-2.5 focus:outline-none">
                                 <TiMediaPlay size={19} />
                             </button>
                         </div>
                     </div>
 
 
-                    <div className="mt-4 text-center mx-3 px-0 sm:px-0">
+                    <div className="mt-4 mx-2 px-0 sm:px-0">
                         <Slider ref={sliderRef} {...settings}>
                             {product.map((data, index) => (
-                                <div key={index} className="box">
-                                    <div className="box_shadow h-full text-start cursor-pointer my-5 mx-2 sm:mx-auto px-5 py-7 max-w-full sm:max-w-[18.8rem] text-gray-900 overflow-hidden rounded-lg transition focus:outline-none">
-
-                                        <div className="img_sec relative mb-5">
-                                            <img src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Vector_1.png?v=1711052670" alt="helo" />
-                                            <div className="absolute top-9 left-10">
+                                <div key={index} className="relative flex px-3 flex-col justify-center overflow-hidden py-6 sm:py-8">
+                                    {/* CARD */}
+                                    <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-7">
+                                        <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#3485fd] transition-all duration-300 group-hover:scale-[10]"></span>
+                                        <div className="relative z-10 mx-auto max-w-md">
+                                            <span className="grid h-20 w-20 place-items-center rounded-full bg-[#3485fd] transition-all duration-300 group-hover:bg-sky-400">
                                                 {data.icon}
+                                            </span>
+
+
+                                            <h2 className="pt-5 text-xl transition-all duration-300 group-hover:text-white">{data?.service}</h2>
+                                            <div className="space-y-6 pt-2 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                                                <p>{data.desc}</p>
+                                            </div>
+                                            <div className="pt-5 text-base font-semibold leading-7">
+                                                <p>
+                                                    <Link to='/services' onClick={() => window.scroll(0, 0)} className="text-sky-500 transition-all duration-300 group-hover:text-white">Read more
+                                                        &rarr;
+                                                    </Link>
+                                                </p>
                                             </div>
                                         </div>
-                                        <h2 className="baloo text-2xl">{data.service}</h2>
-                                        <p>{data.desc}</p>
-                                        <Link to='/services' onClick={() => window.scroll(0, 0)} className="mt-3 flex justify-start items-center text-md font-semibold">
-                                            Read More  <MdOutlineKeyboardArrowRight size={22} className='mt-1.5' />
-                                        </Link>
                                     </div>
                                 </div>
                             ))}
                         </Slider>
                     </div>
                 </div>
+
             </section>
         </>
     )

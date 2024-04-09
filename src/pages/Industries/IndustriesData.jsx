@@ -4,6 +4,10 @@ const data = [
         img: 'https://res.cloudinary.com/dezi0bct4/image/upload/v1712527909/Industries/f_iy8wvl.png'
     },
     {
+        name: 'Oil & Gas',
+        img: 'https://images.pexels.com/photos/3855962/pexels-photo-3855962.jpeg?cs=srgb&dl=pexels-lo%C3%AFc-manegarium-3855962.jpg&fm=jpg'
+    },
+    {
         name: 'Automotive',
         img: 'https://res.cloudinary.com/dezi0bct4/image/upload/v1712527855/Industries/7777_tg2qj7.png'
     },

@@ -70,8 +70,8 @@ const DigitalMarketing = () => {
             {/* ----------- DETAILS -----------  */}
             <section className='my-10 sm:my-16'>
                 <div className="px-5 sm:px-10 lg:px-0">
-                    <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-start sm:text-center'>Thrive’s Digital Marketing Services</h2>
-                    <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-start sm:text-center'>Build Brand Recognition as an Industry Leader and Increase Profitabilityz</p>
+                    <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-center'>Thrive’s Digital Marketing Services</h2>
+                    <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-center'>Build Brand Recognition as an Industry Leader and Increase Profitabilityz</p>
 
 
                     <div className="mt-20 max-w-7xl mx-auto flex justify-center items-center gap-8 flex-wrap">

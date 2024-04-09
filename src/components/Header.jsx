@@ -38,14 +38,14 @@ const Header = () => {
 
     return (
         <>
-            <nav className={`bg-white py-4 transition-all fixed shadow-md top-0 left-0 right-0 z-60`}>
-                <div className="container px-6 mx-auto">
+            <nav className={`bg-white py-3 transition-all fixed shadow-md top-0 left-0 right-0 z-60`}>
+                <div className="container px-3 sm:px-6 mx-auto">
                     <div className="lg:flex lg:items-center lg:justify-between">
                         <div className="flex items-center justify-between">
                             {/* -------------- BRAND LOGO -------------- */}
-                            <Link onClick={handleLinkClick} to="/" className='flex items-center gap-1'>
-                                <img className="w-auto h-6 sm:h-10" src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712517217/latestImages/OctaTechLogo_gawo7a.png" alt="" />
-                                <h2 className='text-2xl font-semibold tracking-wide'>Octa Tech</h2>
+                            <Link onClick={handleLinkClick} to="/" className='flex items-center gap-0.5'>
+                                <img className="w-auto h-6 sm:h-11" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Transparent.png?v=1712570774" alt="" />
+                                <h2 className='Gotu text-xl mt-1 sm:text-xl font-semibold tracking-wide'>Octa Tech Solutions</h2>
                             </Link>
 
                             {/* -------------- HAMBURGER BUTTON FOR MOBILE VIEW -------------- */}

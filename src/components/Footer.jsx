@@ -27,7 +27,9 @@ const Footer = () => {
 
                                 <div className="sm:col-span-2">
                                     <h1 onClick={handleScroll} className="max-w-lg text-3xl cursor-pointer font-semibold tracking-wider text-gray-900">Octa Tech</h1>
-                                    <p className='mt-5 text-sm w-[100%] sm:w-[70%] text-gray-900'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti velit provident fugiat harum cum et quisquam quo nostrum odit nobis illo ipsam, sed, accusamus libero nisi voluptate cupiditate molestias. Odis nulla</p>
+                                    <p className='mt-5 text-sm w-[100%] sm:w-[80%] text-gray-900'>
+                                        Octa Tech is your go-to destination for cutting-edge IT solutions, including infrastructure, software development, cloud services, cybersecurity, and digital transformation. Our team's expertise and commitment to client success make us the ideal partner for your technology needs.
+                                    </p>
                                 </div>
 
                                 <div className='mt-4 sm:mt-8 sm:col-span-2'>
@@ -38,11 +40,11 @@ const Footer = () => {
                                         <a className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
                                             Phone: +1 (281) 607-5120
                                         </a>
-                                        <a className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
+                                        <a href="mailto:info@octatechsolution.com" target='_blank' className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
                                             Mail: info@octatechsolution.com
                                         </a>
                                         <a className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
-                                            Location: 405 Elaine Valley Dr Katy TX 77493
+                                            Location:  Katy TX 77493 USA
                                         </a>
                                         <a className="text-gray-900 transition-colors duration-300 cursor-pointer hover:underline hover:text-blue-500">
                                             Whatsapp: +1 (281) 607-5120

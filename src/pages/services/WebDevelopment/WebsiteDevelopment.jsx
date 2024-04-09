@@ -70,8 +70,8 @@ const WebsiteDevelopment = () => {
             {/* ----------- DETAILS -----------  */}
             <section className='my-10 sm:my-20'>
                 <div className="px-5 sm:px-10 lg:px-0">
-                    <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-start sm:text-center'>Our Website Developers Expertise</h2>
-                    <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-start sm:text-center'>
+                    <h2 className='baloo mb-3 text-black font-semibold text-4xl sm:text-4xl xl:text-5xl text-center'>Our Website Developers Expertise</h2>
+                    <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-center'>
                         Tap into the power of the web with our custom web development services. We specialize in crafting modern, scalable, and adaptable web applications that align seamlessly with your individual business requirements. At Octa Tech, we deliver a comprehensive suite of web development services designed to empower your business and captivate your audience. We leverage a wide range of technologies and frameworks to craft the perfect solution for you, ensuring:
                     </p>
 
@@ -151,7 +151,7 @@ const WebsiteDevelopment = () => {
             {/* ----------- WHY CHOOSE US -----------  */}
             <section className='my-10 sm:my-16'>
                 <div className="px-5 sm:px-10 lg:px-0">
-                    <h2 className='baloo mb-3 text-black font-semibold mx-auto w-[70%] text-3xl sm:text-4xl xl:text-4xl text-start sm:text-center'>
+                    <h2 className='baloo mb-3 text-black font-semibold mx-auto  w-[100%] sm:w-[70%] text-3xl sm:text-4xl xl:text-4xl text-start sm:text-center'>
                         Why Choose Us As Your Trusted Partner for Web Design & Development Services
                     </h2>
                     <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-start sm:text-center'>

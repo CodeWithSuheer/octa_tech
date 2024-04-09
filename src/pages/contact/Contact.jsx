@@ -38,13 +38,16 @@ const Contact = () => {
     return (
         <>
             <section className="bg-gray-100">
-                <div className="max-w-full px-3 sm:px-6 py-16 mx-auto min-h-screen">
+                <div className="max-w-full px-3 sm:px-6 py-20 mx-auto min-h-screen">
                     <div className="lg:flex lg:items-center">
 
                         <div className="lg:w-1/2 px-2 lg:mx-6">
                             <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">Contact Details</h3>
                             <h2 className="mt-4 text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">GET IN TOUCH</h2>
-                            <p className='mt-4 text-sm w-[100%] sm:w-[90%]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore esse itaque eligendi commodi expedita accusamus debitis cupiditate? Officiis, molestias ducimus!</p>
+                            <p className='mt-4 text-sm w-[100%] sm:w-[90%]'>
+                                Questions or projects? Reach out to us today! Use the form or contact details, and we'll respond quickly.
+                            </p>
+
 
 
                             <div className="mt-6 space-y-8 md:mt-8">
@@ -69,7 +72,7 @@ const Contact = () => {
                                         />
                                     </svg>
                                     <span className="mx-2 text-gray-700 truncate w-72 text-wrap">
-                                        405 Elaine Valley Dr  Katy TX 77493
+                                        Katy TX 77493 USA
                                     </span>
                                 </p>
                                 <p className="flex items-start -mx-2">
@@ -87,9 +90,9 @@ const Contact = () => {
                                             strokeLinejoin="round"
                                         />
                                     </svg>
-                                    <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                                    <a href="tel:+1-281-607-5120" className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
                                         +1 (281) 607-5120
-                                    </span>
+                                    </a>
                                 </p>
                                 <p className="flex items-start -mx-2">
                                     <svg
@@ -107,7 +110,7 @@ const Contact = () => {
                                         />
                                     </svg>
                                     <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
-                                        info@octatechsolution.com
+                                        <a href="mailto:info@octatechsolution.com" target='_blank'>info@octatechsolution.com</a>
                                     </span>
                                 </p>
                             </div>
