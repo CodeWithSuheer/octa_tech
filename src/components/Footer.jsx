@@ -21,9 +21,9 @@ const Footer = () => {
                 <footer className="bg-[#1d215f]">
                     <div className="upperFooter bg-[#ECECFB]">
 
-                        <div className="px-5 sm:px-10 pt-10 pb-20 mx-auto">
+                        <div className="px-5 sm:px-10 pt-10 sm:pb-20 pb-10 mx-auto">
                             {/* DETAILS */}
-                            <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-y-10 lg:grid-cols-6">
+                            <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-y-10 lg:grid-cols-6">
 
                                 <div className="sm:col-span-2">
                                     <h1 onClick={handleScroll} className="max-w-lg text-3xl cursor-pointer font-semibold tracking-wider text-gray-900">Octa Tech</h1>
@@ -92,7 +92,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="text-sm py-8 border-t text-center text-white">
+                    <div className="text-sm py-8 px-3 border-t text-center text-white">
                         <p>Copyrights © 2024 All Rights Reserved by Octa Tech Solution LLC</p>
                     </div>
                 </footer>

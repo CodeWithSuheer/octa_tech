@@ -1,3 +1,15 @@
+import { MdSecurity } from "react-icons/md";
+import { MdPeopleAlt } from "react-icons/md";
+import { FaCloud } from "react-icons/fa6";
+import { FaMedapps } from "react-icons/fa";
+import { LuDatabaseBackup } from "react-icons/lu";
+import { PiTreeStructureLight } from "react-icons/pi";
+import { BsPatchExclamation } from "react-icons/bs";
+import { VscRemoteExplorer } from "react-icons/vsc";
+import { RxDesktop } from "react-icons/rx";
+import { FaHandsHelping } from "react-icons/fa";
+import { CgSoftwareUpload } from "react-icons/cg";
+
 const data = [
     {
         id: 1,
@@ -5,6 +17,7 @@ const data = [
         service: 'Website Developement',
         desc: 'Crafting engaging and functional websites tailored to your needs.',
         url: "website-development",
+        icon: <RxDesktop size={32} className='mt-1.5 text-white' />
     },
     {
         id: 2,
@@ -12,6 +25,7 @@ const data = [
         service: 'Digital Marketing',
         desc: 'Boost your online presence and reach your target audience effectively.',
         url: "digital-marketing",
+        icon: <FaMedapps size={32} className='mt-1.5 text-white' />
     },
     {
         id: 3,
@@ -19,6 +33,7 @@ const data = [
         service: 'Remote Help Desk',
         desc: 'Instant support and solutions for your IT issues, no matter where you are.',
         url: "desk-support",
+        icon: <FaHandsHelping size={32} className='mt-1.5 text-white' />
     },
     {
         id: 4,
@@ -26,6 +41,7 @@ const data = [
         service: 'IT System Management',
         desc: 'Streamline your IT infrastructure for seamless operations.',
         url: "itsm",
+        icon: <CgSoftwareUpload size={32} className='mt-1.5 text-white' />
     },
     {
         id: 5,
@@ -33,6 +49,7 @@ const data = [
         service: 'IT Strategy & Consulting',
         desc: 'Strategic guidance to align technology with your business goals.',
         url: "IT-consulting",
+        icon: <MdPeopleAlt size={32} className='mt-1.5 text-white' />
     },
     {
         id: 6,
@@ -40,6 +57,7 @@ const data = [
         service: 'Security Management',
         desc: 'Protect your data and systems with robust security measures.',
         url: "security",
+        icon: <MdSecurity size={32} className='mt-1.5 text-white' />
     },
     {
         id: 7,
@@ -47,6 +65,7 @@ const data = [
         service: 'Cloud Solution',
         desc: 'Harness the power of cloud technology for scalable and efficient operations.',
         url: "services",
+        icon: <FaCloud size={32} className='mt-1.5 text-white' />
     },
     {
         id: 8,
@@ -54,6 +73,7 @@ const data = [
         service: 'Infrastructure Management',
         desc: 'Optimize your IT infrastructure for enhanced performance.',
         url: "infrastructure",
+        icon: <PiTreeStructureLight size={32} className='mt-1.5 text-white' />
     },
     {
         id: 9,
@@ -61,6 +81,7 @@ const data = [
         service: 'Backup & Recovery',
         desc: 'Ensure data safety and quick recovery in case of emergencies.',
         url: "backup-and-recovery",
+        icon: <LuDatabaseBackup size={32} className='mt-1.5 text-white' />
     },
     {
         id: 10,
@@ -68,6 +89,7 @@ const data = [
         service: 'Patch Management',
         desc: 'Stay up to date and secure with timely software updates.',
         url: "patch-management",
+        icon: <BsPatchExclamation size={32} className='mt-1.5 text-white' />
     },
     {
         id: 11,
@@ -75,6 +97,7 @@ const data = [
         service: 'Remote Monitoring',
         desc: 'Monitor your systems remotely for proactive maintenance and issue resolution.',
         url: "remote-monitoring",
+        icon: <VscRemoteExplorer size={32} className='mt-1.5 text-white' />
     },
 ]
 

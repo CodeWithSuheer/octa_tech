@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import { Fade, Slide } from "react-awesome-reveal";
 import Stats from './Stats';
 import Article from './Article';
 import WorkWith from './WorkWith';
@@ -32,18 +31,18 @@ const HomePage = () => {
             <section className={isLargeScreen ? 'background_img' : 'bg-[#F1F5FD]'}>
                 <div className="max-w-6xl px-4 sm:px-16 lg:px-14 xl:px-0 pt-24 pb-0 lg:pt-7 lg:pb-0 mx-auto">
                     <div className="items-center lg:flex lg:min-h-screen">
-
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
-                            <div className="lg:max-w-xl">
-                                <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">We are leading technology solutions providing</h3>
-                                <h2 className="Commissioner mt-3 w-[100%]  xl:w-[90%] text-2xl sm:text-4xl font-medium capitalize text-black lg:text-4xl xl:text-5xl">Octa Tech Solutions- 24/7 Support for a Seamless Digital World.</h2>
-                                <h2 className="Commissioner mt-2.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[90%]">
-                                    Are tech problems slowing you down? We're your one-stop shop for expert technical support, available 24/7.
-                                </h2>
+                            <Fade top duration={2000}>
+                                <div className="lg:max-w-xl">
+                                    <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">We are leading technology solutions providing</h3>
+                                    <h2 className="Commissioner mt-3 w-[100%]  xl:w-[90%] text-2xl sm:text-4xl font-medium capitalize text-black lg:text-4xl xl:text-5xl">Octa Tech Solution- 24/7 Support for a Seamless Digital World.</h2>
+                                    <h2 className="Commissioner mt-2.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[90%]">
+                                        Are tech problems slowing you down? We're your one-stop shop for expert technical support, available 24/7.
+                                    </h2>
 
-                                <div className="hero_section_buttons flex items-start xs:items-center sm:flex-row gap-4 sm:gap-6 mt-6 mb-10 sm:mb-0 lg:mt-7">
+                                    <div className="hero_section_buttons flex items-start xs:items-center sm:flex-row gap-4 sm:gap-6 mt-6 mb-10 sm:mb-0 lg:mt-7">
 
-                                    {/* <button className="cta flex items-center">
+                                        {/* <button className="cta flex items-center">
                                         <span>About Us</span>
                                         <svg width="15px" height="10px" viewBox="0 0 13 10">
                                             <path d="M1,5 L11,5"></path>
@@ -53,9 +52,9 @@ const HomePage = () => {
 
 
 
-                                    <Button text="Let's Talk" />
+                                        <Button text="Let's Talk" />
 
-                                    {/* <Link to="about_section"
+                                        {/* <Link to="about_section"
                                         spy={true}
                                         smooth={true}
                                         duration={900}
@@ -67,8 +66,9 @@ const HomePage = () => {
                                     </Link > */}
 
 
+                                    </div>
                                 </div>
-                            </div>
+                            </Fade>
                         </div>
 
                         <div className="lg:hidden flex items-center justify-center w-full sm:max-w-md lg:max-w-full mx-auto pb-0 mb-0 mt-16 lg:mt-10 lg:w-1/2">
@@ -94,67 +94,69 @@ const HomePage = () => {
                             src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_252.png?v=1711046868"
                         />
                     </div>
-
                     <div className="lg:flex-grow md:w-1/2 lg:pl-10 md:pl-3 flex flex-col md:items-start md:text-left">
-                        <div className="lg:max-w-xl pt-10">
-                            <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">About Us</h3>
-                            <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-4xl">Get To Know Octa Tech</h2>
-                            <h2 className="text-sm font-normal text-black">Octa Tech is a leading provider of comprehensive technical support services. We're passionate about empowering individuals and businesses with the tools and knowledge they need to thrive in today's digital landscape.</h2>
+                        <Fade top duration={2000}>
+                            <div className="lg:max-w-xl pt-10">
+                                <h3 className="text-md uppercase font-semibold text-blue-600 lg:text-md">About Us</h3>
+                                <h2 className="baloo my-2.5 text-2xl font-semibold capitalize text-black lg:text-4xl">Get To Know Octa Tech</h2>
+                                <h2 className="text-sm font-normal text-black">Octa Tech is a leading provider of comprehensive technical support services. We're passionate about empowering individuals and businesses with the tools and knowledge they need to thrive in today's digital landscape.</h2>
 
 
-                            <div className="mission_bar grid grid-cols-1 gap-6 lg:grid-cols-1 xl:grid-cols-2 lg:gap-8 my-7 lg:my-5">
+                                <div className="mission_bar grid grid-cols-1 gap-6 lg:grid-cols-1 xl:grid-cols-2 lg:gap-8 my-7 lg:my-5">
 
-                                <div className="sec_1 flex items-center gap-4" >
-                                    <div className="icon bg-blue-600 p-3 rounded-full">
-                                        <img className='w-14' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/icon-park-solid_circular-connection.png?v=1711047761" alt="" />
+                                    <div className="sec_1 flex items-center gap-4" >
+                                        <div className="icon bg-blue-600 p-3 rounded-full">
+                                            <img className='w-14' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/icon-park-solid_circular-connection.png?v=1711047761" alt="" />
+                                        </div>
+                                        <div className="data">
+                                            <h3 className='baloo text-lg text-black font-semibold'>Skilled Team</h3>
+                                            <h3 className='text-sm text-black'>Our dedicated team ensures exceptional service.</h3>
+                                        </div>
                                     </div>
-                                    <div className="data">
-                                        <h3 className='baloo text-lg text-black font-semibold'>Skilled Team</h3>
-                                        <h3 className='text-sm text-black'>Our dedicated team ensures exceptional service.</h3>
+
+                                    <div className="sec_1 flex items-center gap-4" >
+                                        <div className="icon bg-blue-600 p-2 rounded-full">
+                                            <img className='w-20' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/octicon_goal-16.png?v=1711047761" alt="" />
+                                        </div>
+                                        <div className="data">
+                                            <h3 className='baloo text-lg text-black font-semibold'>Transparency</h3>
+                                            <h3 className='text-sm text-black'>We're committed to being your trusted tech partner for the long haul.</h3>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div className="sec_1 flex items-center gap-4" >
-                                    <div className="icon bg-blue-600 p-2 rounded-full">
-                                        <img className='w-20' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/octicon_goal-16.png?v=1711047761" alt="" />
-                                    </div>
-                                    <div className="data">
-                                        <h3 className='baloo text-lg text-black font-semibold'>Transparency</h3>
-                                        <h3 className='text-sm text-black'>We're committed to being your trusted tech partner for the long haul.</h3>
-                                    </div>
+                                <div className="hero_section_buttons flex items-start xs:items-center flex-col-reverse sm:flex-row gap-5 lg:gap-10 mt-8">
+                                    <Link onClick={() => { Tawk_API.toggle(); }} className="ml-0 sm:ml-2 hero_about_btn text-center cursor-pointer">
+                                        Contact Us
+                                    </Link>
                                 </div>
                             </div>
-
-                            <div className="hero_section_buttons flex items-start xs:items-center flex-col-reverse sm:flex-row gap-5 lg:gap-10 mt-8">
-                                <Link onClick={() => { Tawk_API.toggle(); }} className="ml-0 sm:ml-2 hero_about_btn text-center cursor-pointer">
-                                    Contact Us
-                                </Link>
-                            </div>
-                        </div>
+                        </Fade>
                     </div>
+
                 </div>
-            </section>
+            </section >
 
             {/* ----------- IT SERVICES -----------  */}
-            <ITServicesSlider />
+            < ITServicesSlider />
 
             {/* ----------- COMPANY STATS -----------  */}
-            <Stats />
+            < Stats />
 
             {/* ----------- CTA SECTION -----------  */}
-            <CTASection />
+            < CTASection />
 
             {/* ----------- TESTIMONIAL -----------  */}
-            <Testimonial />
+            < Testimonial />
 
             {/* ----------- ARTICLE -----------  */}
-            <Article />
+            < Article />
 
             {/* ----------- ARTICLE -----------  */}
-            <WhyChooseUs />
+            < WhyChooseUs />
 
             {/* ----------- WORK WITH -----------  */}
-            <WorkWith />
+            < WorkWith />
         </>
     )
 }

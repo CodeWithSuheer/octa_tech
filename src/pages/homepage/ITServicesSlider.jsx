@@ -2,16 +2,18 @@ import React, { useRef, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import product from './SliderData';
+// import product from './SliderData';
 import { TiMediaPlayReverse } from "react-icons/ti";
 import { TiMediaPlay } from "react-icons/ti";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import data from "../services/ServicesData";
 
 
 const ITServicesSlider = () => {
     const [slidesToShow, setSlidesToShow] = useState(3);
     const sliderRef = useRef(null);
+    const navigate = useNavigate()
 
     const next = () => {
         if (sliderRef.current) {
@@ -58,9 +60,15 @@ const ITServicesSlider = () => {
         ]
     };
 
+
+    const handleNavigate = (url) => {
+        navigate(`/${url}`)
+        window.scroll(0, 0)
+    }
+
     return (
         <>
-            <section className='pt-12 pb-8 px-4 xl:px-0 slider_back'>
+            <section className='pt-12 pb-16 px-4 xl:px-0 slider_back'>
                 <div className="max-w-5xl mx-auto">
 
                     <div className="flex justify-between items-center px-1 sm:px-8 flex-col sm:flex-row gap-7 sm:gap-5">
@@ -84,26 +92,26 @@ const ITServicesSlider = () => {
 
                     <div className="mt-4 mx-2 px-0 sm:px-0">
                         <Slider ref={sliderRef} {...settings}>
-                            {product.map((data, index) => (
+                            {data.map((data, index) => (
                                 <div key={index} className="relative flex px-3 flex-col justify-center overflow-hidden py-6 sm:py-8">
                                     {/* CARD */}
-                                    <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-7">
+                                    <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:shadow-2xl sm:mx-auto sm:max-w-sm rounded-2xl sm:px-6">
                                         <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#3485fd] transition-all duration-300 group-hover:scale-[10]"></span>
                                         <div className="relative z-10 mx-auto max-w-md">
                                             <span className="grid h-20 w-20 place-items-center rounded-full bg-[#3485fd] transition-all duration-300 group-hover:bg-sky-400">
-                                                {data.icon}
+                                                {data?.icon}
                                             </span>
 
 
                                             <h2 className="pt-5 text-xl transition-all duration-300 group-hover:text-white">{data?.service}</h2>
-                                            <div className="space-y-6 pt-2 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                                                <p>{data.desc}</p>
+                                            <div className="space-y-6 pt-2 text-base leading-6 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+                                                <p>{data.desc.split(' ').slice(0, 8).join(' ')} ...</p>
                                             </div>
                                             <div className="pt-5 text-base font-semibold leading-7">
                                                 <p>
-                                                    <Link to='/services' onClick={() => window.scroll(0, 0)} className="text-sky-500 transition-all duration-300 group-hover:text-white">Read more
+                                                    <button onClick={() => handleNavigate(data.url)} className="text-[#3485fd] transition-all duration-300 group-hover:text-white">Read more
                                                         &rarr;
-                                                    </Link>
+                                                    </button>
                                                 </p>
                                             </div>
                                         </div>

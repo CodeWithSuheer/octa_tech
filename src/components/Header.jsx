@@ -45,7 +45,7 @@ const Header = () => {
                             {/* -------------- BRAND LOGO -------------- */}
                             <Link onClick={handleLinkClick} to="/" className='flex items-center gap-0.5'>
                                 <img className="w-auto h-6 sm:h-11" src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Transparent.png?v=1712570774" alt="" />
-                                <h2 className='Gotu text-xl mt-1 sm:text-xl font-semibold tracking-wide'>Octa Tech Solutions</h2>
+                                <h2 className='Gotu text-xl mt-1 sm:text-xl font-semibold tracking-wide'>Octa Tech Solution</h2>
                             </Link>
 
                             {/* -------------- HAMBURGER BUTTON FOR MOBILE VIEW -------------- */}
