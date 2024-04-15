@@ -70,3 +70,8 @@
     transition-duration: 400ms;
     transition-property: width, left;
 }
+
+
+.header_back {
+    background-image: linear-gradient(120deg, #f492f0 0%, #f68084 100%);
+}

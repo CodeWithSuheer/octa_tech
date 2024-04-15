@@ -93,7 +93,7 @@ const Services = () => {
                                 {/* CARD - DATA */}
                                 <div className="relative bg-white group-hover:bg-blue-600 group-hover:text-white p-4 sm:px-4 sm:py-6 text-center flex justify-center items-center flex-col">
                                     <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
-                                        <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
+                                        <img className='mid_img h-16 w-16 object-fill' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                                     </div>
                                     <h2 className="mt-3 text-xl font-semibold tracking-wide">{data.service}</h2>
                                     <p className='text-sm my-1.5 w-[95%] md:w-[90%]'>{data.desc}</p>

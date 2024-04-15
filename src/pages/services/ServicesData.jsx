@@ -13,7 +13,7 @@ import { CgSoftwareUpload } from "react-icons/cg";
 const data = [
     {
         id: 1,
-        img: "https://res.cloudinary.com/dezi0bct4/image/upload/v1712528674/Rectangle_1037-2_ncxrzx.png",
+        img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/website.png?v=1712943857",
         service: 'Website Developement',
         desc: 'Crafting engaging and functional websites tailored to your needs.',
         url: "website-development",
@@ -21,7 +21,7 @@ const data = [
     },
     {
         id: 2,
-        img: "https://res.cloudinary.com/dezi0bct4/image/upload/v1712528715/Rectangle_10370_gzpr9d.png",
+        img: "https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Untitled_design_-_5.png?v=1712943856",
         service: 'Digital Marketing',
         desc: 'Boost your online presence and reach your target audience effectively.',
         url: "digital-marketing",
