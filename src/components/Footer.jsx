@@ -190,7 +190,7 @@ const Footer = () => {
 
           <div className="text-sm py-8 px-3 border-t text-center text-white">
             <p>
-              Copyrights © 2024 All Rights Reserved by Octa Tech Solution LLC
+              Copyrights © 2024 All Rights Reserved by Octa Tech Solutions LLC
             </p>
           </div>
         </footer>
