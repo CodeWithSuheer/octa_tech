@@ -57,7 +57,7 @@ const WorkWith = () => {
               <div className="logos w-24 sm:w-32 flex justify-center">
                 <img
                   className="my-4 w-full rounded-2xl object-fill"
-                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.55.12_PM.jpg?v=1712657822"
+                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/IMG_2440.png?v=1713226079"
                   alt=""
                 />
               </div>
