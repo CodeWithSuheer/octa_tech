@@ -46,7 +46,7 @@
 
 .button_navbar:focus,
 .button_navbar:hover {
-    color: #555555;
+    color: #383838;
 }
 
 
@@ -65,7 +65,7 @@
     position: absolute;
     width: 0%;
     height: 2px;
-    background-color: #8d8d8d;
+    background-color: #383838;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;

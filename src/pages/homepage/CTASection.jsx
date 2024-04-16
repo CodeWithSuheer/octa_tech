@@ -24,7 +24,7 @@ const CTASection = () => {
 
 
                             <div className="hidden lg:flex">
-                                <img className='absolute z-40 right-10 -top-[8.2rem] w-[20rem]' src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712505291/latestImages/r61-_Converted_-_Recovered_1_hldy9d.png" alt="" />
+                                <img className='absolute z-40 right-10 -top-[8.2rem] w-[20rem]' src="https://res.cloudinary.com/dezi0bct4/image/upload/v1713219216/All%20Latest%20Images/rw4qcri6mx8sunyk6m6a.png" alt="" />
                             </div>
                         </div>
                     </Fade>
