@@ -54,8 +54,8 @@ input::-webkit-inner-spin-button {
 
 body {
   --sb-track-color: #ffffff;
-  --sb-thumb-color: #525fd8;
-  --sb-size: 7px;
+  --sb-thumb-color: #1c64f2;
+  --sb-size: 8px;
 }
 
 body::-webkit-scrollbar {
@@ -64,12 +64,12 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   background: var(--sb-track-color);
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 @supports not selector(::-webkit-scrollbar) {
@@ -120,8 +120,6 @@ body::-webkit-scrollbar-thumb {
 .review_Shadow {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
-
-
 
 .slide_box {
   clip-path: polygon(0% 0%, 55% 0, 100% 100%, 0% 100%);

@@ -27,7 +27,7 @@ const HomePage = () => {
     <>
       {/* ----------- HERO SECTION -----------  */}
       <section className={isLargeScreen ? "background_img" : "bg-[#F1F5FD]"}>
-        <div className="max-w-6xl xl:max-w-7xl px-4 sm:px-16 lg:px-14 xl:px-0 pt-24 pb-0 lg:pt-7 lg:pb-0 mx-auto">
+        <div className="max-w-5xl xl:max-w-7xl xxl:max-w-7xl px-4 sm:px-16 lg:px-14 xl:px-0 pt-24 pb-0 lg:pt-7 lg:pb-0 mx-auto">
           <div className="items-center lg:flex lg:min-h-screen">
             <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
               <Fade top duration={2000}>
@@ -45,26 +45,7 @@ const HomePage = () => {
                   </h2>
 
                   <div className="hero_section_buttons flex items-start xs:items-center sm:flex-row gap-4 sm:gap-6 mt-6 mb-10 sm:mb-0 lg:mt-7">
-                    {/* <button className="cta flex items-center">
-                                        <span>About Us</span>
-                                        <svg width="15px" height="10px" viewBox="0 0 13 10">
-                                            <path d="M1,5 L11,5"></path>
-                                            <polyline points="8 1 12 5 8 9"></polyline>
-                                        </svg>
-                                    </button> */}
-
                     <Button text="Let's Talk" />
-
-                    {/* <Link to="about_section"
-                                        spy={true}
-                                        smooth={true}
-                                        duration={900}
-                                        type="button"
-                                        className="hero_button focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer">
-                                        <span>
-                                            About Us
-                                        </span>
-                                    </Link > */}
                   </div>
                 </div>
               </Fade>
@@ -95,7 +76,7 @@ const HomePage = () => {
             <img
               alt="hero"
               className="object-contain h-[100%] w-[100%] xl:h-[90%] xl:w-[90%]"
-              src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_252.png?v=1711046868"
+              src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/IMG_2578.png?v=1713555109"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-10 md:pl-3 flex flex-col md:items-start md:text-left">
@@ -171,6 +152,12 @@ const HomePage = () => {
 
       {/* ----------- IT SERVICES -----------  */}
       <ITServicesSlider />
+
+      <span class="relative flex justify-center">
+        <div class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"></div>
+
+        <span class="relative z-10 bg-white px-6"></span>
+      </span>
 
       {/* ----------- COMPANY STATS -----------  */}
       <Stats />

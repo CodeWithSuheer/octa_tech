@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Blog = () => {
     return (
         <>
@@ -44,7 +42,7 @@ const Blog = () => {
                             </div>
                         </a>
 
-                        <a className="group flex flex-col h-full border border-gray-200 hover:shadow-xl hover:bg-blue-500 transition-all duration-300 rounded-xl p-5 cursor-pointer"
+                        <a className="group flex flex-col h-full border border-gray-200 hover:shadow-xl hover:bg-blue-600 transition-all duration-300 rounded-xl p-5 cursor-pointer"
                         >
                             <div className="aspect-w-16 aspect-h-11">
                                 <img
@@ -75,7 +73,7 @@ const Blog = () => {
                             </div>
                         </a>
 
-                        <a className="group flex flex-col h-full border border-gray-200 hover:shadow-xl hover:bg-blue-500 transition-all duration-300 rounded-xl p-5 cursor-pointer"
+                        <a className="group flex flex-col h-full border border-gray-200 hover:shadow-xl hover:bg-blue-600 transition-all duration-300 rounded-xl p-5 cursor-pointer"
                             href="#"
                         >
                             <div className="aspect-w-16 aspect-h-11">

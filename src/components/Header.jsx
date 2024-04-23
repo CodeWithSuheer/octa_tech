@@ -96,29 +96,35 @@ const Header = () => {
               <Link
                 to="/services"
                 onClick={() => window.scroll(0, 0)}
-                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
+                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 sm:mx-2 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
               >
                 Services
               </Link>
               <Link
                 to="/industries"
                 onClick={() => window.scroll(0, 0)}
-                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
+                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 sm:mx-2 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
               >
                 Industries
               </Link>
               <Link
                 to="/blog"
                 onClick={() => window.scroll(0, 0)}
-                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
+                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 sm:mx-2 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
               >
                 Blog
               </Link>
-              {/* <Link to="/about" onClick={() => window.scroll(0, 0)} className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link> */}
+              <Link
+                to="/about"
+                onClick={() => window.scroll(0, 0)}
+                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 sm:mx-2 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
+              >
+                About Us
+              </Link>
               <Link
                 to="/contact"
                 onClick={() => window.scroll(0, 0)}
-                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
+                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 sm:mx-2 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
               >
                 Contact Us
               </Link>
@@ -160,7 +166,13 @@ const Header = () => {
               >
                 Blog
               </Link>
-              {/* <Link to="/about" onClick={handleLinkClick} className="poppin px-0 py-3 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-700 rounded-xl">About Us</Link> */}
+              <Link
+                to="/about"
+                onClick={() => window.scroll(0, 0)}
+                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
+              >
+                About Us
+              </Link>
               <Link
                 to="/contact"
                 onClick={handleLinkClick}

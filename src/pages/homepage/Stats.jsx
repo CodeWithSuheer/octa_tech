@@ -6,14 +6,14 @@ const Stats = () => {
 
     return (
         <>
-            <section className='py-8 px-3 sm:px-10 lg:px-14 xl:px-0 lg:min-h-[80vh] lg:pb-32'>
+            <section className='py-8 px-3 sm:px-10 lg:px-14 xl:px-0 lg:min-h-[75vh] lg:pb-32'>
 
                 {/* <span className="relative flex justify-center mx-20">
                     <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"></div>
                 </span> */}
 
                 {/* GRADIENT EFFECT */}
-                <div className="relative mx-auto max-w-2xl py-3 sm:py-20 lg:py-16">
+                <div className="relative mx-auto max-w-2xl py-3 sm:py-20 lg:py-12">
                     <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
                         <svg
                             className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"

@@ -1,8 +1,7 @@
-import React, { useEffect, useState, useRef, Suspense, lazy } from "react";
-import { Toaster } from 'react-hot-toast';
+import React, { useEffect, useState, useRef, Suspense } from "react";
+import { Toaster } from "react-hot-toast";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
-import AnimCursor from "./pages/cursor/AnimCursor";
+import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/homepage/HomePage";
@@ -14,9 +13,9 @@ import ContactQueries from "./admin/ContactQueries";
 import QueryDisplay from "./admin/QueryDisplay";
 import Contact from "./pages/contact/Contact";
 import NotFound from "./components/NotFound";
-import './App.css'
+import "./App.css";
 
-{/* ---------- SERVICES ROUTES ---------- */ }
+/* ---------- SERVICES ROUTES ---------- */
 import RemoteMonitoring from "./pages/services/remoteMonitoring/RemoteMonitoring";
 import DeskSupport from "./pages/services/deskSupport/DeskSupport";
 import Infrastructure from "./pages/services/infrastructure/Infrastructure";
@@ -32,14 +31,17 @@ import CloudSolution from "./pages/services/cloudSolution/CloudSolution";
 import ITSM from "./pages/services/ITSM/ITSM";
 import DigitalMarketing from "./pages/services/digitalMarketing/DigitalMarketing";
 
-
-
-{/* ---------- LAZY ROUTES ---------- */ }
-const LazyServiceDetails = React.lazy(() => import("./pages/services/ServiceDetails"));
-const LazyIndustries = React.lazy(() => import("./pages/Industries/Industries"));
+{
+  /* ---------- LAZY ROUTES ---------- */
+}
+const LazyServiceDetails = React.lazy(() =>
+  import("./pages/services/ServiceDetails")
+);
+const LazyIndustries = React.lazy(() =>
+  import("./pages/Industries/Industries")
+);
 const LazyAbout = React.lazy(() => import("./pages/about/About"));
 const LazyBlog = React.lazy(() => import("./pages/blog/Blog"));
-
 
 function App() {
   const [showCursor, setShowCursor] = useState(true);
@@ -62,8 +64,8 @@ function App() {
       }
     };
     handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
@@ -74,7 +76,8 @@ function App() {
           propertyId="66045430a0c6737bd1258124"
           widgetId="1hq0ehnqs"
           ref={tawkMessengerRef}
-          onLoad={onLoad} />
+          onLoad={onLoad}
+        />
 
         <Header />
         <Routes>
@@ -84,12 +87,39 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
-
           {/* ---------- LAZY ROUTES ---------- */}
-          <Route path="/service-info/:id" element={<Suspense fallback={<Loader />}><LazyServiceDetails /></Suspense>} />
-          <Route path="/industries" element={<Suspense fallback={<Loader />}><LazyIndustries /></Suspense>} />
-          <Route path="/about" element={<Suspense fallback={<Loader />}><LazyAbout /></Suspense>} />
-          <Route path="/blog" element={<Suspense fallback={<Loader />}><LazyBlog /></Suspense>} />
+          <Route
+            path="/service-info/:id"
+            element={
+              <Suspense fallback={<Loader />}>
+                <LazyServiceDetails />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/industries"
+            element={
+              <Suspense fallback={<Loader />}>
+                <LazyIndustries />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <Suspense fallback={<Loader />}>
+                <LazyAbout />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/blog"
+            element={
+              <Suspense fallback={<Loader />}>
+                <LazyBlog />
+              </Suspense>
+            }
+          />
 
           {/* ---------- SERVICES ROUTES ---------- */}
           <Route path="/website-development" element={<WebsiteDevelopment />} />
@@ -109,7 +139,6 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
 
-
           {/* ---------- AUTH ROUTES ---------- */}
           <Route path="/dashboard" element={<Dashboard />}>
             <Route index element={<ContactQueries />} />
@@ -121,7 +150,7 @@ function App() {
         <Toaster />
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

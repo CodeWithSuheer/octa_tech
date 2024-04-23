@@ -1,45 +1,24 @@
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { FaPhone } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaSnapchatGhost } from "react-icons/fa";
-
-const Footer = () => {
-  const { user } = useSelector((state) => state.auth);
-
-  const handleMoveToTop = () => {
-    window.scroll(0, 0);
-  };
-
-  return (
-    <>
-      {!user ? (
-        <footer className="bg-[#1d215f]">
+<footer className="bg-[#1d215f]">
           <div className="upperFooter bg-[#ECECFB]">
-            <div className="px-5 sm:px-10 pt-2 sm:pb-0 pb-10 mx-auto">
+            <div className="px-5 sm:px-10 pt-12 sm:pb-10 pb-10 mx-auto">
               {/* DETAILS */}
-              <div className="pt-16 pb-10 px-4 md:px-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-5">
+              <div className="pt-16 pb-14 px-4 md:px-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-5">
                 {/* LOGO & HEADING */}
                 <div className="sm:col-span-2">
                   <h1 className="max-w-lg flex items-center text-xl font-semibold tracking-tight text-black xl:text-2xl">
                     <img
-                      className="mr-2 w-8"
-                      src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Untitled_design.png?v=1713204274"
+                      className="-ml-3 w-12"
+                      src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/aaa.png?v=1713875658"
                       alt="logo"
                     />
-                    Octa Tech Solutions
+                    Study Stello
                   </h1>
                   <p className="max-w-md text-[1rem] mt-3">
-                    Octa Tech Solutions is your go-to destination for
-                    cutting-edge IT solutions, including infrastructure,
-                    software development, cloud services, cybersecurity, and
-                    digital transformation. Our team's expertise and commitment
-                    to client success make us the ideal partner for your
-                    technology needs.
+                    Study Stello is providing help to students as academic
+                    consultants, to resolve their queries, helping them by
+                    providing sufficient help in assignments and exams. There
+                    are a vast variety of subjects offered by Study Stello
+                    through experts.
                   </p>
                 </div>
 
@@ -78,38 +57,32 @@ const Footer = () => {
                   </div>
                 </div>
 
-                {/* OUR SERVICES */}
+                {/* PRODUCT & CATEGORIES */}
                 <div>
                   <p className="text-xl font-semibold text-black">Services</p>
                   <div className="flex flex-col items-start mt-3 space-y-2">
                     <Link
-                      to="/website-development"
+                      to="/online-classes"
                       className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                     >
-                      Website Development
+                      Online Class
                     </Link>
                     <Link
-                      to="/digital-marketing"
+                      to="/exams"
                       className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                     >
-                      Digital Marketing
+                      Exams
                     </Link>
                     <Link
-                      to="/IT-consulting"
+                      to="/assignments"
                       className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                     >
-                      IT Strategy & Consulting
-                    </Link>
-                    <Link
-                      to="/security"
-                      className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-                    >
-                      Security
+                      Assignments
                     </Link>
                   </div>
                 </div>
 
-                {/* CONTACT */}
+                {/* PRODUCT & CATEGORIES */}
                 <div>
                   <p className="text-xl font-semibold text-black">
                     Contact Info
@@ -117,41 +90,50 @@ const Footer = () => {
                   <div className="flex flex-col items-start mt-3 space-y-2">
                     {/* PHONE NUMBER */}
                     <a
-                      href="tel:+1-281-607-5120"
+                      href="tel:+1-716-374-9747"
                       className="flex items-center gap-2"
                     >
-                      <FaPhone /> +1 (281) 607-5120
+                      <FaPhone /> +1 (716) 374-9747
                     </a>
 
                     {/* SOCIAL LINKS */}
-                    <div className="links pt-2 w-44 flex items-center justify-start flex-wrap gap-2.5">
-                      <a
-                        href="https://www.facebook.com/people/Octa-Tech-Solution/61557413701455/"
-                        className=""
-                      >
+                    <div className="links pt-2 flex items-center justify-start gap-2.5">
+                      <a href="#" className="">
                         <FaFacebookF className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
                       <a href="#" className="">
                         <FaInstagram className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
-                      <a
-                        href="https://www.linkedin.com/company/octa-tech-solutionn"
-                        className=""
-                      >
-                        <FaLinkedinIn className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
-                      </a>
-                      <a
-                        href="https://www.youtube.com/@octatechsolution"
-                        className=""
-                      >
-                        <FaYoutube className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
-                      </a>
                       <a href="#" className="">
-                        <FaSnapchatGhost className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
+                        <FaLinkedinIn className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
                       <a href="#" className="">
                         <FaTiktok className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
+                    </div>
+
+                    {/* PAYMENT METHOLDS */}
+                    <div className="paymentMethods pt-2 flex items-center justify-start gap-2">
+                      <img
+                        className="w-8"
+                        src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Paypal_logo.png?v=1713217299"
+                        alt=""
+                      />
+                      <img
+                        className="w-8"
+                        src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/MasterCard_Logo_svg.png?v=1713215530"
+                        alt=""
+                      />
+                      <img
+                        className="w-8"
+                        src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/visa.png?v=1713215529"
+                        alt=""
+                      />
+                      <img
+                        className="w-8"
+                        src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/American_Express.png?v=1713215529"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </div>
@@ -175,7 +157,7 @@ const Footer = () => {
               <div className="images_container py-8 max-w-5xl mx-auto flex justify-center flex-wrap items-center gap-12">
                 <a href="https://www.americanexpress.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/American_Express.png?v=1713215529"
                     alt=""
                   />
@@ -183,15 +165,15 @@ const Footer = () => {
 
                 <a href="https://pk.visamiddleeast.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
-                    src="https://www.freepnglogos.com/uploads/visa-logo-png-image-4.png"
+                    className="w-[4rem]"
+                    src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/visa.png?v=1713215529"
                     alt=""
                   />
                 </a>
 
                 <a href="https://www.mastercard.us/en-us.html" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/MasterCard_Logo_svg.png?v=1713215530"
                     alt=""
                   />
@@ -199,7 +181,7 @@ const Footer = () => {
 
                 <a href="https://www.discover.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Discover-logo.png?v=1713215529"
                     alt=""
                   />
@@ -207,7 +189,7 @@ const Footer = () => {
 
                 <a href="https://www.zellepay.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Zelle_logo.png?v=1713215528"
                     alt=""
                   />
@@ -215,7 +197,7 @@ const Footer = () => {
 
                 <a href="https://www.paypal.com/pk/home" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[5rem]"
+                    className="w-[5rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Paypal_logo.png?v=1713217299"
                     alt=""
                   />
@@ -223,7 +205,7 @@ const Footer = () => {
 
                 <a href="https://venmo.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Venmo-Logo.png?v=1713215529"
                     alt=""
                   />
@@ -239,9 +221,3 @@ const Footer = () => {
             </p>
           </div>
         </footer>
-      ) : null}
-    </>
-  );
-};
-
-export default Footer;
