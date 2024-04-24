@@ -50,7 +50,7 @@ const WorkWith = () => {
               <div className="logos w-24 sm:w-32 flex justify-center">
                 <img
                   className="my-4 w-full rounded-2xl object-fill"
-                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.59.19_PM.jpg?v=1712657823"
+                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Untitled_design__1_-removebg-preview.png?v=1713916983"
                   alt=""
                 />
               </div>
@@ -64,12 +64,11 @@ const WorkWith = () => {
             </div>
 
             {/* SECOND ROW */}
-
             <div className="flex justify-center items-center flex-col gap-0 md:gap-10 sm:flex-row mb-10">
               <div className="logos w-24 sm:w-32 flex justify-center">
                 <img
                   className="my-4 w-full rounded-2xl object-fill"
-                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.53.27_PM.jpg?v=1712657825"
+                  src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-24_at_3.26.57_AM.jpg?v=1713912777"
                   alt=""
                 />
               </div>

@@ -135,14 +135,17 @@ const Contact = () => {
                       className="mr-5 cursor-pointer text-gray-500 hover:text-gray-800"
                     />
                   </a>
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://www.instagram.com/octatechsolutions"
+                    target="_blank"
+                  >
                     <BsInstagram
                       size={22}
                       className="mr-5 cursor-pointer text-gray-500 hover:text-gray-800"
                     />
                   </a>
                   <a
-                    href="https://www.facebook.com/people/Octa-Tech-Solution/61557413701455/"
+                    href="https://www.facebook.com/profile.php?id=61557758687079"
                     target="_blank"
                   >
                     <FaFacebookF
@@ -160,7 +163,7 @@ const Contact = () => {
                     />
                   </a>
                   <a
-                    href="https://www.youtube.com/@octatechsolution"
+                    href="https://www.snapchat.com/add/octatech8?sender_web_id=3a7b0b34-1a0c-4ff4-bc43-6a838fb2b918&device_type=desktop&is_copy_url=true"
                     target="_blank"
                   >
                     <FaSnapchatGhost
@@ -168,10 +171,7 @@ const Contact = () => {
                       className="mr-5 cursor-pointer text-gray-500 hover:text-gray-800"
                     />
                   </a>
-                  <a
-                    href="https://www.youtube.com/@octatechsolution"
-                    target="_blank"
-                  >
+                  <a href="https://www.tiktok.com/@octatech3" target="_blank">
                     <FaTiktok
                       size={22}
                       className="mr-5 cursor-pointer text-gray-500 hover:text-gray-800"

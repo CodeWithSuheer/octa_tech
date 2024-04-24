@@ -126,30 +126,45 @@ const Footer = () => {
                     {/* SOCIAL LINKS */}
                     <div className="links pt-2 w-44 flex items-center justify-start flex-wrap gap-2.5">
                       <a
-                        href="https://www.facebook.com/people/Octa-Tech-Solution/61557413701455/"
+                        href="https://www.facebook.com/profile.php?id=61557758687079"
+                        target="_blank"
                         className=""
                       >
                         <FaFacebookF className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
-                      <a href="#" className="">
+                      <a
+                        href="https://www.instagram.com/octatechsolutions"
+                        target="_blank"
+                        className=""
+                      >
                         <FaInstagram className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
                       <a
                         href="https://www.linkedin.com/company/octa-tech-solutionn"
+                        target="_blank"
                         className=""
                       >
                         <FaLinkedinIn className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
                       <a
                         href="https://www.youtube.com/@octatechsolution"
+                        target="_blank"
                         className=""
                       >
                         <FaYoutube className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
-                      <a href="#" className="">
+                      <a
+                        href="https://www.snapchat.com/add/octatech8?sender_web_id=3a7b0b34-1a0c-4ff4-bc43-6a838fb2b918&device_type=desktop&is_copy_url=true"
+                        target="_blank"
+                        className=""
+                      >
                         <FaSnapchatGhost className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
-                      <a href="#" className="">
+                      <a
+                        href="https://www.tiktok.com/@octatech3"
+                        target="_blank"
+                        className=""
+                      >
                         <FaTiktok className="text-white bg-blue-600 h-7 w-7 p-1.5 rounded-full" />
                       </a>
                     </div>
@@ -225,6 +240,13 @@ const Footer = () => {
                   <img
                     className="w-[6rem] sm:w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Venmo-Logo.png?v=1713215529"
+                    alt=""
+                  />
+                </a>
+                <a href="https://pay.google.com/about/" target="_blank">
+                  <img
+                    className="w-[6rem] sm:w-[4rem]"
+                    src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Google_Pay_Logo_svg.png?v=1713911497"
                     alt=""
                   />
                 </a>
