@@ -65,9 +65,9 @@ const CloudSolution = () => {
 
             <div className="user_select flex items-center justify-center w-full mt-16 lg:mt-10 lg:w-1/2">
               <img
-                className="w-full h-full object-contain"
-                src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/BUSINESS_PEOPLE_1.png?v=1711572375"
-                alt="Catalogue-pana.svg"
+                className="w-[20rem] h-full rounded-xl object-contain"
+                src="https://res.cloudinary.com/dezi0bct4/image/upload/v1713220081/Untitled_design_-_10_htpcdi.png"
+                alt="Services Image"
               />
             </div>
           </div>

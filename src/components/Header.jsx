@@ -169,7 +169,7 @@ const Header = () => {
               <Link
                 to="/about"
                 onClick={() => window.scroll(0, 0)}
-                className="button_navbar poppin px-0 pt-2 pb-0.5 mx-4 xl:mx-6 text-md font-medium tracking-wide text-gray-900 rounded-xl"
+                className="poppin px-0 pt-6 pb-1 mx-4 xl:mx-6 text-lg border-b border-gray-500 font-medium tracking-wide text-gray-700"
               >
                 About Us
               </Link>

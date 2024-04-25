@@ -55,9 +55,9 @@ const RemoteMonitoring = () => {
 
             <div className="user_select flex items-center justify-center px-0 sm:px-10 xl:px-0 w-full mt-16 lg:mt-10 lg:w-1/2">
               <img
-                className="w-full h-full rounded-xl object-contain"
-                src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712528670/Rectangle_1037-1_igttm2.png"
-                alt="Catalogue-pana.svg"
+                className="w-[20rem] h-full rounded-xl object-contain"
+                src="https://res.cloudinary.com/dezi0bct4/image/upload/v1713220081/Untitled_design_-_8_dqiywd.png"
+                alt="Services Image"
               />
             </div>
           </div>

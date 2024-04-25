@@ -108,7 +108,7 @@ const Footer = () => {
                       onClick={handleMoveToTop}
                       className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                     >
-                      Security
+                      Security Management
                     </Link>
                   </div>
                 </div>

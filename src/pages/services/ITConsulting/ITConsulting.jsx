@@ -55,9 +55,9 @@ const ITConsulting = () => {
 
             <div className="user_select flex items-center justify-center px-0 sm:px-10 xl:px-0 w-full mt-16 lg:mt-10 lg:w-1/2">
               <img
-                className="w-full h-full rounded-xl object-contain"
-                src="https://res.cloudinary.com/dezi0bct4/image/upload/v1712528699/Rectangle_1037-7_lwtchz.png"
-                alt="Catalogue-pana.svg"
+                className="w-[20rem] h-full rounded-xl object-contain"
+                src="https://res.cloudinary.com/dezi0bct4/image/upload/v1713220079/Untitled_design_-_1_founku.png"
+                alt="Services Image"
               />
             </div>
           </div>

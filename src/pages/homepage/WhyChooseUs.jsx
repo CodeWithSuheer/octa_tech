@@ -43,7 +43,8 @@ const WhyChooseUs = () => {
                         Business Growth
                       </h3>
                       <h3 className="text-sm">
-                        Empowering Growth Through Strategic Solutions
+                        Take your brand to new heights through strategic
+                        business growth
                       </h3>
                     </div>
                   </div>
@@ -58,10 +59,11 @@ const WhyChooseUs = () => {
                     </div>
                     <div className="data ml-2">
                       <h3 className="baloo text-xl text-black font-semibold">
-                        Quality Products
+                        Bespoke Solutions
                       </h3>
                       <h3 className="text-sm">
-                        Exceptional products crafted for you
+                        Our technicians deliver customized solutions that fit
+                        your specific goals.
                       </h3>
                     </div>
                   </div>
