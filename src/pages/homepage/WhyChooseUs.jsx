@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
                     </div>
                     <div className="data ml-2">
                       <h3 className="baloo text-xl text-black font-semibold">
-                        Business Grow
+                        Business Growth
                       </h3>
                       <h3 className="text-sm">
                         Empowering Growth Through Strategic Solutions

@@ -32,18 +32,10 @@ const About = () => {
               About Octa Tech Solutions
             </h1>
             <p className="mb-6 leading-relaxed">
-              Octa Tech Solutions is a leading IT company offering a wide range
-              of services including web development, app development, and more.
-              We specialize in providing comprehensive digital solutions
-              tailored to the unique needs of businesses and organizations
-              across various industries.
+              Welcome to Octa Tech Solutions, your gateway to cutting-edge IT services! We are a dynamic company specializing in web development, app development, digital marketing, backup & recovery, and path management. Our mission is to empower businesses and organizations with innovative technological solutions tailored to their unique needs.
             </p>
             <p className="mb-6 leading-relaxed">
-              Our commitment at Octa Tech Solutions is to deliver exceptional
-              services that drive innovation and help our clients achieve their
-              goals. With a team of skilled professionals and a customer-centric
-              approach, we strive to exceed expectations and deliver excellence
-              in every project we undertake.
+              At Octa Tech Solutions, we take pride in our commitment to excellence. Our team of experts combines creativity, technical prowess, and industry knowledge to deliver outstanding results. Whether you're looking to enhance your online presence, streamline your operations, or safeguard your data, we have the expertise to make it happen.
             </p>
           </div>
         </div>
@@ -57,13 +49,7 @@ const About = () => {
             <TbTargetArrow className="mx-auto" size={50} />
             <h2 className="mt-3 text-4xl font-semibold ">Our Mission</h2>
             <p className="mt-3 font-light">
-              Octa Tech Solutions is committed to delivering innovative IT
-              solutions that empower businesses and individuals to thrive in the
-              digital age. We strive to exceed client expectations by providing
-              top-notch services in web development, app development, and more,
-              tailored to their unique needs. Our mission is to be a trusted
-              partner in our clients' success, fostering growth and innovation
-              through technology.
+              Octa Tech Solutions is dedicated to revolutionizing the digital landscape by providing cutting-edge IT solutions that empower businesses and individuals. Our mission is to exceed client expectations by delivering top-notch services in web development, app development, digital marketing, and more, all tailored to their unique needs. We are committed to being a trusted partner in our clients' success, fostering growth and innovation through technology.
             </p>
           </div>
 
@@ -72,14 +58,7 @@ const About = () => {
             <MdRemoveRedEye className="mx-auto" size={50} />
             <h2 className="mt-3 text-4xl font-semibold">Our Vision</h2>
             <p className="mt-3 font-light">
-              Our vision at Octa Tech Solutions is to become a globally
-              recognized leader in IT services, known for our innovation,
-              reliability, and commitment to excellence. We envision a future
-              where technology is seamlessly integrated into every aspect of
-              life, enhancing efficiency, connectivity, and opportunities for
-              growth. By fostering a culture of continuous learning and
-              collaboration, we aim to inspire positive change and make a
-              meaningful impact on the world.
+              Our vision at Octa Tech Solutions is to establish ourselves as a globally renowned leader in IT services, renowned for our innovation, reliability, and commitment to excellence. We envision a future where technology seamlessly integrates into every aspect of life, enhancing efficiency, connectivity, and growth opportunities. Through fostering a culture of continuous learning and collaboration, we aim to inspire positive change and make a meaningful impact on the world.
             </p>
           </div>
         </div>
@@ -93,18 +72,10 @@ const About = () => {
               About Octa Tech Solutions
             </h1>
             <p className="mb-6 leading-relaxed">
-              Welcome to Octa Tech Solutions, your trusted partner for academic
-              writing assistance. We take immense pride in being a reliable
-              provider of top-notch academic services. Benefit from professional
-              guidance and support from our team of experienced professionals
-              with advanced degrees across various disciplines.
+              At Octa Tech Solutions, our vision is to be the forefront of technological innovation, empowering businesses with scalable and reliable IT solutions. We strive to build long-term partnerships with our clients, understanding their goals and providing customized strategies to achieve success.
             </p>
             <p className="mb-6 leading-relaxed">
-              At Octa Tech Solutions, we understand the challenges students face
-              in their academic journeys. Hence, we offer comprehensive and
-              affordable academic support tailored to your needs. Our primary
-              goal is to deliver exceptional results and support your academic
-              progress effectively.
+              Our core values drive everything we do. Integrity, professionalism, and customer satisfaction are at the heart of our business. We believe in transparent communication, honesty, and delivering results that exceed expectations. Octa Tech Solutions is not just a service provider; we are your trusted technology partner.
             </p>
           </div>
 

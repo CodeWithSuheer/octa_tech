@@ -48,7 +48,7 @@ const CloudSolution = () => {
                         <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
                             <div className="lg:max-w-xl">
                                 <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">Home.. Services</h3>
-                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">IT Consulting</h2>
+                                <h2 className="mt-3 baloo w-[100%]  xl:w-[90%] text-4xl font-semibold capitalize text-black lg:text-5xl xl:text-6xl">Cloud Solution</h2>
                                 <h2 className="mt-1.5 text-sm sm:text-md font-normal text-black md:w-[80%] lg:w-[100%]">We are leading technology solutions providing company all over the world doing over 40 years. Lorem ipsum dolor sit, amet consectetur adipisicing eli</h2>
 
                                 <div className="hero_section_buttons flex items-start xs:items-center flex-col sm:flex-row gap-10 mt-6 mb-10 sm:mb-0 lg:mt-10">
@@ -68,12 +68,16 @@ const CloudSolution = () => {
             </section>
 
             {/* ----------- BOLD TEXT -----------  */}
-            <section className='bg-blue-700 flex justify-center items-center'>
+            {/* <section className='bg-blue-700 flex justify-center items-center'>
                 <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>It is a long established fact that a reader will be distracte</h2>
+            </section> */}
+
+            <section className='py-20 text-center'>
+                <h2 className='text-3xl font-bold uppercase'>Coming Soon</h2>
             </section>
 
             {/* ----------- MAIN HEADING SECION -----------  */}
-            <section className='flex justify-center px-4 sm:px-2 items-center pt-14 pb-7'>
+            {/* <section className='flex justify-center px-4 sm:px-2 items-center pt-14 pb-7'>
                 <div class="max-w-5xl overflow-hidden bg-white rounded-xl shadow-lg dark:bg-gray-800">
                     <img class="object-cover w-full h-64" src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="Article" />
 
@@ -96,98 +100,9 @@ const CloudSolution = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            {/* ----------- CONTENT SECION -----------  */}
-            <section className='pt-5 pb-10 px-5 sm:px-0'>
-                <div className="max-w-5xl mx-auto grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
-                    {/* --------- LEFT SIDE ---------  */}
-                    <div class="bg-white lg:col-span-2">
 
-                        <div className="upper_img ">
-                            <img className='rounded-lg' src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="" />
-                        </div>
-
-                        <div className="text mt-5">
-                            <p>acus sed pretium pretium justo. Integer vitae venenatis lorem. Maecenas lacinia turpis the in nunc quam hendrerit scelerisque at finibus enim sagittis. Aliquam erat is volutpat nam nec purus at is orci volutpat is semper vel id turpis In a malesuada arcu ac.connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX strategy is prepared to engage seamlessly and continue.</p>
-                        </div>
-
-                        <div className="lower_text mt-6">
-                            <h3 className='mb-2 text-2xl font-semibold '>Ipsum Dolor Sit</h3>
-                            <p>acus sed pretium pretium justo. Integer vitae venenatis lorem. Maecenas lacinia turpis the in nunc quam hendrerit scelerisque at finibus enim sagittis. Aliquam erat is volutpat nam nec purus at is orci volutpat is semper vel id turpis In a malesuada arcu ac.connect via voice or email, chat or social channels or even forging connections in immersive environments in the metaverse ensure your CX strategy is prepared to engage seamlessly and continue.</p>
-                        </div>
-
-                        <div className="lower_img mt-5">
-                            <img className='rounded-lg' src="https://res.cloudinary.com/dgsnff8tg/image/upload/v1711397085/Rectangle_1037_7_syfdjt.png" alt="" />
-                        </div>
-                    </div>
-
-                    {/* --------- LEFT SIDE ---------  */}
-                    <div class="rounded-lg">
-                        {/* CALL HERE BOX  */}
-                        <div className="group overflow-hidden border border-gray-300 rounded-lg shadow-lg transition hover:shadow-xl">
-                            <img
-                                alt=""
-                                src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Rectangle_1141.png?v=1711644337"
-                                className=" w-full object-cover"
-                            />
-
-                            {/* CARD - DATA */}
-                            <div className="relative bg-white p-4 sm:px-4 sm:py-6 text-center flex justify-center items-center flex-col">
-                                <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
-                                    <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
-                                </div>
-                                <h2 className="mt-3 text-xl font-semibold tracking-wide">Need Help?</h2>
-                                <p className='mt-2 text-xl font-medium tracking-wide'>Call Here</p>
-                                <p className='mt-2 text-md font-medium tracking-wide'>+112 443 3478</p>
-
-                                {/* <button className="mt-2 max-w-40 flex items-center gap-2 px-5 py-3 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                                    Get Started <FaLocationArrow />
-                                </button> */}
-                            </div>
-                        </div>
-
-                        {/* OTHER SERVICES  */}
-                        <div className="other_services mt-6 border border-gray-300 rounded-lg shadow-lg transition hover:shadow-2xl py-6 flex justify-center items-center">
-                            <div className="other_links flex flex-col">
-                                <h3 className='mb-2 text-xl font-semibold text-gray-700'>Other Services</h3>
-                                <Link to='/website-development' onClick={handleScroll} className='py-1.5 flex items-center'>
-                                    <FaLocationArrow size={12} className='text-blue-600 mr-2.5 mt-1' />
-                                    <span className='hover:underline hover:underline-offset-4'>Website Development</span>
-                                </Link>
-                                <Link to='/remote-monitoring' onClick={handleScroll} className='py-1.5 flex items-center'>
-                                    <FaLocationArrow size={12} className='text-blue-600 mr-2.5 mt-1' />
-                                    <span className='hover:underline hover:underline-offset-4'>Remote Monitoring</span>
-                                </Link>
-                                <Link to='/desk-support' onClick={handleScroll} className='py-1.5 flex items-center'>
-                                    <FaLocationArrow size={12} className='text-blue-600 mr-2.5 mt-1' />
-                                    <span className='hover:underline hover:underline-offset-4'>Desk Support</span>
-                                </Link>
-                                <Link to='/infrastructure' onClick={handleScroll} className='py-1.5 flex items-center'>
-                                    <FaLocationArrow size={12} className='text-blue-600 mr-2.5 mt-1' />
-                                    <span className='hover:underline hover:underline-offset-4'>Infrastructure</span>
-                                </Link>
-                                <Link to='/security' onClick={handleScroll} className='py-1.5 flex items-center'>
-                                    <FaLocationArrow size={12} className='text-blue-600 mr-2.5 mt-1' />
-                                    <span className='hover:underline hover:underline-offset-4'>Security Management</span>
-                                </Link>
-                                <Link to='/backup-and-recovery' onClick={handleScroll} className='py-1.5 flex items-center'>
-                                    <FaLocationArrow size={12} className='text-blue-600 mr-2.5 mt-1' />
-                                    <span className='hover:underline hover:underline-offset-4'>Backup & Recovery</span>
-                                </Link>
-                                <Link to='/path-management' onClick={handleScroll} className='py-1.5 flex items-center'>
-                                    <FaLocationArrow size={12} className='text-blue-600 mr-2.5 mt-1' />
-                                    <span className='hover:underline hover:underline-offset-4'>Path Management</span>
-                                </Link>
-                                <Link to='/vendor' onClick={handleScroll} className='py-1.5 flex items-center'>
-                                    <FaLocationArrow size={12} className='text-blue-600 mr-2.5 mt-1' />
-                                    <span className='hover:underline hover:underline-offset-4'>Vendor Management</span>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             {/* ----------- COMPANY STATS -----------  */}
             <Stats />

@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaUserAlt } from "react-icons/fa";
 import Marquee from 'react-fast-marquee';
 
 const data = [
@@ -7,11 +6,11 @@ const data = [
         review: "I was drowning in database issues, but Octa Tech's consultants were lifesavers! They not only optimized my system but also showed me how to extract valuable insights. Now my data is working for me.",
         name: 'A & Z Homes LLC',
         role: 'Business Owner',
-        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.53.45_PM.jpg?v=1712657821'
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-13_at_11.50.23_PM.jpg?v=1713222997'
     },
     {
         review: "My dream app became a reality thanks to Octa Tech's developers. They listened to my vision and built a user-friendly app that's exceeding expectations. Highly recommend!",
-        name: 'Comso lab',
+        name: 'Cosmo lab',
         role: 'Business Owner',
         url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_3.00.12_PM.jpg?v=1712657822'
     },
@@ -19,25 +18,25 @@ const data = [
         review: "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
         name: 'SRT',
         role: 'Marketing Director',
-        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.55.12_PM.jpg?v=1712657822'
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/IMG_2440.png?v=1713226079'
     },
     {
-        review: "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
+        review: "Octa Tech has been a game-changer for my business. Their around-the-clock support saved me when my website crashed before a major launch. I must say their technicians were calm and efficient and got everything back in no time. Highly recommended.",
         name: 'Ammedia',
         role: 'Marketing Director',
-        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.59.19_PM.jpg?v=1712657823'
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Untitled_design__1_-removebg-preview.png?v=1713916983'
     },
     {
-        review: "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
+        review: "We partnered with Octa Tech to develop a custom app for our sales team. They took the time to understand our unique needs and made a user-friendly app that our team loved. Thanks, Octa Tech!",
         name: 'Emran Akthar',
         role: 'Ceo Ammar Forte',
-        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_3.00.20_PM.jpg?v=1712657823'
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/IMG_2438.png?v=1713225555'
     },
     {
-        review: "Before Octa Tech, IT headaches were a constant struggle. Now, they're my trusted advisors who simplify everything and keep my business running smoothly. They're true tech troubleshooters!",
+        review: "As a small business owner, I don't have the time or resources to deal with complex IT issues. They handle everything from network security to software updates, allowing me to focus on what I do best - running my business.",
         name: 'HR Mortage',
         role: 'Marketing Director',
-        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-09_at_2.53.27_PM.jpg?v=1712657825'
+        url: 'https://cdn.shopify.com/s/files/1/0704/6378/2946/files/WhatsApp_Image_2024-04-24_at_3.26.57_AM.jpg?v=1713912777'
     },
 ];
 

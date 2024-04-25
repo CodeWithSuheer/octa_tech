@@ -64,7 +64,7 @@ const data = [
     img: "https://res.cloudinary.com/dezi0bct4/image/upload/v1713220081/Untitled_design_-_10_htpcdi.png",
     service: "Cloud Solution",
     desc: "Harness the power of cloud technology for scalable and efficient operations.",
-    url: "services",
+    url: "cloud-solution",
     icon: <FaCloud size={32} className="mt-1.5 text-white" />,
   },
   {

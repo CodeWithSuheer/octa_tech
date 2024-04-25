@@ -27,13 +27,13 @@ const HomePage = () => {
     <>
       {/* ----------- HERO SECTION -----------  */}
       <section className={isLargeScreen ? "background_img" : "bg-[#F1F5FD]"}>
-        <div className="max-w-5xl xl:max-w-7xl xxl:max-w-7xl px-4 sm:px-16 lg:px-14 xl:px-0 pt-24 pb-0 lg:pt-7 lg:pb-0 mx-auto">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl px-4 sm:px-16 lg:px-14 xl:px-0 pt-24 pb-0 lg:pt-7 lg:pb-0 mx-auto">
           <div className="items-center lg:flex lg:min-h-screen">
             <div className="w-full pt-3 sm:pt-0 lg:w-1/2">
               <Fade top duration={2000}>
                 <div className="lg:max-w-xl">
                   <h3 className="text-sm uppercase font-semibold text-blue-600 lg:text-md">
-                    We are leading technology solutions providing
+                    We are leading technology solutions provider
                   </h3>
                   <h2 className="Commissioner mt-3 w-[100%]  xl:w-[90%] text-2xl sm:text-4xl font-medium capitalize text-black lg:text-4xl xl:text-5xl">
                     Octa Tech Solutions- 24/7 Support for a Seamless Digital
@@ -64,8 +64,8 @@ const HomePage = () => {
 
       {/* ----------- HERO SECTION -----------  */}
       <section className="bg-blue-700 flex justify-center items-center">
-        <h2 className="baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest">
-          Our Consilation Service Offers The Fastest Way FSFS
+        <h2 className="baloo text-white text-center text-md md:text-xl xl:text-2xl py-3 tracking-wider lg:tracking-widest">
+          Fast-track Your Goals: Our Consultation Services Offer Swift Solutions
         </h2>
       </section>
 

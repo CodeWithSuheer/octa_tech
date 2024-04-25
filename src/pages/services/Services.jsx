@@ -73,7 +73,7 @@ const Services = () => {
 
             {/* ----------- HERO SECTION -----------  */}
             <section className='bg-blue-700 relative flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-2xl py-3 tracking-wider lg:tracking-widest'>
                     Optimize your tech journey with us. Software, support, and more.
                 </h2>
             </section>

@@ -37,9 +37,9 @@ const Header = () => {
   return (
     <>
       <nav
-        className={`header_back py-3 transition-all fixed shadow-md top-0 left-0 right-0 z-60`}
+        className={`w-full header_back py-3 transition-all fixed shadow-md top-0 left-0 right-0 z-60`}
       >
-        <div className="container px-3 sm:px-6 xl:px-24 mx-auto">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl px-3 sm:px-6 xl:px-0 mx-auto">
           <div className="lg:flex lg:items-center lg:justify-between">
             <div className="flex items-center justify-between">
               {/* -------------- BRAND LOGO -------------- */}

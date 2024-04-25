@@ -62,8 +62,8 @@ const Industries = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 relative flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
-                    We serve a wide range of industries, including healthcare, finance, and more
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-2xl py-3 tracking-wider lg:tracking-widest'>
+                    We serve a wide range of industries including healthcare, finance, and more
                 </h2>
             </section>
 

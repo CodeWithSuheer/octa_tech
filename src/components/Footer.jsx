@@ -84,24 +84,28 @@ const Footer = () => {
                   <div className="flex flex-col items-start mt-3 space-y-2">
                     <Link
                       to="/website-development"
+                      onClick={handleMoveToTop}
                       className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                     >
                       Website Development
                     </Link>
                     <Link
                       to="/digital-marketing"
+                      onClick={handleMoveToTop}
                       className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                     >
                       Digital Marketing
                     </Link>
                     <Link
                       to="/IT-consulting"
+                      onClick={handleMoveToTop}
                       className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                     >
                       IT Strategy & Consulting
                     </Link>
                     <Link
                       to="/security"
+                      onClick={handleMoveToTop}
                       className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                     >
                       Security
