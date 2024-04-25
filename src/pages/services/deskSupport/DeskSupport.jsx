@@ -1,6 +1,4 @@
-import React from 'react'
 import Stats from '../../homepage/Stats';
-import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
 import Button from "../../../components/Button";
 
@@ -62,7 +60,7 @@ const DeskSupport = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-2xl py-3 tracking-wider lg:tracking-widest'>
                     Innovative IT solutions for a dynamic world - Octa Tech leads the way
                 </h2>
             </section>

@@ -65,7 +65,7 @@ const HomePage = () => {
       {/* ----------- HERO SECTION -----------  */}
       <section className="bg-blue-700 flex justify-center items-center">
         <h2 className="baloo text-white text-center text-md md:text-xl xl:text-2xl py-3 tracking-wider lg:tracking-widest">
-          Fast-track Your Goals: Our Consultation Services Offer Swift Solutions
+          Experience Boundless Potential For Exponential Business Growth.
         </h2>
       </section>
 

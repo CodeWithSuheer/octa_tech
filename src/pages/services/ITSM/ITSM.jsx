@@ -1,6 +1,4 @@
-import React from 'react'
 import Stats from '../../homepage/Stats';
-import { FaLocationArrow } from "react-icons/fa";
 import Testimonial from '../../homepage/Testimonial';
 import Button from "../../../components/Button";
 
@@ -62,7 +60,7 @@ const ITSM = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-2xl py-3 tracking-wider lg:tracking-widest'>
                     Innovative IT solutions for a dynamic world - Octa Tech leads the way
                 </h2>
             </section>
@@ -170,7 +168,7 @@ const ITSM = () => {
 
 
             {/* ----------- WHY CHOOSE US -----------  */}
-            <section className='my-10 sm:my-20'>
+            {/* <section className='my-10 sm:my-20'>
                 <div className="px-5 sm:px-10 lg:px-0">
                     <h2 className='baloo mb-3 text-black font-semibold text-3xl sm:text-4xl xl:text-5xl text-start sm:text-center'>ITSM software use cases and examples</h2>
                     <p className='mb-5 text-black w-[100%] sm:w-[90%] md:w-[80%] xl:w-[70%] mx-auto font-medium text-sm sm:text-md lg:text-md xl:text-lg text-start sm:text-center'>
@@ -179,12 +177,10 @@ const ITSM = () => {
 
                     <div className="max-w-5xl mx-auto mt-14 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
 
-                        {/* IMAGE  */}
                         <div className="h-full w-full rounded-lg">
                             <img src="https://s3-alpha-sig.figma.com/img/f6a8/4072/90e575d517fe4fba13e8e89ac28a36bc?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QPUZ6lcpmRNrgtqHYevWovKQi8DwtH6OcQ48vnSz4Q-5AjS7j1aW8hpaHTMGnp044YojROoiiQeVJU6qizkmkNVsPksN-3TR-2ib54uLdHgrwobsiWN8CRTLSWV77Ro5zVaNSU~k-8oP9kVP~Q3DVYmWx3PF0zWT3aUGfTW3Uaqu9VWDL7E9xaJUwJ8q26~LtcwpjL7J1AljBrUA6zI~cT9nYThQW-YjFGT0LASh-neZaYTW5JNx-8Rp75gzNNZ1JL8sXjLJJ8ZKp90mrLzbqIwWCLZ-zVmf675fN1Vfuvjns~qCI6awRZxKKoKo~PZWT6W2ZXAhlHs9KtXalrJQLg__" alt="" />
                         </div>
 
-                        {/* CONTENT */}
                         <div className="px-4 xl:px-10">
                             <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> Incident management</p>
                             <p className='py-1 text-lg font-medium flex items-center'><FaLocationArrow className='mr-3 mt-1 text-blue-700' size={14} /> SLA management</p>
@@ -198,7 +194,7 @@ const ITSM = () => {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
             {/* ----------- COMPANY STATS -----------  */}
             <Stats />

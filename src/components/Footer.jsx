@@ -20,9 +20,9 @@ const Footer = () => {
       {!user ? (
         <footer className="bg-[#1d215f]">
           <div className="upperFooter bg-[#ECECFB]">
-            <div className="px-5 sm:px-10 pt-2 sm:pb-0 pb-10 mx-auto">
+            <div className="px-4 sm:px-10 pt-2 sm:pb-0 pb-10 mx-auto">
               {/* DETAILS */}
-              <div className="pt-16 pb-10 px-4 md:px-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-5">
+              <div className="pt-10 pb-10 px-2 md:px-10 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-5">
                 {/* LOGO & HEADING */}
                 <div className="sm:col-span-2">
                   <h1 className="max-w-lg flex items-center text-xl font-semibold tracking-tight text-black xl:text-2xl">
@@ -194,7 +194,7 @@ const Footer = () => {
               <div className="images_container py-8 max-w-5xl mx-auto flex justify-center flex-wrap items-center gap-12">
                 <a href="https://www.americanexpress.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem] sm:w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/American_Express.png?v=1713215529"
                     alt=""
                   />
@@ -202,7 +202,7 @@ const Footer = () => {
 
                 <a href="https://pk.visamiddleeast.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem] sm:w-[4rem]"
                     src="https://www.freepnglogos.com/uploads/visa-logo-png-image-4.png"
                     alt=""
                   />
@@ -210,7 +210,7 @@ const Footer = () => {
 
                 <a href="https://www.mastercard.us/en-us.html" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem] sm:w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/MasterCard_Logo_svg.png?v=1713215530"
                     alt=""
                   />
@@ -218,7 +218,7 @@ const Footer = () => {
 
                 <a href="https://www.discover.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem] sm:w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Discover-logo.png?v=1713215529"
                     alt=""
                   />
@@ -226,7 +226,7 @@ const Footer = () => {
 
                 <a href="https://www.zellepay.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem] sm:w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Zelle_logo.png?v=1713215528"
                     alt=""
                   />
@@ -234,7 +234,7 @@ const Footer = () => {
 
                 <a href="https://www.paypal.com/pk/home" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[5rem]"
+                    className="w-[4rem] sm:w-[5rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Paypal_logo.png?v=1713217299"
                     alt=""
                   />
@@ -242,14 +242,14 @@ const Footer = () => {
 
                 <a href="https://venmo.com/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem] sm:w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Venmo-Logo.png?v=1713215529"
                     alt=""
                   />
                 </a>
                 <a href="https://pay.google.com/about/" target="_blank">
                   <img
-                    className="w-[6rem] sm:w-[4rem]"
+                    className="w-[4rem] sm:w-[4rem]"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Google_Pay_Logo_svg.png?v=1713911497"
                     alt=""
                   />

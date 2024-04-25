@@ -1,4 +1,3 @@
-import React from 'react'
 import Stats from '../../homepage/Stats';
 import Testimonial from '../../homepage/Testimonial';
 import Button from "../../../components/Button";
@@ -61,7 +60,7 @@ const Infrastructure = () => {
 
             {/* ----------- BOLD TEXT -----------  */}
             <section className='bg-blue-700 flex justify-center items-center'>
-                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-3xl py-3 tracking-wider lg:tracking-widest'>
+                <h2 className='baloo text-white text-center text-md md:text-xl xl:text-2xl py-3 tracking-wider lg:tracking-widest'>
                     Innovative IT solutions for a dynamic world - Octa Tech leads the way
                 </h2>
             </section>
@@ -90,7 +89,7 @@ const Infrastructure = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Server Infrastructure Management</h2>
+                            <h2 className='mt-3 text-2xl max-w-sm font-semibold'>Server Infrastructure Management</h2>
                             <p className='mt-2 text-sm sm:text-md'>Our server infrastructure management ensures the smooth operation of both physical and virtual servers within your organization. From provisioning and configuration to ongoing monitoring and maintenance, we optimize your server environment for peak performance and seamless user experience.
                             </p>
                         </div>
@@ -110,7 +109,7 @@ const Infrastructure = () => {
                             <div className='absolute -top-8 flex justify-center items-center h-16 w-16 inset-0 mx-auto'>
                                 <img className='mid_img h-16 w-16' src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Group_2235.png?v=1711394864" alt="" />
                             </div>
-                            <h2 className='mt-3 text-2xl font-semibold'>Cloud Infrastructure Management</h2>
+                            <h2 className='mt-3 text-2xl max-w-sm font-semibold'>Cloud Infrastructure Management</h2>
                             <p className='mt-2 text-sm sm:text-md'>Leveraging the cloud? Our cloud infrastructure management services ensure efficient utilization of your cloud resources, services, and applications. We handle cloud resource provisioning, cost optimization strategies, and maintaining compliance with your cloud provider's policies for a seamless cloud experience.
                             </p>
                         </div>
